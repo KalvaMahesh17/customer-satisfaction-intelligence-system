@@ -1,0 +1,128 @@
+{
+    "expected_columns": [
+        "Service_Type",
+        "Customer_Type",
+        "Visit_Frequency",
+        "Service_Quality",
+        "Staff_Behaviour",
+        "Response_Time_Min",
+        "Waiting_Time_Min",
+        "Price_Value",
+        "Product_Quality",
+        "Complaint_Resolution",
+        "Ease_of_Process"
+    ],
+    "numerical_features": [
+        "Service_Quality",
+        "Staff_Behaviour",
+        "Response_Time_Min",
+        "Waiting_Time_Min",
+        "Price_Value",
+        "Product_Quality",
+        "Complaint_Resolution",
+        "Ease_of_Process"
+    ],
+    "categorical_features": [
+        "Service_Type",
+        "Customer_Type",
+        "Visit_Frequency"
+    ],
+    "transformed_feature_names": [
+        "Service_Quality",
+        "Staff_Behaviour",
+        "Response_Time_Min",
+        "Waiting_Time_Min",
+        "Price_Value",
+        "Product_Quality",
+        "Complaint_Resolution",
+        "Ease_of_Process",
+        "Service_Type_Banking",
+        "Service_Type_E-Commerce",
+        "Service_Type_Healthcare",
+        "Service_Type_Hospitality",
+        "Service_Type_Retail",
+        "Service_Type_Telecom",
+        "Customer_Type_Loyal",
+        "Customer_Type_New",
+        "Customer_Type_Regular",
+        "Visit_Frequency_First Time",
+        "Visit_Frequency_Frequent",
+        "Visit_Frequency_Occasional"
+    ],
+    "target_column": "Satisfaction_Level",
+    "target_classes": [
+        "Dissatisfied",
+        "Neutral",
+        "Satisfied"
+    ],
+    "numerical_ranges": {
+        "Service_Quality": {
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.0,
+            "median": 3.0
+        },
+        "Staff_Behaviour": {
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.03,
+            "median": 3.0
+        },
+        "Response_Time_Min": {
+            "min": 2.0,
+            "max": 44.0,
+            "mean": 18.33,
+            "median": 18.0
+        },
+        "Waiting_Time_Min": {
+            "min": 1.0,
+            "max": 43.0,
+            "mean": 14.93,
+            "median": 15.0
+        },
+        "Price_Value": {
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 2.95,
+            "median": 3.0
+        },
+        "Product_Quality": {
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 2.98,
+            "median": 3.0
+        },
+        "Complaint_Resolution": {
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.03,
+            "median": 3.0
+        },
+        "Ease_of_Process": {
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.04,
+            "median": 3.0
+        }
+    },
+    "categorical_categories": {
+        "Service_Type": [
+            "Banking",
+            "E-Commerce",
+            "Healthcare",
+            "Hospitality",
+            "Retail",
+            "Telecom"
+        ],
+        "Customer_Type": [
+            "Loyal",
+            "New",
+            "Regular"
+        ],
+        "Visit_Frequency": [
+            "First Time",
+            "Frequent",
+            "Occasional"
+        ]
+    }
+}

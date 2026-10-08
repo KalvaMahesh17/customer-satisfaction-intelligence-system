@@ -1,0 +1,6 @@
+Customer_ID,Service_Type,Customer_Type,Visit_Frequency,Service_Quality,Staff_Behaviour,Response_Time_Min,Waiting_Time_Min,Price_Value,Product_Quality,Complaint_Resolution,Ease_of_Process
+CUST0001,Healthcare,Regular,Frequent,3.0,1.0,10.0,12,4.0,4,4.0,5
+CUST0002,Retail,Loyal,Occasional,1.0,3.0,22.0,24,4.0,3,3.0,3
+CUST0003,E-Commerce,Regular,First Time,4.0,4.0,13.0,15,1.0,4,2.0,3
+CUST0004,Healthcare,Regular,Occasional,3.0,1.0,5.0,16,4.0,3,3.0,5
+CUST0005,Banking,Loyal,First Time,4.0,2.0,16.0,12,1.0,1,4.0,4

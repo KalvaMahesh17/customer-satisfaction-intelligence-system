@@ -1,0 +1,14 @@
+Column,Meaning
+Customer_ID,Unique synthetic customer identifier
+Service_Type,Type of service used by the customer
+Customer_Type,Customer relationship category
+Visit_Frequency,How frequently the customer uses the service
+Service_Quality,"Rating of service quality (1 = very poor, 5 = excellent)"
+Staff_Behaviour,"Rating of staff behaviour (1 = very poor, 5 = excellent)"
+Response_Time_Min,Approximate response time in minutes
+Waiting_Time_Min,Approximate waiting time in minutes
+Price_Value,Perceived value for money (1–5)
+Product_Quality,Product/service quality rating (1–5)
+Complaint_Resolution,Customer rating for complaint resolution (1–5)
+Ease_of_Process,Ease of completing the service/process (1–5)
+Satisfaction_Level,"Classification target: Dissatisfied, Neutral, or Satisfied"

@@ -1,0 +1,6 @@
+Model,CV Macro F1,CV Accuracy,Train Accuracy,Test Accuracy,Test Precision,Test Recall,Test Macro F1,Generalization Gap,Is Best Model
+Dummy Baseline,0.1667,0.3333,0.3333,0.3333,0.1111,0.3333,0.1667,0.0,False
+Logistic Regression,0.6388,0.6425,0.6575,0.6267,0.6205,0.6267,0.6231,0.0308,True
+Decision Tree,0.4915,0.4933,0.7792,0.4733,0.4745,0.4733,0.4738,0.3058,False
+K-Nearest Neighbors,0.5679,0.57,1.0,0.5933,0.5929,0.5933,0.5931,0.4067,False
+Random Forest,0.5957,0.6033,0.995,0.61,0.6017,0.61,0.6047,0.385,False

@@ -1,0 +1,1501 @@
+Customer_ID,Service_Type,Customer_Type,Visit_Frequency,Service_Quality,Staff_Behaviour,Response_Time_Min,Waiting_Time_Min,Price_Value,Product_Quality,Complaint_Resolution,Ease_of_Process,Satisfaction_Level
+CUST0001,Healthcare,Regular,Frequent,3.0,1.0,10.0,12,4.0,4,4.0,5,Neutral
+CUST0002,Retail,Loyal,Occasional,1.0,3.0,22.0,24,4.0,3,3.0,3,Dissatisfied
+CUST0003,E-Commerce,Regular,First Time,4.0,4.0,13.0,15,1.0,4,2.0,3,Neutral
+CUST0004,Healthcare,Regular,Occasional,3.0,1.0,5.0,16,4.0,3,3.0,5,Dissatisfied
+CUST0005,Banking,Loyal,First Time,4.0,2.0,16.0,12,1.0,1,4.0,4,Satisfied
+CUST0006,E-Commerce,Regular,Frequent,4.0,2.0,29.0,18,4.0,2,5.0,1,Satisfied
+CUST0007,Healthcare,Regular,Occasional,4.0,1.0,22.0,24,3.0,3,3.0,1,Dissatisfied
+CUST0008,Healthcare,Regular,First Time,3.0,5.0,34.0,20,1.0,1,4.0,2,Dissatisfied
+CUST0009,Banking,New,First Time,1.0,3.0,19.0,20,2.0,5,3.0,1,Dissatisfied
+CUST0010,Retail,Regular,Frequent,1.0,4.0,38.0,19,5.0,5,4.0,4,Neutral
+CUST0011,Retail,New,First Time,3.0,3.0,19.0,5,3.0,3,2.0,3,Dissatisfied
+CUST0012,E-Commerce,New,Frequent,2.0,5.0,18.0,9,4.0,3,3.0,1,Neutral
+CUST0013,Hospitality,Regular,Frequent,4.0,5.0,8.0,14,4.0,5,1.0,3,Satisfied
+CUST0014,E-Commerce,Regular,Occasional,,4.0,27.0,10,1.0,3,2.0,5,Neutral
+CUST0015,Retail,Loyal,First Time,5.0,2.0,14.0,8,5.0,4,4.0,5,Satisfied
+CUST0016,Telecom,New,Occasional,1.0,3.0,13.0,2,2.0,3,1.0,5,Neutral
+CUST0017,Hospitality,New,Frequent,2.0,5.0,28.0,6,4.0,2,2.0,5,Dissatisfied
+CUST0018,Banking,Loyal,First Time,4.0,3.0,27.0,13,3.0,4,4.0,4,Satisfied
+CUST0019,E-Commerce,New,First Time,1.0,3.0,27.0,15,3.0,1,5.0,5,Dissatisfied
+CUST0020,Hospitality,New,First Time,2.0,1.0,15.0,9,2.0,2,3.0,5,Satisfied
+CUST0021,Healthcare,New,Occasional,4.0,5.0,18.0,16,5.0,4,3.0,4,Satisfied
+CUST0022,Retail,Regular,Occasional,3.0,4.0,18.0,12,1.0,4,3.0,3,Neutral
+CUST0023,E-Commerce,Loyal,Occasional,4.0,2.0,24.0,23,5.0,5,4.0,5,Satisfied
+CUST0024,E-Commerce,Regular,Occasional,3.0,3.0,30.0,14,2.0,4,3.0,3,Neutral
+CUST0025,Healthcare,Regular,First Time,5.0,3.0,21.0,20,5.0,1,1.0,1,Neutral
+CUST0026,Telecom,New,First Time,5.0,1.0,34.0,16,1.0,5,3.0,1,Dissatisfied
+CUST0027,Retail,Regular,First Time,5.0,5.0,25.0,5,1.0,3,2.0,3,Satisfied
+CUST0028,Banking,Regular,Frequent,1.0,5.0,16.0,14,1.0,1,,1,Dissatisfied
+CUST0029,Banking,New,Occasional,3.0,,25.0,6,3.0,3,1.0,1,Neutral
+CUST0030,Healthcare,New,Occasional,1.0,2.0,32.0,14,2.0,1,4.0,2,Dissatisfied
+CUST0031,Healthcare,New,Frequent,2.0,2.0,34.0,10,3.0,3,1.0,3,Dissatisfied
+CUST0032,E-Commerce,New,First Time,2.0,1.0,27.0,18,5.0,3,5.0,3,Dissatisfied
+CUST0033,Telecom,Regular,First Time,4.0,4.0,18.0,6,1.0,1,4.0,3,Satisfied
+CUST0034,Retail,Regular,First Time,3.0,2.0,16.0,15,3.0,5,1.0,3,Neutral
+CUST0035,Retail,New,Frequent,5.0,5.0,23.0,19,4.0,3,5.0,5,Satisfied
+CUST0036,Telecom,Regular,Occasional,2.0,5.0,31.0,21,3.0,5,3.0,2,Satisfied
+CUST0037,Banking,Regular,Occasional,4.0,1.0,21.0,10,5.0,3,4.0,3,Neutral
+CUST0038,Retail,Regular,First Time,4.0,5.0,22.0,15,4.0,3,1.0,4,Satisfied
+CUST0039,Telecom,Loyal,First Time,5.0,1.0,18.0,16,1.0,5,1.0,2,Neutral
+CUST0040,Healthcare,Regular,Occasional,2.0,3.0,15.0,26,3.0,2,5.0,1,Neutral
+CUST0041,Retail,Loyal,Occasional,4.0,3.0,17.0,5,2.0,5,3.0,1,Dissatisfied
+CUST0042,E-Commerce,New,Frequent,1.0,5.0,19.0,9,1.0,1,4.0,2,Neutral
+CUST0043,Healthcare,Regular,Frequent,3.0,4.0,32.0,35,5.0,5,,2,Neutral
+CUST0044,Telecom,New,Occasional,3.0,5.0,16.0,13,2.0,4,3.0,1,Neutral
+CUST0045,E-Commerce,Regular,Occasional,5.0,3.0,18.0,2,1.0,3,2.0,2,Satisfied
+CUST0046,E-Commerce,Regular,Frequent,4.0,5.0,11.0,11,2.0,2,5.0,4,Neutral
+CUST0047,Retail,New,Occasional,5.0,5.0,24.0,1,5.0,3,1.0,5,Satisfied
+CUST0048,Telecom,Regular,Occasional,5.0,5.0,29.0,17,3.0,3,3.0,3,Neutral
+CUST0049,Healthcare,New,Frequent,3.0,3.0,31.0,21,5.0,5,5.0,1,Neutral
+CUST0050,Banking,New,First Time,4.0,2.0,20.0,9,3.0,5,2.0,4,Neutral
+CUST0051,Telecom,New,Frequent,1.0,5.0,23.0,12,1.0,3,2.0,1,Neutral
+CUST0052,Banking,Regular,First Time,3.0,4.0,17.0,21,2.0,2,3.0,1,Dissatisfied
+CUST0053,Healthcare,New,Occasional,1.0,5.0,22.0,3,1.0,2,1.0,3,Neutral
+CUST0054,Healthcare,Regular,Frequent,4.0,3.0,21.0,6,3.0,2,1.0,3,Satisfied
+CUST0055,Healthcare,New,Occasional,5.0,5.0,18.0,13,2.0,1,2.0,2,Neutral
+CUST0056,Healthcare,Regular,Occasional,4.0,4.0,19.0,10,5.0,1,5.0,5,Satisfied
+CUST0057,Retail,Loyal,Occasional,5.0,4.0,22.0,13,2.0,4,2.0,1,Neutral
+CUST0058,Hospitality,Regular,First Time,2.0,1.0,16.0,6,2.0,2,4.0,1,Dissatisfied
+CUST0059,Banking,Regular,First Time,5.0,3.0,16.0,17,5.0,3,3.0,3,Satisfied
+CUST0060,Banking,Loyal,First Time,3.0,4.0,32.0,14,3.0,4,4.0,3,Satisfied
+CUST0061,Healthcare,Loyal,Occasional,4.0,4.0,40.0,19,1.0,4,2.0,5,Dissatisfied
+CUST0062,Retail,Regular,Occasional,4.0,5.0,8.0,16,3.0,2,5.0,1,Satisfied
+CUST0063,Hospitality,Loyal,First Time,4.0,2.0,8.0,16,2.0,4,2.0,3,Satisfied
+CUST0064,Healthcare,Loyal,Frequent,2.0,2.0,10.0,5,4.0,1,4.0,1,Neutral
+CUST0065,Hospitality,Regular,Occasional,4.0,5.0,17.0,18,,3,5.0,1,Satisfied
+CUST0066,Hospitality,Regular,Occasional,4.0,5.0,25.0,13,4.0,1,3.0,3,Satisfied
+CUST0067,Hospitality,New,Occasional,5.0,1.0,23.0,14,5.0,3,4.0,4,Satisfied
+CUST0068,Telecom,New,First Time,3.0,2.0,19.0,22,4.0,1,1.0,1,Dissatisfied
+CUST0069,Banking,Regular,Occasional,3.0,5.0,22.0,10,2.0,5,3.0,5,Satisfied
+CUST0070,Retail,Regular,Occasional,3.0,1.0,12.0,24,2.0,4,2.0,3,Dissatisfied
+CUST0071,Telecom,Regular,First Time,,4.0,16.0,25,3.0,2,5.0,3,Neutral
+CUST0072,Retail,Regular,Frequent,1.0,1.0,18.0,20,3.0,4,5.0,5,Neutral
+CUST0073,E-Commerce,Regular,Frequent,1.0,1.0,5.0,8,2.0,2,4.0,2,Neutral
+CUST0074,Telecom,Loyal,Occasional,4.0,4.0,9.0,1,5.0,3,5.0,2,Satisfied
+CUST0075,Banking,New,Frequent,3.0,4.0,9.0,23,5.0,1,5.0,4,Satisfied
+CUST0076,Telecom,New,Frequent,5.0,3.0,24.0,16,2.0,3,4.0,1,Satisfied
+CUST0077,Telecom,Regular,First Time,4.0,5.0,20.0,10,4.0,1,3.0,5,Satisfied
+CUST0078,Healthcare,Loyal,Occasional,1.0,2.0,23.0,23,5.0,1,2.0,5,Dissatisfied
+CUST0079,Hospitality,Loyal,Occasional,1.0,3.0,,9,1.0,3,5.0,5,Neutral
+CUST0080,Healthcare,Loyal,First Time,2.0,4.0,6.0,12,2.0,3,1.0,3,Neutral
+CUST0081,Healthcare,Loyal,First Time,5.0,4.0,23.0,19,4.0,2,1.0,4,Neutral
+CUST0082,Retail,New,First Time,1.0,2.0,2.0,7,3.0,1,5.0,5,Satisfied
+CUST0083,E-Commerce,Regular,Occasional,1.0,4.0,28.0,14,4.0,3,1.0,1,Neutral
+CUST0084,Banking,New,Frequent,1.0,3.0,3.0,23,3.0,5,1.0,2,Neutral
+CUST0085,Banking,Regular,Frequent,3.0,3.0,25.0,16,1.0,4,3.0,3,Satisfied
+CUST0086,Banking,Loyal,First Time,5.0,5.0,11.0,24,3.0,1,3.0,4,Neutral
+CUST0087,Healthcare,New,First Time,4.0,,26.0,23,3.0,5,1.0,4,Dissatisfied
+CUST0088,Retail,Regular,Occasional,3.0,4.0,44.0,15,5.0,3,2.0,5,Neutral
+CUST0089,Banking,New,Occasional,1.0,5.0,2.0,1,1.0,3,2.0,3,Neutral
+CUST0090,Retail,New,Frequent,2.0,4.0,24.0,7,1.0,1,2.0,1,Dissatisfied
+CUST0091,Banking,New,Frequent,3.0,5.0,4.0,20,1.0,2,1.0,1,Dissatisfied
+CUST0092,Healthcare,New,Frequent,2.0,3.0,,4,3.0,4,4.0,5,Satisfied
+CUST0093,Retail,Loyal,Frequent,4.0,2.0,16.0,13,5.0,2,3.0,3,Satisfied
+CUST0094,Retail,Regular,Frequent,5.0,5.0,19.0,17,4.0,1,5.0,4,Satisfied
+CUST0095,Telecom,Loyal,Occasional,2.0,4.0,11.0,25,5.0,1,1.0,3,Neutral
+CUST0096,Hospitality,Regular,First Time,2.0,2.0,24.0,11,5.0,5,4.0,5,Satisfied
+CUST0097,Retail,New,First Time,1.0,2.0,6.0,10,4.0,5,5.0,2,Neutral
+CUST0098,Banking,New,Occasional,4.0,2.0,28.0,15,4.0,1,3.0,1,Dissatisfied
+CUST0099,Banking,Loyal,First Time,3.0,5.0,15.0,17,2.0,5,4.0,4,Satisfied
+CUST0100,E-Commerce,New,First Time,2.0,1.0,7.0,14,5.0,5,3.0,3,Neutral
+CUST0101,E-Commerce,Loyal,Frequent,2.0,4.0,31.0,22,4.0,2,3.0,5,Dissatisfied
+CUST0102,Healthcare,New,First Time,1.0,3.0,17.0,9,5.0,4,5.0,1,Satisfied
+CUST0103,Telecom,Regular,Frequent,3.0,1.0,33.0,16,5.0,2,3.0,2,Neutral
+CUST0104,E-Commerce,Loyal,Frequent,4.0,4.0,28.0,18,2.0,2,3.0,5,Neutral
+CUST0105,Healthcare,New,Occasional,2.0,4.0,12.0,12,1.0,4,5.0,5,Neutral
+CUST0106,Healthcare,New,Occasional,1.0,4.0,17.0,21,5.0,2,3.0,1,Dissatisfied
+CUST0107,Retail,Loyal,First Time,3.0,3.0,19.0,16,3.0,2,1.0,5,Neutral
+CUST0108,Telecom,New,Occasional,4.0,2.0,30.0,21,5.0,2,4.0,1,Neutral
+CUST0109,Banking,Regular,First Time,2.0,1.0,22.0,16,4.0,1,4.0,1,Dissatisfied
+CUST0110,E-Commerce,Regular,Frequent,2.0,1.0,19.0,18,2.0,5,2.0,5,Neutral
+CUST0111,Retail,New,First Time,1.0,2.0,16.0,11,2.0,4,4.0,1,Dissatisfied
+CUST0112,Telecom,Regular,First Time,4.0,4.0,18.0,11,4.0,5,1.0,2,Satisfied
+CUST0113,Telecom,Regular,Occasional,5.0,1.0,28.0,24,2.0,3,2.0,1,Dissatisfied
+CUST0114,Hospitality,Regular,Occasional,4.0,5.0,18.0,19,2.0,1,5.0,3,Satisfied
+CUST0115,Banking,Loyal,Occasional,3.0,3.0,15.0,8,2.0,2,4.0,1,Satisfied
+CUST0116,E-Commerce,New,Occasional,4.0,2.0,13.0,16,4.0,2,4.0,2,Neutral
+CUST0117,Healthcare,New,First Time,2.0,5.0,14.0,1,1.0,5,4.0,2,Dissatisfied
+CUST0118,Healthcare,Regular,Occasional,1.0,1.0,7.0,11,1.0,2,1.0,4,Dissatisfied
+CUST0119,Retail,Loyal,First Time,2.0,5.0,12.0,22,1.0,4,5.0,3,Neutral
+CUST0120,Hospitality,New,First Time,4.0,2.0,30.0,14,4.0,1,2.0,1,Dissatisfied
+CUST0121,Hospitality,New,First Time,,2.0,16.0,16,1.0,5,4.0,3,Neutral
+CUST0122,Hospitality,Regular,First Time,5.0,3.0,24.0,1,3.0,4,5.0,3,Neutral
+CUST0123,Banking,Loyal,First Time,5.0,5.0,2.0,12,1.0,3,2.0,2,Satisfied
+CUST0124,Retail,New,Occasional,2.0,2.0,23.0,17,3.0,2,4.0,3,Dissatisfied
+CUST0125,Banking,Regular,First Time,1.0,5.0,17.0,18,1.0,2,1.0,2,Dissatisfied
+CUST0126,Retail,Regular,First Time,2.0,2.0,14.0,22,1.0,2,,2,Dissatisfied
+CUST0127,Telecom,Regular,Occasional,5.0,,19.0,14,3.0,3,3.0,4,Satisfied
+CUST0128,Banking,New,First Time,5.0,4.0,14.0,14,4.0,5,1.0,2,Neutral
+CUST0129,Banking,New,Occasional,1.0,4.0,2.0,6,1.0,2,4.0,2,Neutral
+CUST0130,Hospitality,Regular,Frequent,1.0,2.0,25.0,14,3.0,4,5.0,1,Dissatisfied
+CUST0131,Banking,Regular,Occasional,3.0,1.0,20.0,6,5.0,3,1.0,4,Dissatisfied
+CUST0132,E-Commerce,Loyal,Frequent,4.0,2.0,15.0,2,4.0,4,,4,Satisfied
+CUST0133,Hospitality,Regular,First Time,5.0,3.0,10.0,7,4.0,4,5.0,4,Satisfied
+CUST0134,Retail,Regular,First Time,4.0,1.0,6.0,26,2.0,1,3.0,1,Dissatisfied
+CUST0135,Hospitality,Loyal,Occasional,2.0,1.0,20.0,13,5.0,1,5.0,3,Satisfied
+CUST0136,Banking,Regular,Frequent,1.0,5.0,31.0,17,1.0,5,2.0,2,Dissatisfied
+CUST0137,E-Commerce,Regular,Frequent,4.0,1.0,20.0,11,4.0,1,4.0,4,Neutral
+CUST0138,Retail,Loyal,First Time,3.0,3.0,7.0,2,3.0,3,4.0,2,Satisfied
+CUST0139,Healthcare,New,Frequent,5.0,4.0,20.0,22,1.0,4,3.0,3,Neutral
+CUST0140,Banking,Regular,Occasional,3.0,2.0,18.0,1,5.0,3,5.0,3,Satisfied
+CUST0141,Retail,Regular,First Time,3.0,3.0,25.0,11,4.0,1,5.0,4,Neutral
+CUST0142,Retail,New,First Time,2.0,1.0,23.0,15,2.0,1,4.0,4,Dissatisfied
+CUST0143,E-Commerce,Regular,Frequent,1.0,4.0,,17,1.0,4,3.0,5,Neutral
+CUST0144,Hospitality,New,First Time,5.0,4.0,,10,4.0,5,5.0,3,Satisfied
+CUST0145,Retail,New,Frequent,5.0,5.0,10.0,2,3.0,2,3.0,5,Satisfied
+CUST0146,Telecom,Regular,Occasional,1.0,,7.0,9,1.0,3,4.0,5,Neutral
+CUST0147,Telecom,New,Occasional,4.0,2.0,16.0,10,5.0,5,1.0,3,Satisfied
+CUST0148,Hospitality,Regular,Occasional,2.0,1.0,21.0,10,4.0,5,,4,Neutral
+CUST0149,Retail,Loyal,Frequent,3.0,2.0,5.0,22,3.0,3,5.0,5,Satisfied
+CUST0150,Banking,Loyal,First Time,5.0,1.0,24.0,7,2.0,4,3.0,5,Satisfied
+CUST0151,E-Commerce,New,First Time,5.0,3.0,24.0,17,2.0,5,3.0,2,Satisfied
+CUST0152,E-Commerce,New,Occasional,1.0,1.0,18.0,16,3.0,4,5.0,4,Satisfied
+CUST0153,Banking,New,Occasional,2.0,5.0,11.0,22,1.0,3,2.0,3,Dissatisfied
+CUST0154,Hospitality,New,First Time,5.0,4.0,10.0,14,2.0,4,2.0,1,Satisfied
+CUST0155,Banking,Loyal,First Time,5.0,2.0,26.0,21,2.0,2,1.0,2,Dissatisfied
+CUST0156,Healthcare,Regular,First Time,1.0,5.0,6.0,14,1.0,5,2.0,5,Satisfied
+CUST0157,Telecom,New,First Time,5.0,4.0,27.0,18,1.0,1,3.0,5,Neutral
+CUST0158,Hospitality,Loyal,First Time,3.0,3.0,17.0,4,2.0,2,4.0,4,Neutral
+CUST0159,Healthcare,Regular,Frequent,3.0,1.0,17.0,1,2.0,2,2.0,5,Neutral
+CUST0160,Healthcare,New,First Time,1.0,2.0,4.0,18,2.0,2,3.0,3,Dissatisfied
+CUST0161,Banking,New,Frequent,4.0,3.0,17.0,18,4.0,3,2.0,4,Satisfied
+CUST0162,E-Commerce,Regular,Frequent,4.0,4.0,23.0,18,3.0,4,5.0,1,Satisfied
+CUST0163,Telecom,Regular,First Time,4.0,2.0,7.0,11,1.0,5,3.0,2,Neutral
+CUST0164,Banking,New,Occasional,4.0,4.0,22.0,25,5.0,3,1.0,1,Neutral
+CUST0165,Hospitality,Loyal,Occasional,5.0,2.0,19.0,12,4.0,4,4.0,5,Satisfied
+CUST0166,Retail,Loyal,Occasional,5.0,2.0,13.0,18,3.0,3,2.0,4,Satisfied
+CUST0167,E-Commerce,Loyal,First Time,4.0,3.0,25.0,19,1.0,1,5.0,5,Neutral
+CUST0168,E-Commerce,New,First Time,5.0,1.0,2.0,27,5.0,4,2.0,3,Satisfied
+CUST0169,Telecom,New,First Time,4.0,3.0,21.0,13,4.0,1,5.0,3,Neutral
+CUST0170,E-Commerce,Loyal,Occasional,4.0,2.0,31.0,10,3.0,3,4.0,4,Neutral
+CUST0171,Telecom,New,Frequent,3.0,2.0,30.0,5,1.0,5,1.0,3,Dissatisfied
+CUST0172,Retail,Regular,Occasional,4.0,4.0,21.0,26,1.0,4,4.0,2,Satisfied
+CUST0173,Telecom,Regular,Occasional,1.0,2.0,16.0,18,2.0,3,4.0,2,Dissatisfied
+CUST0174,E-Commerce,New,Frequent,3.0,4.0,13.0,18,2.0,2,3.0,3,Dissatisfied
+CUST0175,Banking,Regular,Occasional,3.0,4.0,16.0,37,2.0,5,,1,Dissatisfied
+CUST0176,Banking,Loyal,First Time,5.0,4.0,22.0,17,3.0,5,3.0,1,Satisfied
+CUST0177,Retail,Regular,Frequent,1.0,2.0,12.0,6,1.0,2,4.0,1,Neutral
+CUST0178,E-Commerce,Regular,Occasional,4.0,5.0,24.0,14,2.0,1,1.0,1,Neutral
+CUST0179,E-Commerce,Loyal,First Time,1.0,2.0,35.0,8,5.0,3,2.0,1,Dissatisfied
+CUST0180,Healthcare,Regular,Occasional,5.0,2.0,18.0,12,5.0,4,4.0,1,Satisfied
+CUST0181,E-Commerce,Regular,Frequent,5.0,5.0,7.0,12,1.0,5,3.0,1,Satisfied
+CUST0182,E-Commerce,Loyal,First Time,2.0,2.0,7.0,11,4.0,5,5.0,5,Satisfied
+CUST0183,Retail,Regular,Occasional,5.0,4.0,24.0,5,5.0,2,2.0,1,Satisfied
+CUST0184,Telecom,New,First Time,3.0,1.0,18.0,26,3.0,2,4.0,3,Dissatisfied
+CUST0185,Healthcare,New,First Time,5.0,4.0,25.0,17,2.0,5,3.0,1,Neutral
+CUST0186,Healthcare,New,First Time,4.0,5.0,14.0,13,3.0,2,2.0,5,Satisfied
+CUST0187,Retail,Regular,Occasional,1.0,4.0,25.0,20,2.0,3,5.0,2,Neutral
+CUST0188,Banking,Regular,Frequent,2.0,3.0,17.0,18,2.0,2,4.0,4,Dissatisfied
+CUST0189,Healthcare,Regular,First Time,3.0,5.0,12.0,17,5.0,2,3.0,4,Neutral
+CUST0190,Telecom,Regular,First Time,2.0,2.0,15.0,20,4.0,3,2.0,4,Neutral
+CUST0191,E-Commerce,Regular,First Time,1.0,2.0,8.0,16,3.0,2,5.0,4,Satisfied
+CUST0192,Telecom,Loyal,First Time,,1.0,34.0,20,1.0,3,1.0,3,Dissatisfied
+CUST0193,Banking,New,Occasional,5.0,4.0,17.0,20,5.0,2,1.0,4,Satisfied
+CUST0194,E-Commerce,Regular,Occasional,3.0,4.0,23.0,16,1.0,1,1.0,5,Dissatisfied
+CUST0195,Banking,Regular,Occasional,2.0,4.0,,13,4.0,4,4.0,2,Neutral
+CUST0196,Banking,Regular,Occasional,1.0,4.0,10.0,26,2.0,5,1.0,5,Neutral
+CUST0197,Hospitality,New,Occasional,5.0,1.0,16.0,12,2.0,3,4.0,5,Neutral
+CUST0198,E-Commerce,Regular,First Time,2.0,4.0,27.0,18,1.0,2,1.0,4,Dissatisfied
+CUST0199,Telecom,Loyal,First Time,1.0,4.0,14.0,18,2.0,4,4.0,5,Neutral
+CUST0200,Telecom,Regular,Frequent,2.0,2.0,11.0,11,4.0,3,4.0,1,Neutral
+CUST0201,Healthcare,Loyal,Frequent,3.0,3.0,19.0,9,3.0,3,5.0,3,Neutral
+CUST0202,E-Commerce,Loyal,Frequent,4.0,5.0,22.0,13,1.0,3,2.0,4,Satisfied
+CUST0203,Retail,Regular,Frequent,2.0,3.0,31.0,12,2.0,4,1.0,5,Dissatisfied
+CUST0204,Banking,Regular,Occasional,5.0,4.0,21.0,5,1.0,1,4.0,1,Neutral
+CUST0205,Banking,Regular,Frequent,4.0,3.0,23.0,10,3.0,1,3.0,5,Satisfied
+CUST0206,Telecom,Loyal,Occasional,5.0,4.0,24.0,17,5.0,1,5.0,1,Satisfied
+CUST0207,Banking,New,First Time,2.0,4.0,9.0,24,5.0,1,1.0,2,Neutral
+CUST0208,Healthcare,Regular,First Time,4.0,4.0,10.0,19,5.0,5,3.0,4,Satisfied
+CUST0209,Banking,Loyal,First Time,2.0,4.0,9.0,1,1.0,4,1.0,2,Dissatisfied
+CUST0210,Retail,New,First Time,4.0,5.0,7.0,19,3.0,4,3.0,5,Satisfied
+CUST0211,Healthcare,Regular,Occasional,4.0,2.0,24.0,11,1.0,4,1.0,5,Neutral
+CUST0212,Hospitality,Regular,Occasional,2.0,5.0,20.0,18,3.0,1,,1,Dissatisfied
+CUST0213,Telecom,Loyal,Frequent,5.0,4.0,19.0,15,3.0,2,4.0,2,Neutral
+CUST0214,E-Commerce,Loyal,Occasional,5.0,3.0,2.0,14,4.0,4,1.0,1,Satisfied
+CUST0215,Healthcare,New,First Time,5.0,2.0,34.0,14,2.0,3,3.0,4,Dissatisfied
+CUST0216,Healthcare,Regular,Occasional,2.0,3.0,11.0,15,1.0,3,3.0,5,Dissatisfied
+CUST0217,Banking,New,Occasional,4.0,4.0,34.0,24,3.0,4,4.0,4,Satisfied
+CUST0218,Banking,Regular,First Time,1.0,2.0,6.0,15,3.0,1,3.0,1,Dissatisfied
+CUST0219,E-Commerce,Regular,First Time,1.0,2.0,12.0,23,4.0,4,3.0,1,Neutral
+CUST0220,Retail,Loyal,First Time,5.0,,2.0,22,1.0,4,5.0,1,Satisfied
+CUST0221,Telecom,New,First Time,1.0,3.0,21.0,20,4.0,3,3.0,3,Dissatisfied
+CUST0222,Retail,New,Frequent,5.0,4.0,9.0,2,3.0,3,5.0,4,Satisfied
+CUST0223,Healthcare,Regular,Frequent,3.0,1.0,9.0,23,4.0,1,5.0,1,Dissatisfied
+CUST0224,E-Commerce,Regular,Occasional,2.0,1.0,7.0,12,5.0,2,5.0,5,Neutral
+CUST0225,Telecom,Regular,First Time,1.0,5.0,24.0,20,2.0,2,,2,Dissatisfied
+CUST0226,E-Commerce,New,Frequent,4.0,,24.0,8,4.0,5,4.0,3,Satisfied
+CUST0227,Banking,New,Occasional,4.0,4.0,32.0,7,1.0,1,3.0,4,Dissatisfied
+CUST0228,Hospitality,Loyal,First Time,3.0,5.0,13.0,29,5.0,2,3.0,3,Neutral
+CUST0229,Hospitality,New,Occasional,5.0,3.0,20.0,8,3.0,1,2.0,3,Dissatisfied
+CUST0230,Banking,Regular,Occasional,2.0,5.0,8.0,23,4.0,2,5.0,2,Satisfied
+CUST0231,Banking,Loyal,Occasional,3.0,3.0,15.0,16,4.0,1,4.0,3,Neutral
+CUST0232,Retail,New,First Time,2.0,5.0,14.0,12,4.0,2,5.0,2,Satisfied
+CUST0233,E-Commerce,Regular,Occasional,3.0,2.0,22.0,15,2.0,4,4.0,2,Neutral
+CUST0234,Hospitality,New,First Time,1.0,3.0,26.0,6,4.0,4,3.0,4,Neutral
+CUST0235,E-Commerce,Loyal,First Time,3.0,2.0,26.0,15,3.0,2,2.0,5,Neutral
+CUST0236,E-Commerce,Regular,First Time,3.0,4.0,11.0,7,4.0,4,5.0,5,Satisfied
+CUST0237,Retail,Loyal,Frequent,3.0,1.0,26.0,12,4.0,4,4.0,2,Satisfied
+CUST0238,Healthcare,New,First Time,3.0,5.0,,21,3.0,5,5.0,2,Neutral
+CUST0239,Banking,Regular,Occasional,4.0,1.0,15.0,17,,5,3.0,1,Dissatisfied
+CUST0240,Banking,Regular,First Time,3.0,2.0,12.0,5,2.0,2,3.0,2,Neutral
+CUST0241,E-Commerce,New,Frequent,2.0,3.0,14.0,21,5.0,3,1.0,3,Neutral
+CUST0242,Healthcare,New,Occasional,2.0,1.0,32.0,15,3.0,4,1.0,2,Dissatisfied
+CUST0243,Telecom,New,Frequent,4.0,3.0,20.0,11,4.0,2,4.0,4,Satisfied
+CUST0244,Hospitality,Loyal,First Time,5.0,5.0,19.0,20,2.0,3,2.0,1,Dissatisfied
+CUST0245,Hospitality,Regular,First Time,4.0,5.0,16.0,14,4.0,3,1.0,3,Satisfied
+CUST0246,E-Commerce,Regular,Occasional,4.0,1.0,38.0,7,3.0,2,4.0,2,Dissatisfied
+CUST0247,Hospitality,Regular,First Time,5.0,3.0,28.0,28,2.0,1,4.0,3,Neutral
+CUST0248,Retail,Regular,Frequent,5.0,3.0,12.0,15,1.0,1,1.0,1,Dissatisfied
+CUST0249,Retail,Regular,Frequent,3.0,1.0,16.0,14,2.0,4,3.0,3,Neutral
+CUST0250,Retail,Regular,Occasional,1.0,4.0,16.0,12,3.0,5,3.0,4,Neutral
+CUST0251,Hospitality,Regular,Frequent,4.0,3.0,19.0,23,2.0,4,1.0,5,Neutral
+CUST0252,E-Commerce,New,Occasional,4.0,4.0,12.0,11,2.0,2,4.0,2,Satisfied
+CUST0253,Retail,Loyal,First Time,2.0,2.0,22.0,4,2.0,1,2.0,3,Dissatisfied
+CUST0254,Telecom,Loyal,Occasional,5.0,,30.0,10,2.0,4,5.0,4,Neutral
+CUST0255,Telecom,New,First Time,5.0,4.0,7.0,24,4.0,1,1.0,3,Neutral
+CUST0256,Healthcare,Regular,Frequent,2.0,4.0,9.0,21,3.0,3,5.0,3,Neutral
+CUST0257,E-Commerce,New,First Time,3.0,1.0,14.0,13,3.0,5,1.0,2,Neutral
+CUST0258,Banking,Loyal,First Time,1.0,2.0,15.0,25,1.0,1,4.0,5,Dissatisfied
+CUST0259,Banking,Loyal,Occasional,1.0,3.0,34.0,20,3.0,3,4.0,4,Dissatisfied
+CUST0260,Hospitality,Loyal,First Time,2.0,5.0,26.0,13,5.0,5,3.0,5,Neutral
+CUST0261,Banking,New,First Time,2.0,2.0,26.0,14,4.0,2,2.0,4,Dissatisfied
+CUST0262,E-Commerce,New,Occasional,2.0,2.0,16.0,17,3.0,5,1.0,2,Satisfied
+CUST0263,Telecom,New,First Time,1.0,5.0,16.0,9,2.0,5,2.0,2,Satisfied
+CUST0264,Banking,New,Occasional,3.0,4.0,6.0,15,2.0,3,4.0,1,Dissatisfied
+CUST0265,E-Commerce,New,First Time,4.0,5.0,24.0,17,1.0,2,4.0,4,Neutral
+CUST0266,Banking,New,First Time,2.0,4.0,22.0,3,1.0,4,1.0,4,Neutral
+CUST0267,Telecom,Loyal,First Time,3.0,5.0,28.0,14,4.0,4,1.0,2,Neutral
+CUST0268,Banking,New,Frequent,2.0,1.0,16.0,13,5.0,3,3.0,1,Dissatisfied
+CUST0269,Banking,New,Frequent,,2.0,17.0,22,5.0,1,3.0,5,Neutral
+CUST0270,Banking,Loyal,First Time,4.0,2.0,19.0,2,4.0,4,5.0,2,Satisfied
+CUST0271,Banking,Regular,Frequent,5.0,1.0,25.0,12,5.0,2,4.0,3,Neutral
+CUST0272,Banking,Regular,Occasional,1.0,4.0,6.0,12,3.0,1,3.0,1,Neutral
+CUST0273,Banking,Regular,Occasional,5.0,4.0,24.0,22,2.0,1,3.0,1,Neutral
+CUST0274,Hospitality,Loyal,Occasional,2.0,1.0,18.0,15,2.0,3,4.0,5,Dissatisfied
+CUST0275,Healthcare,Regular,Occasional,1.0,1.0,10.0,28,2.0,1,3.0,4,Dissatisfied
+CUST0276,Retail,Regular,Frequent,4.0,1.0,2.0,20,4.0,2,4.0,1,Dissatisfied
+CUST0277,Telecom,Regular,Occasional,1.0,3.0,17.0,12,1.0,2,1.0,1,Dissatisfied
+CUST0278,Retail,Regular,Occasional,1.0,3.0,30.0,17,5.0,3,5.0,3,Dissatisfied
+CUST0279,E-Commerce,New,First Time,5.0,2.0,31.0,13,4.0,4,5.0,4,Satisfied
+CUST0280,E-Commerce,Regular,First Time,2.0,5.0,21.0,21,2.0,3,3.0,3,Dissatisfied
+CUST0281,Banking,New,Occasional,3.0,2.0,34.0,6,4.0,3,3.0,5,Dissatisfied
+CUST0282,Telecom,Regular,First Time,2.0,3.0,,9,1.0,1,3.0,4,Dissatisfied
+CUST0283,Telecom,New,First Time,1.0,3.0,26.0,18,3.0,1,5.0,4,Dissatisfied
+CUST0284,Telecom,New,First Time,1.0,2.0,14.0,24,1.0,5,1.0,2,Dissatisfied
+CUST0285,Hospitality,New,First Time,1.0,5.0,14.0,1,1.0,4,2.0,4,Satisfied
+CUST0286,Retail,Loyal,Occasional,3.0,5.0,13.0,25,1.0,1,4.0,5,Satisfied
+CUST0287,Banking,New,Occasional,3.0,1.0,2.0,14,4.0,3,4.0,1,Neutral
+CUST0288,Retail,Regular,Occasional,1.0,3.0,28.0,2,4.0,1,2.0,4,Dissatisfied
+CUST0289,Hospitality,Loyal,First Time,2.0,1.0,13.0,1,5.0,1,1.0,5,Satisfied
+CUST0290,Banking,New,Occasional,2.0,3.0,12.0,4,5.0,2,3.0,3,Neutral
+CUST0291,E-Commerce,Regular,Occasional,3.0,4.0,9.0,15,5.0,4,4.0,4,Satisfied
+CUST0292,Banking,New,Occasional,5.0,3.0,16.0,15,,4,4.0,2,Satisfied
+CUST0293,E-Commerce,New,Occasional,4.0,2.0,32.0,19,1.0,4,1.0,1,Dissatisfied
+CUST0294,Banking,Regular,Occasional,5.0,2.0,35.0,11,4.0,1,1.0,5,Dissatisfied
+CUST0295,E-Commerce,Loyal,Occasional,1.0,2.0,5.0,7,4.0,1,,2,Dissatisfied
+CUST0296,E-Commerce,New,Frequent,2.0,2.0,15.0,12,1.0,3,3.0,4,Neutral
+CUST0297,E-Commerce,Regular,Frequent,4.0,2.0,10.0,15,1.0,5,1.0,2,Neutral
+CUST0298,E-Commerce,New,Occasional,2.0,4.0,26.0,17,5.0,4,1.0,2,Dissatisfied
+CUST0299,Healthcare,Regular,Occasional,5.0,1.0,20.0,9,5.0,4,3.0,4,Neutral
+CUST0300,Hospitality,Regular,First Time,3.0,1.0,13.0,21,2.0,1,2.0,2,Dissatisfied
+CUST0301,Healthcare,Regular,Frequent,2.0,3.0,19.0,11,1.0,5,4.0,5,Neutral
+CUST0302,Banking,Regular,First Time,5.0,4.0,14.0,9,2.0,5,1.0,1,Neutral
+CUST0303,Hospitality,New,First Time,3.0,2.0,31.0,11,1.0,3,5.0,1,Dissatisfied
+CUST0304,Retail,Regular,Frequent,5.0,2.0,22.0,23,4.0,2,1.0,1,Neutral
+CUST0305,E-Commerce,Regular,Occasional,3.0,4.0,23.0,14,2.0,4,3.0,2,Satisfied
+CUST0306,Retail,Regular,First Time,1.0,2.0,2.0,10,1.0,4,5.0,1,Dissatisfied
+CUST0307,Retail,New,First Time,4.0,4.0,17.0,21,5.0,5,4.0,2,Satisfied
+CUST0308,Hospitality,Regular,First Time,1.0,1.0,35.0,30,5.0,1,5.0,1,Dissatisfied
+CUST0309,Telecom,Regular,Occasional,4.0,1.0,29.0,16,5.0,3,1.0,4,Dissatisfied
+CUST0310,Banking,New,First Time,3.0,3.0,3.0,24,,4,4.0,1,Neutral
+CUST0311,Retail,New,Frequent,4.0,2.0,15.0,22,1.0,2,1.0,5,Dissatisfied
+CUST0312,Retail,Regular,Frequent,5.0,4.0,8.0,11,4.0,5,4.0,5,Satisfied
+CUST0313,Telecom,Regular,Occasional,3.0,3.0,32.0,15,4.0,1,,4,Dissatisfied
+CUST0314,Retail,New,Occasional,5.0,2.0,20.0,6,4.0,1,4.0,4,Satisfied
+CUST0315,Retail,Loyal,First Time,1.0,1.0,12.0,14,2.0,4,1.0,4,Dissatisfied
+CUST0316,Telecom,Regular,First Time,1.0,1.0,18.0,11,2.0,1,5.0,5,Dissatisfied
+CUST0317,Retail,Regular,Occasional,5.0,4.0,2.0,12,5.0,3,3.0,3,Satisfied
+CUST0318,Healthcare,Regular,First Time,3.0,2.0,9.0,10,1.0,2,3.0,4,Satisfied
+CUST0319,Telecom,Regular,First Time,3.0,3.0,18.0,13,4.0,4,3.0,3,Satisfied
+CUST0320,E-Commerce,Regular,First Time,1.0,5.0,25.0,19,4.0,1,1.0,4,Neutral
+CUST0321,E-Commerce,Loyal,First Time,2.0,5.0,2.0,14,4.0,2,2.0,2,Neutral
+CUST0322,Retail,Regular,Occasional,4.0,2.0,15.0,2,3.0,5,,1,Satisfied
+CUST0323,Telecom,Regular,Occasional,5.0,1.0,26.0,10,4.0,2,5.0,5,Neutral
+CUST0324,Hospitality,Regular,Frequent,5.0,4.0,6.0,4,5.0,3,5.0,4,Satisfied
+CUST0325,E-Commerce,Regular,Occasional,3.0,4.0,,17,4.0,5,3.0,4,Neutral
+CUST0326,Hospitality,New,Frequent,3.0,2.0,19.0,19,1.0,4,2.0,2,Dissatisfied
+CUST0327,E-Commerce,Regular,Occasional,1.0,3.0,32.0,17,2.0,4,3.0,4,Dissatisfied
+CUST0328,Hospitality,Regular,Frequent,1.0,1.0,16.0,9,2.0,5,3.0,3,Neutral
+CUST0329,Hospitality,Loyal,Occasional,3.0,4.0,17.0,17,2.0,4,2.0,1,Neutral
+CUST0330,Telecom,Regular,First Time,3.0,4.0,25.0,12,2.0,5,2.0,5,Satisfied
+CUST0331,Healthcare,Regular,Frequent,1.0,2.0,7.0,7,2.0,3,5.0,5,Neutral
+CUST0332,Telecom,Loyal,First Time,3.0,3.0,16.0,20,4.0,5,2.0,5,Satisfied
+CUST0333,Healthcare,Regular,First Time,4.0,2.0,14.0,21,1.0,4,1.0,3,Neutral
+CUST0334,E-Commerce,New,First Time,5.0,1.0,17.0,22,4.0,2,4.0,2,Neutral
+CUST0335,Banking,New,Occasional,5.0,1.0,25.0,11,4.0,3,4.0,1,Neutral
+CUST0336,Hospitality,New,Occasional,2.0,5.0,22.0,23,5.0,2,2.0,4,Satisfied
+CUST0337,Banking,New,Occasional,2.0,3.0,12.0,12,1.0,2,4.0,5,Neutral
+CUST0338,Healthcare,Regular,Frequent,5.0,1.0,19.0,20,2.0,2,5.0,1,Neutral
+CUST0339,Banking,Regular,First Time,4.0,1.0,30.0,11,5.0,3,5.0,4,Neutral
+CUST0340,E-Commerce,Regular,Occasional,2.0,2.0,11.0,13,3.0,2,4.0,1,Dissatisfied
+CUST0341,Banking,New,First Time,4.0,5.0,19.0,1,3.0,4,3.0,4,Satisfied
+CUST0342,E-Commerce,Regular,Frequent,1.0,,16.0,13,1.0,2,1.0,1,Dissatisfied
+CUST0343,E-Commerce,New,First Time,3.0,5.0,17.0,16,4.0,3,3.0,5,Neutral
+CUST0344,Hospitality,Loyal,First Time,2.0,3.0,5.0,12,2.0,1,5.0,1,Neutral
+CUST0345,Healthcare,New,Occasional,5.0,4.0,29.0,27,5.0,2,5.0,3,Neutral
+CUST0346,Healthcare,Regular,Occasional,1.0,4.0,12.0,7,2.0,2,4.0,4,Neutral
+CUST0347,E-Commerce,New,Frequent,5.0,1.0,26.0,11,1.0,5,5.0,5,Satisfied
+CUST0348,Telecom,Regular,Occasional,2.0,1.0,13.0,9,3.0,3,3.0,2,Dissatisfied
+CUST0349,Hospitality,Regular,Frequent,1.0,5.0,13.0,11,3.0,1,1.0,5,Dissatisfied
+CUST0350,Banking,Regular,Occasional,4.0,5.0,28.0,22,3.0,2,3.0,1,Neutral
+CUST0351,Hospitality,New,First Time,4.0,1.0,26.0,25,5.0,4,2.0,3,Dissatisfied
+CUST0352,Banking,Loyal,First Time,1.0,4.0,20.0,10,2.0,1,5.0,5,Dissatisfied
+CUST0353,Hospitality,Regular,First Time,1.0,5.0,24.0,10,2.0,1,,2,Neutral
+CUST0354,Hospitality,Regular,First Time,1.0,5.0,16.0,7,4.0,2,3.0,3,Dissatisfied
+CUST0355,Retail,Loyal,Occasional,3.0,2.0,18.0,24,1.0,2,2.0,3,Neutral
+CUST0356,Hospitality,Loyal,Occasional,1.0,5.0,13.0,23,5.0,3,1.0,2,Neutral
+CUST0357,Healthcare,New,Occasional,4.0,4.0,25.0,14,2.0,1,1.0,4,Dissatisfied
+CUST0358,Healthcare,New,Occasional,1.0,5.0,12.0,5,2.0,4,2.0,3,Neutral
+CUST0359,Retail,New,Occasional,4.0,1.0,30.0,6,1.0,2,2.0,4,Dissatisfied
+CUST0360,Hospitality,New,Occasional,5.0,4.0,15.0,16,2.0,4,2.0,3,Neutral
+CUST0361,E-Commerce,Regular,First Time,4.0,1.0,18.0,19,3.0,3,5.0,5,Neutral
+CUST0362,Banking,Loyal,First Time,5.0,2.0,24.0,1,4.0,2,4.0,3,Satisfied
+CUST0363,Banking,Loyal,Occasional,5.0,1.0,,13,5.0,3,3.0,4,Satisfied
+CUST0364,Banking,Regular,Occasional,1.0,3.0,16.0,26,4.0,1,1.0,4,Dissatisfied
+CUST0365,Hospitality,Regular,First Time,2.0,5.0,18.0,13,2.0,4,5.0,5,Satisfied
+CUST0366,Retail,Loyal,First Time,4.0,4.0,25.0,25,5.0,2,4.0,5,Satisfied
+CUST0367,Healthcare,Loyal,Occasional,2.0,2.0,13.0,20,1.0,2,3.0,2,Dissatisfied
+CUST0368,Healthcare,New,Occasional,4.0,3.0,17.0,7,,1,3.0,2,Dissatisfied
+CUST0369,Telecom,Regular,First Time,4.0,2.0,18.0,13,2.0,2,3.0,2,Neutral
+CUST0370,E-Commerce,Loyal,Occasional,5.0,4.0,25.0,14,3.0,2,5.0,3,Neutral
+CUST0371,Healthcare,New,Frequent,2.0,2.0,17.0,8,2.0,2,4.0,3,Neutral
+CUST0372,Telecom,Regular,First Time,2.0,1.0,32.0,8,5.0,5,3.0,1,Dissatisfied
+CUST0373,Retail,Loyal,Frequent,1.0,3.0,17.0,26,2.0,2,,5,Dissatisfied
+CUST0374,Telecom,Loyal,First Time,2.0,5.0,16.0,8,2.0,1,5.0,5,Neutral
+CUST0375,Banking,Loyal,Occasional,2.0,3.0,17.0,23,4.0,3,2.0,4,Dissatisfied
+CUST0376,Banking,Regular,Occasional,3.0,2.0,7.0,12,3.0,2,5.0,2,Neutral
+CUST0377,E-Commerce,New,First Time,3.0,1.0,10.0,15,3.0,3,4.0,5,Neutral
+CUST0378,Retail,New,Frequent,5.0,5.0,14.0,19,5.0,4,1.0,2,Satisfied
+CUST0379,Retail,Regular,Occasional,4.0,4.0,27.0,11,3.0,1,5.0,2,Neutral
+CUST0380,Healthcare,Regular,Frequent,4.0,1.0,18.0,19,1.0,3,4.0,5,Satisfied
+CUST0381,Hospitality,Regular,First Time,1.0,1.0,14.0,1,4.0,1,2.0,5,Dissatisfied
+CUST0382,E-Commerce,Regular,Frequent,3.0,1.0,28.0,18,4.0,1,2.0,3,Dissatisfied
+CUST0383,Healthcare,Regular,Frequent,4.0,2.0,30.0,1,2.0,1,5.0,1,Dissatisfied
+CUST0384,Retail,Regular,Occasional,2.0,5.0,28.0,13,5.0,1,5.0,1,Dissatisfied
+CUST0385,Retail,New,First Time,3.0,1.0,11.0,21,2.0,2,1.0,5,Dissatisfied
+CUST0386,E-Commerce,New,Occasional,4.0,5.0,14.0,19,1.0,5,4.0,2,Neutral
+CUST0387,Healthcare,New,Occasional,,1.0,33.0,6,1.0,5,1.0,4,Dissatisfied
+CUST0388,E-Commerce,New,Frequent,5.0,4.0,20.0,7,4.0,1,2.0,2,Satisfied
+CUST0389,Banking,Loyal,Occasional,3.0,2.0,16.0,10,2.0,5,3.0,3,Satisfied
+CUST0390,E-Commerce,Regular,First Time,2.0,5.0,24.0,16,3.0,4,2.0,5,Dissatisfied
+CUST0391,Hospitality,New,First Time,2.0,3.0,26.0,1,4.0,3,3.0,3,Dissatisfied
+CUST0392,Banking,Regular,Occasional,4.0,2.0,13.0,15,5.0,4,3.0,3,Satisfied
+CUST0393,Hospitality,Regular,Frequent,3.0,2.0,20.0,17,3.0,3,3.0,3,Dissatisfied
+CUST0394,Healthcare,New,First Time,3.0,5.0,25.0,13,5.0,2,5.0,2,Satisfied
+CUST0395,Banking,New,Occasional,1.0,3.0,9.0,19,2.0,3,1.0,3,Dissatisfied
+CUST0396,Retail,New,Frequent,3.0,2.0,,17,5.0,4,4.0,3,Satisfied
+CUST0397,E-Commerce,Regular,First Time,2.0,4.0,9.0,11,2.0,4,2.0,1,Dissatisfied
+CUST0398,Telecom,New,First Time,3.0,,10.0,1,1.0,1,,3,Neutral
+CUST0399,Retail,New,Occasional,5.0,4.0,13.0,16,4.0,5,3.0,4,Satisfied
+CUST0400,Retail,New,Occasional,4.0,3.0,22.0,8,4.0,2,2.0,1,Satisfied
+CUST0401,Telecom,Regular,First Time,3.0,1.0,15.0,11,5.0,5,1.0,5,Satisfied
+CUST0402,E-Commerce,New,Frequent,5.0,1.0,13.0,18,5.0,2,3.0,5,Neutral
+CUST0403,Healthcare,Loyal,Occasional,5.0,1.0,18.0,25,1.0,1,5.0,4,Neutral
+CUST0404,Banking,New,Frequent,3.0,3.0,9.0,15,4.0,5,3.0,1,Satisfied
+CUST0405,E-Commerce,Regular,Frequent,4.0,3.0,21.0,19,4.0,3,4.0,3,Neutral
+CUST0406,E-Commerce,Regular,Frequent,2.0,4.0,27.0,5,4.0,2,1.0,5,Neutral
+CUST0407,Telecom,Regular,Occasional,5.0,5.0,17.0,17,1.0,1,1.0,1,Neutral
+CUST0408,E-Commerce,New,First Time,2.0,1.0,16.0,15,1.0,1,2.0,4,Dissatisfied
+CUST0409,Banking,Loyal,Occasional,2.0,5.0,21.0,24,4.0,1,4.0,5,Dissatisfied
+CUST0410,E-Commerce,Loyal,First Time,1.0,5.0,2.0,11,5.0,5,5.0,1,Satisfied
+CUST0411,Healthcare,New,Occasional,5.0,4.0,22.0,13,1.0,1,1.0,2,Neutral
+CUST0412,Hospitality,New,First Time,2.0,3.0,43.0,22,1.0,1,3.0,4,Dissatisfied
+CUST0413,Banking,Loyal,Occasional,5.0,1.0,17.0,14,3.0,5,2.0,5,Neutral
+CUST0414,E-Commerce,Regular,First Time,1.0,1.0,17.0,7,2.0,5,4.0,4,Dissatisfied
+CUST0415,Banking,New,First Time,3.0,1.0,24.0,33,5.0,2,2.0,3,Dissatisfied
+CUST0416,Telecom,New,First Time,3.0,4.0,31.0,7,5.0,4,3.0,4,Neutral
+CUST0417,Banking,Regular,Occasional,3.0,3.0,26.0,15,3.0,3,5.0,3,Neutral
+CUST0418,Healthcare,Regular,Frequent,1.0,1.0,2.0,17,5.0,3,3.0,3,Dissatisfied
+CUST0419,Telecom,Regular,First Time,1.0,1.0,23.0,17,2.0,2,4.0,4,Dissatisfied
+CUST0420,E-Commerce,Loyal,Frequent,2.0,1.0,39.0,14,5.0,4,4.0,1,Dissatisfied
+CUST0421,Hospitality,Regular,Frequent,3.0,4.0,23.0,14,3.0,5,3.0,2,Neutral
+CUST0422,Banking,New,First Time,4.0,4.0,9.0,13,3.0,4,2.0,1,Neutral
+CUST0423,Banking,Regular,Occasional,3.0,4.0,20.0,7,1.0,5,5.0,4,Satisfied
+CUST0424,Banking,Regular,Occasional,2.0,1.0,8.0,30,1.0,1,2.0,4,Dissatisfied
+CUST0425,Hospitality,New,First Time,2.0,1.0,28.0,13,1.0,4,5.0,1,Dissatisfied
+CUST0426,E-Commerce,New,Occasional,4.0,1.0,10.0,19,3.0,5,5.0,1,Neutral
+CUST0427,Telecom,Regular,First Time,3.0,4.0,19.0,13,1.0,3,3.0,2,Neutral
+CUST0428,E-Commerce,Regular,Frequent,5.0,4.0,11.0,13,1.0,5,5.0,2,Satisfied
+CUST0429,Banking,New,Frequent,3.0,2.0,14.0,12,4.0,2,4.0,3,Dissatisfied
+CUST0430,E-Commerce,Regular,Frequent,3.0,1.0,30.0,4,5.0,5,4.0,3,Satisfied
+CUST0431,E-Commerce,Regular,Occasional,,2.0,19.0,14,1.0,5,1.0,2,Dissatisfied
+CUST0432,Healthcare,Regular,Occasional,1.0,5.0,14.0,12,3.0,4,1.0,1,Neutral
+CUST0433,Healthcare,Regular,Frequent,5.0,1.0,9.0,23,5.0,4,1.0,4,Neutral
+CUST0434,E-Commerce,Loyal,First Time,2.0,4.0,3.0,7,3.0,3,1.0,4,Satisfied
+CUST0435,Banking,Regular,First Time,3.0,3.0,8.0,11,1.0,2,5.0,4,Dissatisfied
+CUST0436,Telecom,New,Occasional,3.0,1.0,19.0,9,1.0,3,1.0,5,Dissatisfied
+CUST0437,Banking,Regular,First Time,1.0,5.0,26.0,25,5.0,5,1.0,5,Neutral
+CUST0438,Retail,Regular,First Time,3.0,3.0,14.0,9,3.0,1,5.0,5,Neutral
+CUST0439,Healthcare,New,First Time,2.0,4.0,31.0,19,1.0,2,2.0,4,Dissatisfied
+CUST0440,Hospitality,New,Occasional,1.0,1.0,12.0,22,5.0,3,5.0,1,Dissatisfied
+CUST0441,E-Commerce,New,First Time,3.0,2.0,16.0,14,5.0,2,5.0,2,Satisfied
+CUST0442,Banking,Regular,First Time,3.0,4.0,9.0,5,4.0,4,3.0,3,Satisfied
+CUST0443,Healthcare,Regular,First Time,1.0,4.0,26.0,5,1.0,2,5.0,4,Dissatisfied
+CUST0444,Telecom,New,Occasional,3.0,1.0,35.0,21,1.0,4,5.0,5,Dissatisfied
+CUST0445,Telecom,Loyal,Frequent,,4.0,4.0,6,2.0,1,1.0,4,Satisfied
+CUST0446,Healthcare,Loyal,First Time,2.0,5.0,15.0,18,1.0,2,1.0,2,Neutral
+CUST0447,E-Commerce,New,Occasional,5.0,4.0,28.0,16,3.0,4,2.0,4,Satisfied
+CUST0448,Hospitality,Loyal,Frequent,4.0,2.0,6.0,18,2.0,3,3.0,4,Satisfied
+CUST0449,Banking,New,First Time,4.0,5.0,23.0,18,,4,4.0,4,Satisfied
+CUST0450,Hospitality,Loyal,Frequent,1.0,4.0,28.0,8,1.0,4,1.0,3,Dissatisfied
+CUST0451,Banking,Loyal,Occasional,4.0,1.0,19.0,8,,2,1.0,4,Satisfied
+CUST0452,E-Commerce,New,Occasional,2.0,1.0,22.0,20,5.0,3,2.0,2,Dissatisfied
+CUST0453,Healthcare,Regular,First Time,4.0,5.0,32.0,11,1.0,5,2.0,2,Neutral
+CUST0454,Banking,Loyal,First Time,5.0,2.0,34.0,1,4.0,5,5.0,2,Satisfied
+CUST0455,Banking,Loyal,Frequent,2.0,1.0,18.0,20,3.0,1,2.0,2,Dissatisfied
+CUST0456,Telecom,Loyal,Frequent,2.0,3.0,14.0,8,1.0,4,5.0,4,Neutral
+CUST0457,E-Commerce,Regular,Frequent,1.0,3.0,,18,2.0,3,1.0,2,Neutral
+CUST0458,Retail,New,Frequent,4.0,3.0,26.0,25,4.0,1,1.0,1,Dissatisfied
+CUST0459,Healthcare,Loyal,First Time,,4.0,7.0,15,5.0,4,5.0,1,Satisfied
+CUST0460,Hospitality,Regular,Frequent,3.0,5.0,16.0,22,2.0,1,2.0,5,Satisfied
+CUST0461,Hospitality,Regular,Occasional,1.0,4.0,19.0,16,1.0,2,1.0,3,Dissatisfied
+CUST0462,Banking,Regular,Frequent,2.0,1.0,14.0,26,2.0,4,3.0,3,Dissatisfied
+CUST0463,E-Commerce,Regular,First Time,3.0,1.0,20.0,8,5.0,5,1.0,5,Satisfied
+CUST0464,Telecom,New,First Time,5.0,1.0,39.0,15,3.0,3,1.0,1,Dissatisfied
+CUST0465,Hospitality,Regular,Frequent,1.0,2.0,17.0,20,3.0,5,3.0,5,Neutral
+CUST0466,Healthcare,New,Frequent,2.0,2.0,15.0,14,1.0,5,3.0,4,Dissatisfied
+CUST0467,Hospitality,Regular,Occasional,4.0,5.0,26.0,23,4.0,3,3.0,4,Satisfied
+CUST0468,E-Commerce,Loyal,First Time,2.0,2.0,20.0,12,3.0,1,3.0,3,Satisfied
+CUST0469,Banking,Regular,First Time,5.0,1.0,30.0,29,3.0,4,1.0,4,Dissatisfied
+CUST0470,Retail,Regular,Frequent,5.0,5.0,19.0,30,5.0,1,2.0,2,Satisfied
+CUST0471,Retail,New,Occasional,2.0,2.0,16.0,17,3.0,5,2.0,2,Dissatisfied
+CUST0472,Retail,Loyal,Occasional,4.0,5.0,4.0,19,5.0,2,2.0,5,Satisfied
+CUST0473,Banking,Regular,Occasional,4.0,4.0,5.0,23,3.0,4,3.0,2,Satisfied
+CUST0474,Banking,Regular,Occasional,4.0,5.0,3.0,7,2.0,4,2.0,4,Satisfied
+CUST0475,Telecom,New,Occasional,1.0,5.0,21.0,6,5.0,3,4.0,5,Satisfied
+CUST0476,Telecom,New,Occasional,1.0,1.0,7.0,24,4.0,5,5.0,3,Dissatisfied
+CUST0477,Retail,Regular,Frequent,2.0,4.0,28.0,17,4.0,4,4.0,2,Dissatisfied
+CUST0478,Hospitality,Loyal,Frequent,1.0,3.0,18.0,13,2.0,5,2.0,5,Satisfied
+CUST0479,Hospitality,Regular,Frequent,2.0,4.0,16.0,15,4.0,1,3.0,5,Neutral
+CUST0480,Retail,New,Occasional,4.0,4.0,11.0,1,3.0,3,3.0,3,Satisfied
+CUST0481,Retail,Loyal,Occasional,3.0,3.0,23.0,14,1.0,5,4.0,1,Satisfied
+CUST0482,Telecom,Regular,Occasional,2.0,2.0,12.0,10,2.0,5,2.0,3,Dissatisfied
+CUST0483,Hospitality,Loyal,Frequent,1.0,5.0,10.0,21,5.0,3,1.0,3,Satisfied
+CUST0484,Telecom,New,Occasional,2.0,4.0,28.0,22,3.0,1,4.0,1,Dissatisfied
+CUST0485,Banking,Regular,Occasional,3.0,5.0,21.0,19,4.0,2,4.0,3,Satisfied
+CUST0486,Retail,Loyal,Occasional,4.0,2.0,16.0,18,1.0,3,1.0,1,Dissatisfied
+CUST0487,Retail,New,Occasional,2.0,5.0,23.0,5,2.0,4,4.0,4,Neutral
+CUST0488,Telecom,Regular,Occasional,2.0,2.0,18.0,19,5.0,5,1.0,3,Satisfied
+CUST0489,Hospitality,Loyal,First Time,3.0,3.0,21.0,19,3.0,1,4.0,4,Satisfied
+CUST0490,Hospitality,New,Occasional,1.0,5.0,11.0,24,5.0,2,4.0,3,Neutral
+CUST0491,Healthcare,New,Occasional,2.0,2.0,35.0,30,5.0,2,1.0,4,Dissatisfied
+CUST0492,Hospitality,Regular,First Time,,2.0,,3,2.0,5,4.0,4,Neutral
+CUST0493,Hospitality,New,Frequent,3.0,5.0,,12,5.0,1,1.0,1,Satisfied
+CUST0494,Telecom,New,Occasional,3.0,5.0,16.0,10,4.0,2,2.0,3,Dissatisfied
+CUST0495,Healthcare,Regular,First Time,3.0,2.0,24.0,16,,2,4.0,4,Neutral
+CUST0496,Hospitality,Regular,Frequent,4.0,2.0,24.0,15,,1,2.0,3,Dissatisfied
+CUST0497,Retail,New,Occasional,2.0,2.0,27.0,13,1.0,4,5.0,2,Dissatisfied
+CUST0498,Hospitality,New,Frequent,5.0,1.0,11.0,22,4.0,3,5.0,5,Satisfied
+CUST0499,Retail,Loyal,Occasional,5.0,3.0,27.0,7,1.0,3,5.0,1,Satisfied
+CUST0500,Retail,Regular,Frequent,1.0,2.0,33.0,8,2.0,5,1.0,5,Dissatisfied
+CUST0501,Healthcare,Loyal,Occasional,5.0,5.0,16.0,8,3.0,3,1.0,4,Satisfied
+CUST0502,E-Commerce,Regular,Occasional,1.0,1.0,18.0,12,1.0,2,1.0,2,Dissatisfied
+CUST0503,E-Commerce,Loyal,First Time,2.0,4.0,14.0,6,2.0,2,3.0,1,Neutral
+CUST0504,Retail,Regular,Occasional,3.0,3.0,15.0,15,4.0,5,3.0,5,Satisfied
+CUST0505,Hospitality,New,Occasional,1.0,4.0,32.0,14,5.0,3,4.0,3,Dissatisfied
+CUST0506,Healthcare,Loyal,Occasional,2.0,1.0,10.0,9,3.0,1,2.0,5,Dissatisfied
+CUST0507,Telecom,Regular,Occasional,1.0,3.0,10.0,21,4.0,4,1.0,5,Neutral
+CUST0508,E-Commerce,New,Frequent,3.0,4.0,31.0,15,3.0,4,4.0,1,Neutral
+CUST0509,Retail,New,Occasional,5.0,2.0,23.0,22,3.0,2,4.0,4,Neutral
+CUST0510,Banking,Regular,First Time,5.0,5.0,35.0,14,3.0,3,4.0,2,Satisfied
+CUST0511,Banking,New,Frequent,2.0,3.0,14.0,15,5.0,3,2.0,5,Satisfied
+CUST0512,E-Commerce,New,Occasional,3.0,2.0,19.0,11,1.0,1,3.0,2,Dissatisfied
+CUST0513,Banking,New,Frequent,3.0,1.0,13.0,15,3.0,1,5.0,1,Neutral
+CUST0514,Telecom,Regular,Frequent,3.0,1.0,19.0,20,1.0,4,4.0,4,Neutral
+CUST0515,Telecom,Regular,Frequent,4.0,3.0,4.0,12,5.0,4,5.0,3,Satisfied
+CUST0516,Banking,Regular,Frequent,5.0,3.0,,19,4.0,4,3.0,3,Neutral
+CUST0517,Telecom,New,Occasional,3.0,5.0,21.0,9,1.0,2,1.0,2,Neutral
+CUST0518,Healthcare,New,First Time,1.0,4.0,18.0,20,4.0,3,4.0,3,Dissatisfied
+CUST0519,Banking,Regular,Occasional,5.0,1.0,15.0,11,3.0,5,3.0,5,Satisfied
+CUST0520,E-Commerce,Regular,Frequent,5.0,3.0,11.0,21,1.0,2,1.0,4,Satisfied
+CUST0521,E-Commerce,Regular,Occasional,2.0,3.0,24.0,15,5.0,4,1.0,5,Neutral
+CUST0522,Retail,New,Frequent,3.0,1.0,9.0,26,2.0,1,2.0,2,Dissatisfied
+CUST0523,Banking,New,First Time,5.0,4.0,22.0,7,1.0,1,1.0,5,Neutral
+CUST0524,Hospitality,New,Occasional,3.0,3.0,35.0,5,4.0,5,4.0,2,Neutral
+CUST0525,Banking,Regular,Occasional,3.0,1.0,30.0,11,2.0,1,4.0,5,Dissatisfied
+CUST0526,Retail,Regular,Occasional,5.0,3.0,6.0,5,4.0,4,2.0,5,Satisfied
+CUST0527,E-Commerce,Loyal,First Time,5.0,4.0,14.0,5,1.0,3,1.0,1,Satisfied
+CUST0528,E-Commerce,Regular,First Time,3.0,2.0,21.0,19,5.0,5,1.0,5,Dissatisfied
+CUST0529,Healthcare,Regular,Frequent,1.0,2.0,17.0,15,3.0,3,5.0,4,Satisfied
+CUST0530,Telecom,Regular,Occasional,3.0,1.0,7.0,12,3.0,4,2.0,4,Neutral
+CUST0531,Healthcare,New,First Time,4.0,2.0,21.0,12,5.0,5,1.0,3,Satisfied
+CUST0532,Healthcare,Regular,First Time,2.0,5.0,18.0,11,3.0,5,4.0,2,Satisfied
+CUST0533,Retail,New,Occasional,3.0,4.0,33.0,27,1.0,4,5.0,5,Neutral
+CUST0534,Hospitality,Regular,First Time,4.0,1.0,16.0,10,3.0,1,1.0,1,Dissatisfied
+CUST0535,Banking,New,Occasional,1.0,3.0,27.0,6,4.0,1,5.0,5,Dissatisfied
+CUST0536,Telecom,Regular,Frequent,3.0,1.0,8.0,21,2.0,3,4.0,2,Neutral
+CUST0537,Hospitality,Loyal,First Time,4.0,3.0,10.0,13,1.0,4,2.0,4,Satisfied
+CUST0538,Banking,New,Occasional,2.0,1.0,24.0,29,1.0,4,4.0,3,Dissatisfied
+CUST0539,Banking,Regular,First Time,3.0,4.0,27.0,11,5.0,4,3.0,2,Satisfied
+CUST0540,E-Commerce,Regular,First Time,4.0,3.0,10.0,21,1.0,1,4.0,2,Neutral
+CUST0541,E-Commerce,New,Frequent,1.0,4.0,18.0,23,3.0,1,1.0,2,Dissatisfied
+CUST0542,Hospitality,Regular,Occasional,4.0,3.0,7.0,11,5.0,1,2.0,5,Satisfied
+CUST0543,E-Commerce,Regular,Frequent,2.0,2.0,17.0,10,2.0,3,4.0,4,Neutral
+CUST0544,E-Commerce,Loyal,First Time,2.0,2.0,25.0,20,2.0,4,5.0,4,Neutral
+CUST0545,Banking,Loyal,First Time,4.0,2.0,15.0,19,4.0,1,1.0,4,Dissatisfied
+CUST0546,Retail,New,Occasional,1.0,3.0,16.0,5,4.0,5,2.0,3,Neutral
+CUST0547,Retail,Regular,Occasional,1.0,3.0,9.0,7,1.0,2,4.0,5,Neutral
+CUST0548,Banking,Regular,Frequent,3.0,4.0,13.0,1,3.0,4,5.0,2,Satisfied
+CUST0549,Healthcare,New,First Time,5.0,1.0,32.0,19,1.0,4,4.0,5,Neutral
+CUST0550,Retail,New,Frequent,1.0,2.0,19.0,13,2.0,1,4.0,2,Dissatisfied
+CUST0551,Retail,Loyal,Frequent,4.0,5.0,10.0,14,2.0,5,2.0,2,Neutral
+CUST0552,Banking,New,Occasional,1.0,5.0,15.0,3,5.0,5,1.0,3,Satisfied
+CUST0553,Telecom,Regular,First Time,3.0,5.0,5.0,7,5.0,5,4.0,4,Satisfied
+CUST0554,E-Commerce,Loyal,Occasional,3.0,2.0,10.0,12,4.0,1,4.0,4,Dissatisfied
+CUST0555,Banking,New,First Time,3.0,1.0,29.0,10,4.0,2,3.0,4,Neutral
+CUST0556,Telecom,Regular,Frequent,1.0,1.0,17.0,16,1.0,2,3.0,1,Dissatisfied
+CUST0557,Telecom,Loyal,Occasional,4.0,1.0,33.0,19,1.0,3,2.0,1,Dissatisfied
+CUST0558,Retail,Regular,Frequent,2.0,5.0,17.0,31,4.0,5,3.0,5,Neutral
+CUST0559,Hospitality,New,Occasional,4.0,5.0,18.0,15,,4,2.0,5,Neutral
+CUST0560,Retail,New,Occasional,4.0,5.0,23.0,23,3.0,4,3.0,1,Dissatisfied
+CUST0561,Banking,Loyal,Occasional,3.0,4.0,2.0,9,4.0,3,1.0,5,Satisfied
+CUST0562,Telecom,New,Occasional,2.0,2.0,20.0,3,2.0,5,4.0,2,Dissatisfied
+CUST0563,E-Commerce,Regular,Frequent,4.0,3.0,18.0,13,4.0,5,2.0,5,Satisfied
+CUST0564,Hospitality,New,First Time,5.0,5.0,30.0,4,4.0,5,4.0,5,Satisfied
+CUST0565,Hospitality,Regular,Frequent,5.0,5.0,26.0,15,2.0,5,3.0,4,Satisfied
+CUST0566,Healthcare,Loyal,Frequent,5.0,3.0,9.0,10,4.0,4,5.0,1,Satisfied
+CUST0567,Healthcare,Regular,Frequent,2.0,5.0,28.0,1,1.0,1,2.0,4,Neutral
+CUST0568,Banking,Loyal,Occasional,3.0,2.0,16.0,27,2.0,2,2.0,1,Dissatisfied
+CUST0569,Retail,New,Frequent,2.0,3.0,11.0,11,4.0,4,2.0,2,Neutral
+CUST0570,Hospitality,Regular,First Time,5.0,5.0,20.0,4,5.0,2,4.0,4,Satisfied
+CUST0571,Telecom,Loyal,Frequent,5.0,2.0,16.0,21,1.0,1,1.0,1,Dissatisfied
+CUST0572,E-Commerce,Regular,First Time,5.0,4.0,30.0,10,4.0,5,4.0,2,Neutral
+CUST0573,Retail,New,First Time,1.0,3.0,21.0,23,3.0,3,5.0,4,Neutral
+CUST0574,Healthcare,Loyal,Occasional,2.0,2.0,20.0,10,4.0,5,4.0,1,Neutral
+CUST0575,E-Commerce,Regular,First Time,4.0,2.0,25.0,11,4.0,2,1.0,2,Neutral
+CUST0576,Retail,Regular,Occasional,4.0,4.0,27.0,17,1.0,2,3.0,1,Dissatisfied
+CUST0577,E-Commerce,Loyal,Frequent,2.0,3.0,24.0,19,4.0,2,3.0,4,Neutral
+CUST0578,Hospitality,New,First Time,1.0,2.0,29.0,20,2.0,2,2.0,1,Dissatisfied
+CUST0579,E-Commerce,New,Occasional,1.0,4.0,23.0,14,1.0,3,3.0,2,Dissatisfied
+CUST0580,Retail,New,First Time,4.0,1.0,19.0,19,3.0,2,4.0,3,Dissatisfied
+CUST0581,Retail,Regular,Frequent,3.0,1.0,28.0,20,1.0,5,5.0,2,Dissatisfied
+CUST0582,Hospitality,New,Frequent,3.0,5.0,17.0,16,4.0,2,2.0,2,Satisfied
+CUST0583,Banking,Regular,Occasional,5.0,4.0,18.0,14,3.0,3,2.0,5,Satisfied
+CUST0584,Retail,New,Occasional,1.0,3.0,32.0,5,3.0,5,2.0,4,Dissatisfied
+CUST0585,E-Commerce,Regular,Frequent,4.0,1.0,31.0,19,1.0,3,3.0,1,Dissatisfied
+CUST0586,Hospitality,New,Frequent,2.0,3.0,18.0,15,4.0,1,3.0,5,Neutral
+CUST0587,Banking,Regular,Occasional,5.0,3.0,14.0,12,1.0,1,4.0,3,Satisfied
+CUST0588,Telecom,New,Occasional,5.0,3.0,30.0,24,2.0,3,2.0,1,Neutral
+CUST0589,Telecom,Regular,Frequent,3.0,1.0,24.0,5,2.0,4,2.0,5,Neutral
+CUST0590,Banking,Regular,First Time,2.0,3.0,21.0,27,4.0,5,1.0,2,Dissatisfied
+CUST0591,E-Commerce,Regular,Frequent,2.0,3.0,15.0,15,3.0,1,1.0,2,Dissatisfied
+CUST0592,Retail,Loyal,First Time,,2.0,21.0,17,5.0,3,1.0,1,Dissatisfied
+CUST0593,Telecom,Regular,Frequent,5.0,1.0,18.0,12,5.0,2,2.0,5,Neutral
+CUST0594,Hospitality,New,First Time,1.0,5.0,13.0,3,4.0,3,4.0,2,Neutral
+CUST0595,Banking,Loyal,First Time,3.0,4.0,19.0,14,1.0,3,4.0,3,Satisfied
+CUST0596,Telecom,New,Frequent,3.0,4.0,20.0,17,4.0,2,5.0,2,Satisfied
+CUST0597,Healthcare,New,Frequent,4.0,4.0,15.0,20,2.0,1,3.0,5,Satisfied
+CUST0598,Hospitality,Regular,Frequent,5.0,4.0,25.0,14,5.0,1,3.0,4,Satisfied
+CUST0599,E-Commerce,New,Frequent,3.0,1.0,28.0,1,5.0,3,5.0,3,Neutral
+CUST0600,Hospitality,New,Occasional,4.0,3.0,26.0,4,1.0,2,1.0,2,Dissatisfied
+CUST0601,Retail,Regular,First Time,3.0,5.0,16.0,29,1.0,2,4.0,4,Neutral
+CUST0602,Healthcare,New,First Time,3.0,,24.0,7,4.0,1,5.0,3,Dissatisfied
+CUST0603,E-Commerce,Loyal,Occasional,1.0,5.0,19.0,25,1.0,1,3.0,5,Dissatisfied
+CUST0604,Healthcare,Loyal,First Time,2.0,1.0,8.0,8,5.0,1,2.0,4,Dissatisfied
+CUST0605,E-Commerce,Regular,Frequent,3.0,2.0,23.0,14,3.0,2,4.0,1,Dissatisfied
+CUST0606,Healthcare,Regular,First Time,1.0,2.0,19.0,19,3.0,1,5.0,5,Dissatisfied
+CUST0607,E-Commerce,Regular,First Time,2.0,4.0,39.0,9,5.0,2,2.0,1,Dissatisfied
+CUST0608,Banking,Loyal,First Time,3.0,1.0,30.0,26,2.0,2,3.0,2,Dissatisfied
+CUST0609,Healthcare,New,First Time,3.0,2.0,24.0,16,3.0,2,1.0,3,Dissatisfied
+CUST0610,Retail,New,First Time,5.0,4.0,20.0,18,5.0,1,2.0,2,Satisfied
+CUST0611,Hospitality,Regular,Occasional,5.0,2.0,19.0,13,1.0,1,4.0,5,Satisfied
+CUST0612,Hospitality,Regular,First Time,4.0,5.0,10.0,20,1.0,5,3.0,5,Neutral
+CUST0613,E-Commerce,New,Occasional,1.0,5.0,4.0,26,1.0,4,1.0,1,Dissatisfied
+CUST0614,E-Commerce,Regular,Frequent,3.0,2.0,11.0,14,2.0,1,2.0,2,Dissatisfied
+CUST0615,Telecom,New,Occasional,4.0,3.0,18.0,27,1.0,2,1.0,2,Dissatisfied
+CUST0616,Healthcare,Loyal,Occasional,3.0,2.0,2.0,11,1.0,2,4.0,4,Neutral
+CUST0617,Healthcare,New,Occasional,3.0,2.0,14.0,20,5.0,5,5.0,3,Satisfied
+CUST0618,Retail,New,First Time,3.0,4.0,16.0,18,3.0,5,1.0,4,Neutral
+CUST0619,Banking,New,First Time,3.0,2.0,16.0,8,2.0,4,2.0,1,Dissatisfied
+CUST0620,Banking,New,Frequent,3.0,1.0,13.0,16,3.0,1,5.0,3,Neutral
+CUST0621,Healthcare,New,Occasional,1.0,2.0,15.0,15,5.0,3,5.0,2,Dissatisfied
+CUST0622,Retail,New,First Time,3.0,5.0,32.0,9,3.0,3,4.0,2,Dissatisfied
+CUST0623,E-Commerce,New,Occasional,2.0,2.0,23.0,18,3.0,4,4.0,4,Dissatisfied
+CUST0624,Retail,New,Frequent,4.0,2.0,14.0,16,5.0,5,5.0,1,Neutral
+CUST0625,E-Commerce,Regular,Occasional,5.0,4.0,17.0,14,1.0,2,2.0,1,Dissatisfied
+CUST0626,Retail,Regular,Occasional,3.0,1.0,18.0,15,3.0,3,5.0,3,Neutral
+CUST0627,Healthcare,New,Frequent,2.0,2.0,12.0,14,4.0,2,5.0,4,Satisfied
+CUST0628,Banking,New,Occasional,5.0,1.0,12.0,12,3.0,2,2.0,3,Neutral
+CUST0629,Hospitality,New,Occasional,4.0,5.0,26.0,16,5.0,2,1.0,1,Neutral
+CUST0630,E-Commerce,New,First Time,3.0,5.0,15.0,10,5.0,4,3.0,4,Neutral
+CUST0631,E-Commerce,New,First Time,1.0,4.0,9.0,34,2.0,3,4.0,2,Dissatisfied
+CUST0632,E-Commerce,Regular,Frequent,1.0,2.0,18.0,5,5.0,4,5.0,4,Satisfied
+CUST0633,Banking,Loyal,Occasional,2.0,4.0,19.0,11,2.0,4,1.0,2,Dissatisfied
+CUST0634,Retail,Loyal,Occasional,2.0,4.0,2.0,11,2.0,2,2.0,5,Satisfied
+CUST0635,Banking,Regular,Occasional,4.0,5.0,18.0,29,5.0,5,4.0,2,Satisfied
+CUST0636,Banking,Regular,First Time,3.0,1.0,25.0,6,1.0,1,1.0,5,Dissatisfied
+CUST0637,Healthcare,New,Frequent,5.0,4.0,22.0,18,2.0,5,4.0,2,Satisfied
+CUST0638,Healthcare,Regular,First Time,3.0,1.0,36.0,17,4.0,1,2.0,4,Dissatisfied
+CUST0639,Healthcare,Regular,Frequent,5.0,3.0,28.0,17,3.0,2,1.0,3,Neutral
+CUST0640,E-Commerce,Loyal,Occasional,3.0,5.0,30.0,24,5.0,5,2.0,1,Neutral
+CUST0641,Healthcare,Loyal,First Time,2.0,1.0,40.0,24,2.0,4,4.0,1,Dissatisfied
+CUST0642,E-Commerce,Regular,First Time,4.0,1.0,24.0,12,3.0,2,5.0,3,Neutral
+CUST0643,Banking,Regular,Frequent,3.0,5.0,19.0,16,1.0,5,1.0,1,Dissatisfied
+CUST0644,Telecom,Loyal,First Time,2.0,1.0,26.0,2,2.0,1,3.0,4,Neutral
+CUST0645,Hospitality,New,First Time,3.0,4.0,14.0,16,1.0,4,2.0,1,Dissatisfied
+CUST0646,E-Commerce,Loyal,Frequent,4.0,3.0,19.0,9,4.0,3,4.0,3,Satisfied
+CUST0647,Banking,New,Occasional,2.0,2.0,13.0,14,2.0,2,4.0,2,Dissatisfied
+CUST0648,Retail,Loyal,Occasional,4.0,5.0,21.0,3,4.0,5,5.0,1,Satisfied
+CUST0649,Healthcare,Regular,First Time,5.0,5.0,13.0,18,2.0,4,2.0,2,Satisfied
+CUST0650,Banking,New,Frequent,3.0,2.0,13.0,3,3.0,1,2.0,3,Dissatisfied
+CUST0651,Retail,Regular,First Time,2.0,1.0,21.0,16,5.0,1,2.0,2,Dissatisfied
+CUST0652,E-Commerce,New,First Time,3.0,1.0,17.0,6,5.0,1,4.0,2,Satisfied
+CUST0653,Healthcare,Regular,First Time,5.0,1.0,3.0,9,1.0,3,3.0,2,Satisfied
+CUST0654,Telecom,Regular,First Time,1.0,5.0,6.0,23,4.0,3,1.0,2,Dissatisfied
+CUST0655,E-Commerce,Regular,First Time,5.0,3.0,9.0,19,5.0,4,5.0,3,Satisfied
+CUST0656,Retail,Loyal,First Time,3.0,4.0,11.0,23,4.0,4,1.0,5,Neutral
+CUST0657,E-Commerce,New,First Time,5.0,2.0,21.0,26,1.0,1,5.0,3,Dissatisfied
+CUST0658,Telecom,New,Occasional,4.0,5.0,20.0,10,4.0,3,1.0,3,Satisfied
+CUST0659,Hospitality,Regular,Frequent,4.0,4.0,27.0,25,4.0,4,3.0,4,Neutral
+CUST0660,Retail,New,First Time,5.0,4.0,24.0,5,4.0,5,2.0,3,Satisfied
+CUST0661,Telecom,Regular,First Time,1.0,3.0,27.0,20,3.0,2,4.0,5,Dissatisfied
+CUST0662,E-Commerce,New,Frequent,3.0,4.0,23.0,12,3.0,1,3.0,3,Neutral
+CUST0663,Telecom,Regular,Frequent,1.0,,20.0,8,4.0,1,2.0,2,Satisfied
+CUST0664,Banking,Regular,Occasional,,2.0,27.0,19,3.0,2,3.0,3,Dissatisfied
+CUST0665,Retail,Loyal,First Time,1.0,3.0,25.0,22,4.0,3,5.0,4,Dissatisfied
+CUST0666,Healthcare,New,Occasional,4.0,2.0,21.0,21,4.0,2,2.0,2,Dissatisfied
+CUST0667,E-Commerce,Loyal,First Time,4.0,5.0,28.0,17,2.0,1,2.0,2,Neutral
+CUST0668,E-Commerce,Regular,First Time,4.0,4.0,2.0,16,4.0,2,1.0,3,Satisfied
+CUST0669,Telecom,New,Occasional,1.0,4.0,16.0,19,4.0,2,4.0,5,Dissatisfied
+CUST0670,Retail,Regular,Occasional,2.0,4.0,16.0,17,3.0,3,4.0,2,Neutral
+CUST0671,Banking,Regular,Occasional,4.0,3.0,27.0,19,4.0,1,4.0,3,Dissatisfied
+CUST0672,Hospitality,New,Occasional,5.0,5.0,31.0,16,1.0,4,1.0,4,Neutral
+CUST0673,E-Commerce,Regular,First Time,5.0,2.0,6.0,21,2.0,3,4.0,4,Satisfied
+CUST0674,Healthcare,New,First Time,1.0,3.0,29.0,4,4.0,2,5.0,1,Neutral
+CUST0675,Hospitality,Regular,Frequent,3.0,1.0,9.0,14,5.0,5,5.0,2,Satisfied
+CUST0676,Retail,Regular,Frequent,1.0,2.0,9.0,5,4.0,4,5.0,5,Neutral
+CUST0677,E-Commerce,Regular,First Time,5.0,3.0,16.0,17,4.0,1,2.0,5,Neutral
+CUST0678,Retail,Loyal,Occasional,1.0,3.0,15.0,26,2.0,1,4.0,4,Dissatisfied
+CUST0679,Banking,New,First Time,5.0,5.0,6.0,12,4.0,1,3.0,1,Satisfied
+CUST0680,Retail,Loyal,First Time,1.0,4.0,23.0,16,2.0,3,3.0,3,Dissatisfied
+CUST0681,Banking,Regular,Occasional,1.0,3.0,23.0,20,1.0,2,2.0,1,Dissatisfied
+CUST0682,Telecom,Loyal,First Time,5.0,3.0,26.0,1,2.0,2,4.0,2,Satisfied
+CUST0683,Banking,Loyal,Occasional,3.0,4.0,15.0,11,4.0,3,5.0,5,Satisfied
+CUST0684,Retail,New,Occasional,3.0,,18.0,18,5.0,3,4.0,2,Satisfied
+CUST0685,Hospitality,Regular,First Time,4.0,2.0,18.0,1,3.0,1,5.0,1,Neutral
+CUST0686,Retail,New,First Time,2.0,3.0,32.0,8,5.0,1,5.0,4,Dissatisfied
+CUST0687,Retail,Loyal,First Time,4.0,3.0,2.0,23,4.0,4,,4,Satisfied
+CUST0688,E-Commerce,Regular,Frequent,3.0,1.0,10.0,22,3.0,5,5.0,4,Satisfied
+CUST0689,Healthcare,New,Occasional,2.0,5.0,18.0,18,5.0,5,5.0,5,Satisfied
+CUST0690,Hospitality,Loyal,Occasional,2.0,3.0,9.0,21,3.0,5,3.0,4,Satisfied
+CUST0691,Telecom,New,First Time,1.0,2.0,16.0,17,3.0,3,4.0,4,Dissatisfied
+CUST0692,E-Commerce,Regular,Occasional,2.0,4.0,17.0,19,4.0,5,4.0,5,Satisfied
+CUST0693,Telecom,Regular,First Time,3.0,4.0,13.0,13,4.0,5,4.0,2,Satisfied
+CUST0694,Telecom,New,Occasional,1.0,5.0,19.0,16,3.0,5,5.0,3,Dissatisfied
+CUST0695,E-Commerce,Regular,Frequent,1.0,1.0,23.0,11,3.0,1,1.0,3,Dissatisfied
+CUST0696,Hospitality,Loyal,Occasional,4.0,3.0,16.0,24,5.0,1,1.0,4,Satisfied
+CUST0697,Healthcare,New,First Time,3.0,1.0,14.0,26,1.0,3,2.0,3,Dissatisfied
+CUST0698,Hospitality,Regular,First Time,1.0,3.0,17.0,25,1.0,3,3.0,3,Dissatisfied
+CUST0699,Hospitality,New,First Time,4.0,3.0,18.0,12,3.0,5,5.0,1,Satisfied
+CUST0700,Telecom,Regular,Occasional,4.0,3.0,4.0,8,1.0,2,4.0,4,Satisfied
+CUST0701,Telecom,New,Frequent,1.0,5.0,22.0,24,2.0,5,1.0,1,Dissatisfied
+CUST0702,Telecom,Loyal,First Time,2.0,3.0,14.0,19,3.0,5,4.0,3,Satisfied
+CUST0703,Banking,Loyal,Occasional,2.0,3.0,28.0,17,3.0,5,3.0,3,Neutral
+CUST0704,E-Commerce,New,Occasional,4.0,1.0,23.0,11,2.0,1,2.0,4,Dissatisfied
+CUST0705,Telecom,New,First Time,1.0,2.0,27.0,18,2.0,2,4.0,3,Dissatisfied
+CUST0706,Hospitality,Regular,First Time,5.0,5.0,10.0,7,4.0,2,2.0,1,Satisfied
+CUST0707,Healthcare,Regular,First Time,2.0,3.0,15.0,19,5.0,4,4.0,3,Neutral
+CUST0708,Healthcare,Regular,Occasional,1.0,5.0,8.0,25,4.0,4,1.0,2,Dissatisfied
+CUST0709,Retail,New,Occasional,5.0,3.0,12.0,26,3.0,3,2.0,2,Neutral
+CUST0710,Retail,New,Occasional,1.0,3.0,28.0,20,1.0,1,3.0,2,Dissatisfied
+CUST0711,E-Commerce,Loyal,Frequent,1.0,3.0,30.0,5,2.0,3,4.0,1,Dissatisfied
+CUST0712,Healthcare,Regular,Frequent,5.0,3.0,9.0,16,3.0,4,5.0,5,Satisfied
+CUST0713,E-Commerce,Loyal,Frequent,3.0,1.0,14.0,30,2.0,3,2.0,2,Dissatisfied
+CUST0714,E-Commerce,Regular,Frequent,3.0,1.0,17.0,9,4.0,2,5.0,3,Neutral
+CUST0715,Healthcare,Loyal,Frequent,4.0,3.0,23.0,15,2.0,3,5.0,5,Satisfied
+CUST0716,Telecom,New,Frequent,4.0,3.0,4.0,25,5.0,4,2.0,2,Neutral
+CUST0717,Hospitality,New,Occasional,4.0,3.0,5.0,19,2.0,3,1.0,5,Dissatisfied
+CUST0718,Banking,Loyal,Frequent,1.0,3.0,22.0,32,3.0,5,2.0,3,Dissatisfied
+CUST0719,Hospitality,Loyal,Frequent,3.0,2.0,2.0,10,4.0,2,4.0,5,Satisfied
+CUST0720,E-Commerce,New,Occasional,2.0,4.0,14.0,8,2.0,4,4.0,3,Satisfied
+CUST0721,Retail,Regular,Occasional,5.0,4.0,19.0,24,4.0,5,4.0,1,Satisfied
+CUST0722,Retail,Regular,Occasional,3.0,1.0,21.0,7,3.0,2,4.0,5,Dissatisfied
+CUST0723,Banking,Regular,Frequent,1.0,3.0,17.0,14,4.0,2,1.0,5,Dissatisfied
+CUST0724,E-Commerce,New,Occasional,5.0,4.0,15.0,15,3.0,1,3.0,5,Satisfied
+CUST0725,Banking,Loyal,Frequent,2.0,4.0,25.0,22,5.0,2,5.0,1,Satisfied
+CUST0726,Banking,New,Frequent,2.0,2.0,20.0,19,4.0,1,2.0,5,Dissatisfied
+CUST0727,Telecom,Regular,Frequent,5.0,5.0,13.0,18,1.0,4,5.0,2,Satisfied
+CUST0728,Banking,New,First Time,4.0,4.0,18.0,12,3.0,1,1.0,5,Neutral
+CUST0729,Retail,New,Occasional,5.0,3.0,21.0,24,5.0,4,5.0,5,Satisfied
+CUST0730,Retail,Regular,Frequent,4.0,4.0,32.0,43,2.0,3,4.0,1,Dissatisfied
+CUST0731,Telecom,New,Frequent,5.0,5.0,24.0,20,3.0,5,4.0,2,Satisfied
+CUST0732,Banking,Regular,Frequent,1.0,2.0,28.0,16,4.0,2,4.0,2,Dissatisfied
+CUST0733,Banking,New,Occasional,3.0,1.0,13.0,6,2.0,2,5.0,2,Neutral
+CUST0734,Retail,Loyal,Occasional,2.0,3.0,14.0,11,,2,2.0,3,Neutral
+CUST0735,Banking,Regular,First Time,2.0,1.0,16.0,14,3.0,3,1.0,3,Dissatisfied
+CUST0736,Healthcare,Loyal,Frequent,2.0,5.0,17.0,11,1.0,2,5.0,4,Satisfied
+CUST0737,Telecom,New,First Time,2.0,5.0,10.0,15,1.0,1,1.0,4,Neutral
+CUST0738,Telecom,New,Occasional,3.0,4.0,28.0,27,3.0,5,4.0,2,Neutral
+CUST0739,Retail,Regular,Frequent,5.0,,25.0,24,1.0,4,2.0,1,Satisfied
+CUST0740,Retail,Regular,Occasional,4.0,1.0,16.0,14,5.0,1,5.0,4,Satisfied
+CUST0741,Banking,New,First Time,2.0,4.0,23.0,7,3.0,4,5.0,1,Neutral
+CUST0742,Banking,New,First Time,3.0,3.0,20.0,24,4.0,2,3.0,1,Neutral
+CUST0743,E-Commerce,Regular,Frequent,3.0,2.0,24.0,15,2.0,1,3.0,4,Dissatisfied
+CUST0744,Banking,New,Occasional,2.0,2.0,7.0,3,2.0,3,3.0,2,Satisfied
+CUST0745,Retail,Regular,First Time,3.0,3.0,17.0,20,3.0,4,3.0,1,Neutral
+CUST0746,Retail,New,Occasional,4.0,4.0,18.0,22,4.0,1,5.0,2,Neutral
+CUST0747,Telecom,New,First Time,2.0,1.0,23.0,1,2.0,2,2.0,3,Dissatisfied
+CUST0748,Retail,Regular,Frequent,3.0,4.0,13.0,9,2.0,5,5.0,5,Satisfied
+CUST0749,Healthcare,Regular,First Time,4.0,5.0,2.0,14,1.0,2,4.0,5,Satisfied
+CUST0750,E-Commerce,New,First Time,3.0,1.0,9.0,20,3.0,1,5.0,4,Neutral
+CUST0751,Telecom,Regular,First Time,2.0,5.0,18.0,11,4.0,3,4.0,5,Satisfied
+CUST0752,Telecom,Regular,Occasional,3.0,4.0,19.0,9,3.0,4,5.0,3,Satisfied
+CUST0753,Telecom,Regular,Occasional,4.0,2.0,31.0,20,2.0,5,3.0,3,Dissatisfied
+CUST0754,Retail,Regular,Frequent,2.0,4.0,23.0,12,2.0,4,3.0,5,Satisfied
+CUST0755,Healthcare,Loyal,Occasional,3.0,4.0,19.0,19,2.0,1,2.0,2,Dissatisfied
+CUST0756,Telecom,Regular,First Time,4.0,4.0,18.0,7,2.0,5,2.0,5,Satisfied
+CUST0757,Telecom,Loyal,First Time,2.0,1.0,27.0,6,2.0,4,1.0,5,Dissatisfied
+CUST0758,E-Commerce,Regular,First Time,2.0,1.0,13.0,20,5.0,4,2.0,2,Dissatisfied
+CUST0759,Banking,New,Frequent,5.0,4.0,17.0,17,2.0,5,5.0,4,Satisfied
+CUST0760,Retail,Regular,First Time,2.0,2.0,9.0,21,2.0,4,5.0,4,Dissatisfied
+CUST0761,Healthcare,Regular,Frequent,3.0,2.0,29.0,11,4.0,2,4.0,4,Dissatisfied
+CUST0762,Banking,Loyal,First Time,1.0,3.0,21.0,9,5.0,3,2.0,2,Neutral
+CUST0763,Banking,Regular,First Time,5.0,4.0,12.0,25,3.0,3,3.0,5,Satisfied
+CUST0764,Banking,New,First Time,3.0,1.0,17.0,4,4.0,3,4.0,3,Satisfied
+CUST0765,E-Commerce,Regular,First Time,4.0,5.0,22.0,24,1.0,4,1.0,1,Neutral
+CUST0766,Banking,New,Frequent,4.0,3.0,16.0,24,3.0,4,5.0,1,Neutral
+CUST0767,Telecom,Regular,Occasional,2.0,1.0,14.0,21,1.0,1,5.0,4,Dissatisfied
+CUST0768,Banking,Regular,First Time,2.0,1.0,13.0,10,1.0,3,5.0,3,Neutral
+CUST0769,Banking,Regular,Occasional,4.0,5.0,21.0,9,3.0,1,1.0,1,Neutral
+CUST0770,Hospitality,Loyal,Occasional,5.0,1.0,15.0,14,2.0,3,5.0,3,Neutral
+CUST0771,Telecom,Regular,Frequent,1.0,3.0,14.0,6,1.0,3,4.0,3,Neutral
+CUST0772,Hospitality,Regular,Frequent,5.0,4.0,7.0,8,1.0,2,3.0,1,Satisfied
+CUST0773,Hospitality,Regular,Occasional,5.0,3.0,19.0,20,4.0,5,1.0,2,Satisfied
+CUST0774,E-Commerce,Loyal,Frequent,1.0,2.0,17.0,20,,2,3.0,3,Dissatisfied
+CUST0775,Banking,Loyal,Frequent,1.0,1.0,15.0,8,2.0,1,2.0,4,Dissatisfied
+CUST0776,E-Commerce,New,Occasional,4.0,4.0,20.0,20,5.0,2,5.0,4,Neutral
+CUST0777,Hospitality,Regular,Occasional,5.0,3.0,24.0,18,2.0,4,2.0,1,Neutral
+CUST0778,Banking,New,First Time,2.0,1.0,24.0,26,5.0,1,2.0,4,Dissatisfied
+CUST0779,Healthcare,Loyal,Frequent,4.0,1.0,22.0,19,2.0,3,,5,Neutral
+CUST0780,E-Commerce,Regular,Frequent,5.0,3.0,16.0,22,1.0,3,1.0,1,Neutral
+CUST0781,Telecom,Regular,First Time,2.0,1.0,13.0,18,1.0,5,5.0,5,Neutral
+CUST0782,E-Commerce,New,Frequent,2.0,2.0,,22,2.0,1,5.0,1,Dissatisfied
+CUST0783,Retail,New,Frequent,5.0,1.0,13.0,6,1.0,1,2.0,4,Dissatisfied
+CUST0784,Hospitality,Regular,First Time,2.0,4.0,18.0,14,1.0,3,4.0,2,Dissatisfied
+CUST0785,E-Commerce,New,Occasional,3.0,4.0,,15,2.0,1,4.0,4,Neutral
+CUST0786,Retail,New,Frequent,3.0,4.0,19.0,13,5.0,4,3.0,5,Satisfied
+CUST0787,E-Commerce,Loyal,Frequent,3.0,1.0,10.0,18,2.0,2,4.0,5,Neutral
+CUST0788,Telecom,Regular,First Time,2.0,2.0,5.0,19,2.0,3,1.0,5,Neutral
+CUST0789,Healthcare,New,First Time,4.0,2.0,25.0,18,5.0,1,3.0,5,Neutral
+CUST0790,Hospitality,New,Occasional,4.0,4.0,14.0,14,2.0,4,3.0,2,Neutral
+CUST0791,Telecom,Loyal,First Time,2.0,5.0,11.0,10,5.0,3,3.0,3,Satisfied
+CUST0792,Retail,Regular,First Time,3.0,2.0,9.0,23,4.0,1,5.0,4,Satisfied
+CUST0793,Telecom,Regular,First Time,1.0,4.0,21.0,17,5.0,2,5.0,1,Satisfied
+CUST0794,Banking,New,First Time,2.0,3.0,29.0,8,3.0,1,4.0,3,Dissatisfied
+CUST0795,Banking,New,Occasional,5.0,5.0,15.0,14,3.0,1,3.0,3,Satisfied
+CUST0796,Retail,New,Occasional,3.0,1.0,16.0,3,2.0,4,3.0,5,Neutral
+CUST0797,Banking,Regular,Occasional,4.0,5.0,27.0,15,3.0,3,1.0,1,Satisfied
+CUST0798,Banking,New,Frequent,5.0,3.0,4.0,14,4.0,5,3.0,1,Satisfied
+CUST0799,Healthcare,New,Occasional,4.0,2.0,34.0,11,5.0,2,2.0,1,Neutral
+CUST0800,Healthcare,Regular,First Time,4.0,1.0,38.0,26,1.0,4,5.0,3,Dissatisfied
+CUST0801,Healthcare,Loyal,First Time,4.0,5.0,2.0,7,1.0,4,4.0,3,Satisfied
+CUST0802,Telecom,Regular,First Time,3.0,5.0,17.0,20,1.0,4,5.0,3,Satisfied
+CUST0803,E-Commerce,Regular,First Time,4.0,1.0,12.0,30,4.0,5,5.0,2,Dissatisfied
+CUST0804,Hospitality,Regular,First Time,2.0,3.0,16.0,23,1.0,4,3.0,2,Dissatisfied
+CUST0805,Banking,Regular,First Time,5.0,4.0,15.0,15,5.0,4,3.0,3,Neutral
+CUST0806,Banking,New,First Time,1.0,3.0,24.0,7,,4,4.0,1,Dissatisfied
+CUST0807,Healthcare,Regular,Occasional,5.0,1.0,17.0,5,2.0,3,3.0,4,Neutral
+CUST0808,Banking,Regular,Occasional,5.0,2.0,11.0,12,5.0,4,2.0,1,Satisfied
+CUST0809,Retail,Regular,Frequent,1.0,2.0,17.0,10,4.0,5,4.0,4,Satisfied
+CUST0810,E-Commerce,Loyal,Frequent,4.0,2.0,22.0,10,3.0,4,3.0,3,Satisfied
+CUST0811,Banking,Loyal,Occasional,5.0,5.0,9.0,13,5.0,4,5.0,5,Satisfied
+CUST0812,Banking,New,First Time,3.0,,5.0,14,,1,2.0,4,Neutral
+CUST0813,E-Commerce,Regular,Occasional,2.0,4.0,34.0,18,4.0,3,3.0,3,Neutral
+CUST0814,Hospitality,New,First Time,5.0,5.0,13.0,6,2.0,1,3.0,4,Satisfied
+CUST0815,Banking,Regular,Occasional,3.0,4.0,17.0,10,5.0,1,5.0,1,Satisfied
+CUST0816,E-Commerce,New,Occasional,1.0,4.0,15.0,14,4.0,2,3.0,1,Dissatisfied
+CUST0817,E-Commerce,New,Occasional,2.0,1.0,22.0,14,5.0,3,1.0,3,Dissatisfied
+CUST0818,Hospitality,Regular,First Time,4.0,1.0,32.0,28,5.0,3,2.0,5,Dissatisfied
+CUST0819,Hospitality,Regular,Occasional,3.0,4.0,23.0,17,3.0,5,5.0,5,Satisfied
+CUST0820,Telecom,Loyal,Frequent,2.0,4.0,6.0,4,2.0,4,2.0,2,Satisfied
+CUST0821,Banking,New,Frequent,4.0,4.0,7.0,18,5.0,3,2.0,2,Neutral
+CUST0822,Hospitality,New,Occasional,1.0,3.0,15.0,19,,2,1.0,5,Dissatisfied
+CUST0823,Telecom,Regular,Occasional,,3.0,16.0,14,1.0,4,4.0,3,Neutral
+CUST0824,Healthcare,New,First Time,3.0,1.0,4.0,7,4.0,2,1.0,1,Neutral
+CUST0825,E-Commerce,New,Occasional,1.0,2.0,25.0,27,4.0,5,2.0,2,Dissatisfied
+CUST0826,Banking,Loyal,Occasional,2.0,3.0,9.0,8,,4,4.0,5,Satisfied
+CUST0827,Hospitality,New,First Time,5.0,1.0,30.0,20,5.0,4,5.0,5,Neutral
+CUST0828,Telecom,New,First Time,5.0,1.0,33.0,16,2.0,2,2.0,5,Dissatisfied
+CUST0829,E-Commerce,Regular,Frequent,5.0,1.0,16.0,19,5.0,4,2.0,1,Neutral
+CUST0830,Telecom,Regular,Occasional,2.0,2.0,22.0,27,4.0,5,1.0,5,Neutral
+CUST0831,Hospitality,Regular,Occasional,1.0,5.0,8.0,19,1.0,1,3.0,1,Dissatisfied
+CUST0832,Hospitality,Regular,Occasional,5.0,4.0,23.0,11,3.0,1,5.0,5,Satisfied
+CUST0833,Retail,Loyal,Occasional,2.0,5.0,14.0,23,1.0,3,2.0,5,Dissatisfied
+CUST0834,Healthcare,New,Occasional,4.0,2.0,9.0,11,5.0,2,2.0,2,Satisfied
+CUST0835,Healthcare,Regular,First Time,1.0,3.0,16.0,16,4.0,4,2.0,1,Dissatisfied
+CUST0836,Hospitality,Regular,Occasional,4.0,5.0,14.0,6,5.0,3,5.0,4,Satisfied
+CUST0837,Healthcare,Loyal,Occasional,3.0,2.0,15.0,8,4.0,5,3.0,1,Satisfied
+CUST0838,E-Commerce,Regular,First Time,5.0,4.0,26.0,15,2.0,2,4.0,3,Satisfied
+CUST0839,Retail,Regular,Frequent,1.0,4.0,12.0,18,3.0,2,4.0,2,Dissatisfied
+CUST0840,Retail,New,First Time,3.0,5.0,32.0,3,5.0,1,4.0,3,Satisfied
+CUST0841,Banking,New,Occasional,5.0,5.0,7.0,18,1.0,2,3.0,5,Satisfied
+CUST0842,Healthcare,New,Occasional,2.0,4.0,31.0,9,5.0,2,3.0,5,Dissatisfied
+CUST0843,Hospitality,Regular,Occasional,4.0,3.0,10.0,24,3.0,4,3.0,3,Satisfied
+CUST0844,Retail,New,Occasional,1.0,5.0,18.0,13,3.0,2,1.0,2,Dissatisfied
+CUST0845,Banking,Regular,Frequent,4.0,4.0,14.0,7,4.0,2,3.0,5,Satisfied
+CUST0846,E-Commerce,New,Occasional,2.0,2.0,15.0,16,1.0,2,5.0,3,Dissatisfied
+CUST0847,Retail,Loyal,Occasional,3.0,4.0,24.0,9,1.0,3,1.0,1,Dissatisfied
+CUST0848,Healthcare,Loyal,Occasional,5.0,3.0,30.0,24,1.0,4,5.0,5,Dissatisfied
+CUST0849,Banking,New,First Time,4.0,2.0,28.0,15,4.0,5,3.0,5,Neutral
+CUST0850,E-Commerce,New,First Time,3.0,3.0,15.0,14,1.0,1,2.0,2,Dissatisfied
+CUST0851,Banking,New,Occasional,1.0,4.0,19.0,19,4.0,5,1.0,1,Dissatisfied
+CUST0852,Telecom,Loyal,First Time,2.0,5.0,12.0,8,1.0,2,4.0,1,Satisfied
+CUST0853,E-Commerce,New,Occasional,5.0,3.0,10.0,6,4.0,5,1.0,3,Satisfied
+CUST0854,E-Commerce,Regular,Occasional,2.0,1.0,9.0,18,5.0,1,3.0,2,Dissatisfied
+CUST0855,Telecom,Regular,Occasional,4.0,5.0,14.0,7,,4,1.0,4,Satisfied
+CUST0856,Retail,Regular,First Time,3.0,3.0,20.0,7,,5,5.0,4,Satisfied
+CUST0857,Healthcare,Regular,Frequent,2.0,2.0,3.0,21,3.0,1,1.0,1,Dissatisfied
+CUST0858,E-Commerce,Regular,Occasional,4.0,4.0,18.0,19,4.0,4,5.0,5,Satisfied
+CUST0859,Retail,Loyal,Occasional,2.0,2.0,30.0,6,4.0,1,3.0,1,Dissatisfied
+CUST0860,Retail,New,First Time,2.0,2.0,27.0,11,4.0,5,1.0,1,Dissatisfied
+CUST0861,Healthcare,Loyal,Occasional,,5.0,13.0,9,3.0,4,4.0,4,Satisfied
+CUST0862,Healthcare,New,First Time,4.0,5.0,7.0,27,4.0,5,5.0,4,Satisfied
+CUST0863,Healthcare,Regular,Occasional,5.0,3.0,22.0,21,2.0,5,2.0,5,Satisfied
+CUST0864,Hospitality,Loyal,First Time,4.0,2.0,2.0,12,2.0,2,5.0,3,Satisfied
+CUST0865,Banking,Regular,Frequent,4.0,5.0,27.0,19,5.0,3,4.0,3,Satisfied
+CUST0866,E-Commerce,Regular,First Time,4.0,1.0,16.0,6,3.0,4,4.0,4,Satisfied
+CUST0867,E-Commerce,New,Occasional,2.0,4.0,,10,5.0,1,2.0,4,Dissatisfied
+CUST0868,Healthcare,Regular,First Time,2.0,3.0,4.0,16,4.0,2,1.0,4,Dissatisfied
+CUST0869,Banking,Regular,Occasional,3.0,5.0,25.0,18,3.0,1,3.0,2,Neutral
+CUST0870,Telecom,Regular,Occasional,4.0,3.0,17.0,14,3.0,5,5.0,5,Satisfied
+CUST0871,Healthcare,Regular,Occasional,4.0,5.0,15.0,17,4.0,2,3.0,2,Satisfied
+CUST0872,Banking,New,First Time,1.0,1.0,7.0,16,1.0,3,4.0,2,Dissatisfied
+CUST0873,E-Commerce,New,First Time,4.0,4.0,23.0,14,3.0,3,4.0,2,Satisfied
+CUST0874,Retail,New,First Time,2.0,1.0,23.0,13,4.0,2,2.0,2,Dissatisfied
+CUST0875,Healthcare,Regular,Frequent,5.0,4.0,32.0,12,1.0,4,1.0,2,Satisfied
+CUST0876,E-Commerce,New,Occasional,4.0,1.0,26.0,17,1.0,5,5.0,3,Dissatisfied
+CUST0877,Retail,Loyal,First Time,5.0,5.0,13.0,18,1.0,3,4.0,4,Satisfied
+CUST0878,Telecom,Regular,Frequent,4.0,4.0,10.0,16,3.0,5,3.0,3,Satisfied
+CUST0879,Hospitality,New,First Time,3.0,1.0,7.0,7,2.0,1,3.0,5,Neutral
+CUST0880,Hospitality,Regular,Occasional,1.0,5.0,30.0,8,3.0,5,5.0,3,Neutral
+CUST0881,Retail,Loyal,Occasional,2.0,2.0,12.0,18,1.0,1,4.0,3,Satisfied
+CUST0882,Hospitality,New,Frequent,5.0,3.0,30.0,25,2.0,1,4.0,1,Dissatisfied
+CUST0883,E-Commerce,New,Occasional,2.0,1.0,22.0,16,1.0,1,4.0,5,Dissatisfied
+CUST0884,Retail,New,Occasional,1.0,1.0,21.0,12,5.0,2,2.0,1,Dissatisfied
+CUST0885,Telecom,New,Frequent,2.0,2.0,16.0,17,3.0,5,4.0,1,Dissatisfied
+CUST0886,Retail,Regular,First Time,3.0,3.0,23.0,7,1.0,2,5.0,5,Satisfied
+CUST0887,Retail,Loyal,Frequent,4.0,3.0,18.0,24,3.0,4,2.0,3,Dissatisfied
+CUST0888,Banking,New,Frequent,5.0,5.0,15.0,16,5.0,3,3.0,1,Satisfied
+CUST0889,Banking,Regular,Frequent,5.0,1.0,24.0,10,5.0,1,4.0,3,Neutral
+CUST0890,Healthcare,New,First Time,3.0,4.0,17.0,14,5.0,3,3.0,3,Satisfied
+CUST0891,Telecom,Regular,First Time,3.0,1.0,12.0,11,3.0,2,5.0,1,Dissatisfied
+CUST0892,E-Commerce,Regular,Occasional,5.0,2.0,23.0,24,2.0,2,3.0,4,Neutral
+CUST0893,Telecom,Regular,Occasional,1.0,1.0,17.0,14,2.0,3,2.0,4,Dissatisfied
+CUST0894,Banking,New,Occasional,3.0,1.0,22.0,16,2.0,4,1.0,1,Dissatisfied
+CUST0895,Healthcare,Regular,Frequent,3.0,3.0,14.0,19,5.0,3,5.0,4,Neutral
+CUST0896,E-Commerce,Loyal,Occasional,4.0,5.0,8.0,10,1.0,2,4.0,2,Satisfied
+CUST0897,Telecom,New,First Time,5.0,4.0,32.0,16,5.0,4,3.0,4,Satisfied
+CUST0898,Telecom,New,Occasional,4.0,5.0,30.0,17,5.0,4,3.0,2,Satisfied
+CUST0899,Telecom,New,First Time,4.0,3.0,25.0,4,5.0,2,3.0,2,Neutral
+CUST0900,Hospitality,Regular,First Time,4.0,1.0,,17,4.0,5,5.0,3,Satisfied
+CUST0901,Retail,Regular,First Time,3.0,2.0,16.0,15,5.0,5,4.0,3,Satisfied
+CUST0902,Telecom,Regular,Frequent,2.0,5.0,29.0,16,1.0,4,5.0,2,Dissatisfied
+CUST0903,Banking,Regular,Occasional,2.0,1.0,15.0,15,5.0,2,5.0,5,Dissatisfied
+CUST0904,Retail,Loyal,Occasional,4.0,1.0,13.0,17,3.0,2,4.0,4,Neutral
+CUST0905,E-Commerce,Loyal,Occasional,4.0,5.0,33.0,24,5.0,3,3.0,3,Satisfied
+CUST0906,Hospitality,New,Occasional,2.0,1.0,18.0,7,1.0,1,2.0,2,Dissatisfied
+CUST0907,Retail,Regular,Frequent,5.0,5.0,32.0,13,5.0,2,,3,Satisfied
+CUST0908,Banking,New,Frequent,5.0,4.0,7.0,20,3.0,1,4.0,1,Dissatisfied
+CUST0909,Telecom,New,Occasional,,4.0,22.0,18,1.0,1,3.0,5,Neutral
+CUST0910,Telecom,Loyal,Frequent,2.0,3.0,35.0,18,3.0,4,1.0,1,Dissatisfied
+CUST0911,Healthcare,Regular,Occasional,,1.0,18.0,34,1.0,1,5.0,4,Neutral
+CUST0912,E-Commerce,Loyal,Occasional,2.0,3.0,16.0,19,1.0,3,5.0,2,Neutral
+CUST0913,E-Commerce,Regular,Frequent,3.0,5.0,9.0,23,3.0,3,2.0,4,Satisfied
+CUST0914,E-Commerce,Regular,Occasional,5.0,5.0,27.0,13,5.0,1,3.0,2,Neutral
+CUST0915,E-Commerce,Regular,Occasional,3.0,3.0,12.0,8,1.0,5,1.0,1,Satisfied
+CUST0916,E-Commerce,New,First Time,2.0,5.0,17.0,13,2.0,5,5.0,5,Satisfied
+CUST0917,Banking,New,Occasional,1.0,4.0,8.0,20,2.0,4,2.0,4,Neutral
+CUST0918,Banking,Regular,Occasional,2.0,1.0,30.0,18,3.0,4,2.0,1,Neutral
+CUST0919,Telecom,New,Occasional,4.0,4.0,27.0,18,,2,3.0,1,Dissatisfied
+CUST0920,Hospitality,Loyal,Occasional,,4.0,18.0,13,4.0,5,2.0,3,Neutral
+CUST0921,Banking,New,First Time,2.0,3.0,9.0,12,3.0,4,4.0,5,Neutral
+CUST0922,E-Commerce,New,Frequent,1.0,4.0,30.0,14,5.0,3,5.0,3,Neutral
+CUST0923,Hospitality,Regular,First Time,4.0,5.0,15.0,20,2.0,4,5.0,1,Satisfied
+CUST0924,Hospitality,New,Frequent,1.0,3.0,9.0,21,3.0,5,3.0,4,Neutral
+CUST0925,Banking,Loyal,First Time,1.0,2.0,4.0,8,1.0,4,1.0,3,Dissatisfied
+CUST0926,Telecom,Regular,Occasional,3.0,5.0,13.0,20,,1,5.0,4,Neutral
+CUST0927,Banking,New,Occasional,3.0,,6.0,10,5.0,2,2.0,2,Satisfied
+CUST0928,E-Commerce,Regular,Frequent,2.0,4.0,13.0,18,2.0,1,5.0,1,Neutral
+CUST0929,Hospitality,Regular,First Time,2.0,4.0,24.0,14,3.0,2,2.0,1,Dissatisfied
+CUST0930,Healthcare,Regular,Frequent,2.0,1.0,15.0,26,5.0,5,3.0,4,Dissatisfied
+CUST0931,Telecom,Loyal,Occasional,2.0,3.0,21.0,12,2.0,1,3.0,4,Dissatisfied
+CUST0932,Retail,Regular,Occasional,1.0,1.0,12.0,16,2.0,5,3.0,2,Neutral
+CUST0933,Retail,Regular,Occasional,1.0,3.0,19.0,19,2.0,2,1.0,1,Dissatisfied
+CUST0934,Healthcare,New,First Time,2.0,5.0,33.0,9,4.0,3,3.0,4,Neutral
+CUST0935,Healthcare,Regular,Occasional,1.0,2.0,15.0,14,2.0,3,3.0,1,Neutral
+CUST0936,Telecom,Loyal,First Time,2.0,5.0,21.0,13,1.0,1,5.0,1,Satisfied
+CUST0937,E-Commerce,Regular,First Time,3.0,1.0,5.0,11,1.0,1,3.0,3,Dissatisfied
+CUST0938,Banking,Regular,Occasional,1.0,1.0,30.0,12,5.0,2,5.0,4,Dissatisfied
+CUST0939,E-Commerce,Regular,Occasional,4.0,5.0,14.0,23,5.0,1,2.0,5,Neutral
+CUST0940,Banking,Regular,First Time,4.0,1.0,26.0,11,5.0,4,2.0,4,Neutral
+CUST0941,Telecom,Loyal,First Time,3.0,4.0,17.0,19,2.0,3,1.0,5,Dissatisfied
+CUST0942,E-Commerce,New,First Time,4.0,4.0,23.0,17,3.0,5,4.0,4,Neutral
+CUST0943,Banking,New,First Time,5.0,2.0,23.0,5,3.0,5,1.0,5,Neutral
+CUST0944,Retail,Regular,Occasional,1.0,1.0,14.0,19,3.0,2,2.0,1,Dissatisfied
+CUST0945,Retail,Regular,First Time,1.0,2.0,27.0,5,1.0,5,,1,Dissatisfied
+CUST0946,Telecom,Regular,Frequent,2.0,1.0,12.0,19,3.0,1,,4,Satisfied
+CUST0947,Healthcare,New,First Time,4.0,4.0,24.0,11,1.0,3,3.0,5,Neutral
+CUST0948,E-Commerce,Regular,First Time,5.0,5.0,15.0,15,2.0,4,5.0,4,Satisfied
+CUST0949,E-Commerce,Regular,Frequent,5.0,5.0,21.0,6,2.0,3,4.0,2,Satisfied
+CUST0950,Telecom,Regular,First Time,3.0,5.0,14.0,16,4.0,4,5.0,3,Neutral
+CUST0951,Hospitality,Regular,Occasional,3.0,4.0,18.0,21,5.0,5,4.0,1,Satisfied
+CUST0952,Telecom,Regular,Frequent,3.0,5.0,9.0,9,4.0,3,3.0,2,Satisfied
+CUST0953,Telecom,Regular,Frequent,1.0,4.0,20.0,11,3.0,2,1.0,4,Dissatisfied
+CUST0954,Banking,Regular,Occasional,3.0,4.0,18.0,18,3.0,3,2.0,1,Dissatisfied
+CUST0955,E-Commerce,Regular,First Time,3.0,5.0,14.0,18,3.0,5,4.0,3,Neutral
+CUST0956,E-Commerce,Regular,Occasional,2.0,2.0,18.0,1,1.0,5,2.0,2,Neutral
+CUST0957,Healthcare,Regular,Frequent,4.0,3.0,19.0,29,5.0,5,4.0,3,Satisfied
+CUST0958,Retail,New,Frequent,5.0,5.0,13.0,19,5.0,2,1.0,4,Satisfied
+CUST0959,Retail,New,First Time,2.0,2.0,17.0,20,2.0,2,1.0,5,Dissatisfied
+CUST0960,Hospitality,Regular,Occasional,5.0,2.0,10.0,14,1.0,3,2.0,3,Neutral
+CUST0961,Hospitality,Loyal,First Time,1.0,1.0,37.0,2,1.0,3,2.0,5,Dissatisfied
+CUST0962,Retail,Regular,First Time,5.0,2.0,26.0,20,4.0,4,5.0,4,Satisfied
+CUST0963,Banking,New,Occasional,4.0,3.0,20.0,11,1.0,5,2.0,5,Neutral
+CUST0964,Banking,Regular,First Time,2.0,5.0,27.0,19,1.0,3,3.0,4,Dissatisfied
+CUST0965,E-Commerce,New,First Time,4.0,1.0,2.0,13,4.0,2,3.0,3,Neutral
+CUST0966,Retail,Regular,First Time,2.0,4.0,2.0,17,1.0,5,2.0,4,Satisfied
+CUST0967,E-Commerce,Loyal,Occasional,4.0,4.0,15.0,10,1.0,3,5.0,2,Neutral
+CUST0968,Banking,Regular,First Time,1.0,5.0,7.0,21,1.0,4,4.0,4,Satisfied
+CUST0969,Hospitality,Regular,Occasional,2.0,4.0,16.0,7,4.0,1,1.0,4,Neutral
+CUST0970,Telecom,New,First Time,2.0,1.0,20.0,31,2.0,3,2.0,4,Dissatisfied
+CUST0971,Telecom,Regular,Frequent,1.0,3.0,25.0,31,2.0,3,1.0,1,Dissatisfied
+CUST0972,Banking,Loyal,First Time,2.0,5.0,9.0,26,4.0,1,2.0,3,Neutral
+CUST0973,Banking,Regular,Occasional,4.0,5.0,21.0,24,1.0,2,4.0,4,Neutral
+CUST0974,E-Commerce,Regular,First Time,4.0,4.0,18.0,14,3.0,4,5.0,1,Satisfied
+CUST0975,Telecom,Regular,First Time,3.0,5.0,21.0,23,3.0,1,3.0,4,Neutral
+CUST0976,Hospitality,New,First Time,1.0,4.0,14.0,14,4.0,1,1.0,5,Neutral
+CUST0977,Retail,New,First Time,2.0,1.0,29.0,4,4.0,1,1.0,3,Neutral
+CUST0978,Retail,New,First Time,5.0,5.0,17.0,26,4.0,1,3.0,5,Satisfied
+CUST0979,Hospitality,Regular,Occasional,2.0,1.0,32.0,23,2.0,3,2.0,5,Dissatisfied
+CUST0980,Telecom,Loyal,Occasional,1.0,2.0,12.0,15,1.0,3,3.0,3,Neutral
+CUST0981,E-Commerce,Regular,First Time,3.0,2.0,24.0,6,3.0,4,1.0,5,Neutral
+CUST0982,E-Commerce,New,Occasional,1.0,4.0,18.0,11,1.0,3,2.0,5,Satisfied
+CUST0983,Healthcare,New,Occasional,2.0,1.0,15.0,2,3.0,3,3.0,1,Neutral
+CUST0984,Retail,New,First Time,5.0,4.0,23.0,22,4.0,5,2.0,5,Satisfied
+CUST0985,Banking,Loyal,Occasional,2.0,5.0,16.0,4,5.0,2,2.0,1,Satisfied
+CUST0986,E-Commerce,Regular,First Time,4.0,4.0,2.0,17,4.0,4,2.0,3,Satisfied
+CUST0987,Retail,Regular,First Time,3.0,2.0,2.0,9,5.0,1,1.0,5,Neutral
+CUST0988,Banking,Loyal,Occasional,2.0,5.0,28.0,5,3.0,5,2.0,4,Satisfied
+CUST0989,Retail,New,Frequent,4.0,2.0,,17,3.0,2,2.0,2,Neutral
+CUST0990,Healthcare,Regular,Frequent,3.0,4.0,33.0,13,2.0,2,,4,Satisfied
+CUST0991,Hospitality,Loyal,Frequent,2.0,3.0,18.0,21,4.0,1,5.0,2,Neutral
+CUST0992,Healthcare,Regular,Occasional,2.0,1.0,8.0,6,5.0,3,3.0,2,Satisfied
+CUST0993,Healthcare,New,First Time,5.0,1.0,15.0,10,2.0,2,2.0,5,Neutral
+CUST0994,Telecom,Loyal,First Time,1.0,1.0,18.0,1,1.0,5,3.0,1,Dissatisfied
+CUST0995,E-Commerce,Loyal,First Time,5.0,5.0,10.0,1,1.0,1,4.0,5,Satisfied
+CUST0996,Retail,Regular,First Time,3.0,5.0,31.0,28,4.0,3,2.0,3,Satisfied
+CUST0997,Hospitality,Regular,First Time,5.0,3.0,36.0,30,4.0,5,4.0,1,Neutral
+CUST0998,Banking,New,Occasional,2.0,5.0,22.0,16,1.0,5,5.0,4,Neutral
+CUST0999,E-Commerce,Loyal,First Time,3.0,1.0,18.0,9,1.0,4,3.0,1,Dissatisfied
+CUST1000,Telecom,Regular,First Time,4.0,5.0,8.0,13,4.0,3,1.0,2,Satisfied
+CUST1001,Banking,New,Occasional,2.0,2.0,30.0,21,2.0,5,1.0,2,Dissatisfied
+CUST1002,Retail,Regular,Occasional,2.0,1.0,19.0,11,3.0,2,5.0,4,Neutral
+CUST1003,Banking,Loyal,Frequent,3.0,4.0,16.0,17,2.0,5,3.0,2,Satisfied
+CUST1004,Banking,Loyal,First Time,4.0,2.0,22.0,15,4.0,3,,4,Satisfied
+CUST1005,Hospitality,New,Occasional,2.0,2.0,13.0,11,4.0,2,4.0,1,Neutral
+CUST1006,Retail,New,First Time,4.0,4.0,19.0,11,1.0,2,5.0,4,Neutral
+CUST1007,E-Commerce,Loyal,Occasional,4.0,2.0,6.0,17,1.0,3,3.0,4,Dissatisfied
+CUST1008,Telecom,Loyal,First Time,1.0,4.0,27.0,8,3.0,1,2.0,2,Dissatisfied
+CUST1009,Healthcare,Regular,First Time,5.0,1.0,17.0,18,4.0,4,5.0,5,Satisfied
+CUST1010,Retail,Regular,Occasional,1.0,1.0,27.0,12,1.0,2,1.0,3,Dissatisfied
+CUST1011,Hospitality,Regular,First Time,4.0,2.0,16.0,16,1.0,2,5.0,4,Satisfied
+CUST1012,Hospitality,Regular,First Time,3.0,4.0,17.0,25,4.0,1,3.0,1,Dissatisfied
+CUST1013,Retail,New,Frequent,4.0,2.0,8.0,14,3.0,3,1.0,5,Neutral
+CUST1014,E-Commerce,New,First Time,4.0,1.0,24.0,21,,2,,2,Dissatisfied
+CUST1015,Retail,New,Occasional,4.0,4.0,11.0,2,4.0,1,4.0,4,Satisfied
+CUST1016,Banking,Loyal,Occasional,4.0,3.0,14.0,12,1.0,5,4.0,1,Neutral
+CUST1017,Healthcare,New,First Time,5.0,3.0,18.0,15,2.0,4,1.0,1,Satisfied
+CUST1018,E-Commerce,New,Occasional,4.0,2.0,19.0,28,4.0,2,4.0,1,Neutral
+CUST1019,Banking,Regular,First Time,5.0,1.0,4.0,1,2.0,1,5.0,5,Satisfied
+CUST1020,Retail,New,Occasional,3.0,1.0,16.0,14,1.0,5,4.0,2,Dissatisfied
+CUST1021,E-Commerce,New,First Time,2.0,4.0,24.0,25,5.0,4,4.0,5,Satisfied
+CUST1022,Healthcare,Regular,First Time,2.0,1.0,15.0,10,2.0,3,1.0,3,Dissatisfied
+CUST1023,E-Commerce,Regular,First Time,4.0,2.0,16.0,14,3.0,4,4.0,1,Neutral
+CUST1024,Hospitality,Regular,Frequent,3.0,5.0,19.0,17,5.0,1,4.0,3,Satisfied
+CUST1025,Hospitality,Loyal,Frequent,,2.0,17.0,16,5.0,3,1.0,3,Neutral
+CUST1026,Telecom,New,Frequent,2.0,4.0,10.0,26,5.0,1,2.0,2,Neutral
+CUST1027,E-Commerce,Loyal,Occasional,5.0,2.0,18.0,18,2.0,4,5.0,4,Satisfied
+CUST1028,Retail,Loyal,Occasional,4.0,5.0,26.0,24,5.0,5,5.0,5,Satisfied
+CUST1029,Healthcare,Loyal,Occasional,4.0,5.0,10.0,12,1.0,3,1.0,5,Neutral
+CUST1030,Retail,Regular,Frequent,1.0,3.0,15.0,10,2.0,4,4.0,3,Dissatisfied
+CUST1031,Hospitality,Regular,Occasional,1.0,4.0,7.0,13,1.0,4,3.0,5,Neutral
+CUST1032,Healthcare,Regular,Occasional,2.0,3.0,26.0,7,3.0,5,3.0,5,Satisfied
+CUST1033,Retail,Regular,Occasional,5.0,5.0,17.0,18,5.0,1,3.0,1,Neutral
+CUST1034,E-Commerce,New,Occasional,3.0,2.0,11.0,12,4.0,2,5.0,4,Satisfied
+CUST1035,Retail,Loyal,First Time,4.0,5.0,19.0,10,5.0,2,3.0,4,Satisfied
+CUST1036,Hospitality,Regular,Occasional,3.0,4.0,8.0,18,1.0,4,3.0,1,Dissatisfied
+CUST1037,Retail,Regular,First Time,3.0,4.0,10.0,7,4.0,3,4.0,4,Satisfied
+CUST1038,Retail,Regular,Frequent,4.0,2.0,6.0,20,4.0,4,3.0,5,Satisfied
+CUST1039,Retail,New,Occasional,5.0,5.0,9.0,12,3.0,3,5.0,2,Satisfied
+CUST1040,Banking,Regular,Frequent,3.0,4.0,29.0,23,1.0,5,2.0,5,Dissatisfied
+CUST1041,Banking,Regular,Occasional,3.0,5.0,12.0,12,1.0,4,5.0,5,Satisfied
+CUST1042,Healthcare,Regular,Frequent,5.0,5.0,22.0,19,5.0,1,4.0,4,Satisfied
+CUST1043,Hospitality,New,First Time,2.0,1.0,11.0,16,2.0,5,5.0,4,Neutral
+CUST1044,Healthcare,New,Frequent,5.0,5.0,24.0,20,4.0,5,2.0,3,Satisfied
+CUST1045,Banking,Regular,Occasional,3.0,5.0,10.0,16,5.0,1,3.0,3,Satisfied
+CUST1046,Telecom,Regular,First Time,5.0,2.0,18.0,3,3.0,2,1.0,3,Neutral
+CUST1047,Telecom,Loyal,First Time,3.0,5.0,18.0,22,2.0,5,5.0,3,Satisfied
+CUST1048,Healthcare,New,First Time,4.0,3.0,37.0,14,3.0,5,5.0,3,Neutral
+CUST1049,E-Commerce,New,Occasional,2.0,2.0,23.0,21,2.0,3,2.0,5,Dissatisfied
+CUST1050,Telecom,New,Occasional,4.0,2.0,13.0,20,1.0,3,1.0,4,Dissatisfied
+CUST1051,Healthcare,Regular,Frequent,,2.0,23.0,10,5.0,1,4.0,2,Neutral
+CUST1052,Banking,Regular,Occasional,4.0,1.0,35.0,9,2.0,3,4.0,3,Neutral
+CUST1053,Telecom,Regular,Occasional,4.0,4.0,5.0,20,4.0,4,3.0,2,Neutral
+CUST1054,Banking,Loyal,Occasional,3.0,4.0,11.0,13,,2,1.0,1,Satisfied
+CUST1055,Telecom,New,Frequent,3.0,4.0,16.0,22,3.0,2,5.0,2,Neutral
+CUST1056,Healthcare,Regular,Frequent,2.0,3.0,15.0,14,3.0,5,3.0,1,Neutral
+CUST1057,E-Commerce,New,First Time,4.0,2.0,15.0,22,1.0,3,4.0,5,Neutral
+CUST1058,Telecom,New,Frequent,3.0,4.0,8.0,18,3.0,2,5.0,1,Satisfied
+CUST1059,Hospitality,Regular,Occasional,3.0,5.0,29.0,17,4.0,2,3.0,2,Satisfied
+CUST1060,Healthcare,New,Frequent,1.0,1.0,7.0,12,1.0,3,1.0,2,Dissatisfied
+CUST1061,E-Commerce,Regular,Frequent,1.0,2.0,16.0,17,2.0,2,5.0,2,Neutral
+CUST1062,Hospitality,Regular,Occasional,1.0,5.0,26.0,23,4.0,3,4.0,2,Neutral
+CUST1063,Telecom,Regular,First Time,5.0,5.0,18.0,15,5.0,5,5.0,4,Satisfied
+CUST1064,Hospitality,Regular,Occasional,5.0,5.0,10.0,19,2.0,4,4.0,5,Satisfied
+CUST1065,Telecom,Regular,First Time,1.0,1.0,7.0,15,5.0,2,5.0,1,Neutral
+CUST1066,E-Commerce,Regular,Frequent,1.0,3.0,16.0,16,1.0,3,5.0,2,Neutral
+CUST1067,Retail,New,First Time,4.0,1.0,12.0,27,3.0,3,2.0,3,Dissatisfied
+CUST1068,Healthcare,New,Occasional,3.0,5.0,20.0,23,5.0,4,1.0,2,Neutral
+CUST1069,Banking,Regular,Frequent,2.0,3.0,7.0,16,3.0,4,1.0,4,Neutral
+CUST1070,Retail,Loyal,First Time,4.0,2.0,25.0,17,3.0,3,4.0,2,Dissatisfied
+CUST1071,E-Commerce,New,Occasional,2.0,1.0,19.0,10,1.0,2,2.0,3,Dissatisfied
+CUST1072,Hospitality,Regular,Occasional,1.0,4.0,20.0,14,3.0,4,3.0,3,Dissatisfied
+CUST1073,Retail,Regular,Occasional,2.0,5.0,30.0,17,3.0,1,4.0,2,Dissatisfied
+CUST1074,E-Commerce,Loyal,First Time,,5.0,14.0,21,5.0,4,3.0,4,Satisfied
+CUST1075,E-Commerce,Regular,First Time,4.0,5.0,12.0,20,2.0,5,1.0,4,Neutral
+CUST1076,Telecom,Regular,Occasional,1.0,5.0,14.0,7,2.0,4,2.0,3,Satisfied
+CUST1077,Hospitality,Regular,Occasional,3.0,4.0,16.0,22,4.0,3,1.0,3,Neutral
+CUST1078,Retail,Loyal,Occasional,5.0,5.0,17.0,14,5.0,5,2.0,5,Satisfied
+CUST1079,Hospitality,New,First Time,5.0,5.0,11.0,8,2.0,3,4.0,5,Satisfied
+CUST1080,Telecom,Loyal,Occasional,4.0,3.0,2.0,24,4.0,3,3.0,5,Satisfied
+CUST1081,Telecom,New,Occasional,1.0,4.0,14.0,25,5.0,5,4.0,1,Satisfied
+CUST1082,E-Commerce,Loyal,First Time,2.0,5.0,21.0,17,4.0,1,1.0,5,Satisfied
+CUST1083,E-Commerce,New,Occasional,2.0,1.0,19.0,20,3.0,4,4.0,5,Neutral
+CUST1084,E-Commerce,New,First Time,1.0,4.0,28.0,20,2.0,4,3.0,5,Dissatisfied
+CUST1085,E-Commerce,New,Occasional,1.0,2.0,34.0,25,2.0,3,2.0,4,Dissatisfied
+CUST1086,Healthcare,Regular,Frequent,2.0,1.0,24.0,20,1.0,1,4.0,2,Dissatisfied
+CUST1087,Healthcare,New,Occasional,3.0,1.0,29.0,6,1.0,4,1.0,4,Neutral
+CUST1088,Healthcare,New,Occasional,2.0,1.0,24.0,29,3.0,2,3.0,3,Dissatisfied
+CUST1089,Retail,Regular,First Time,3.0,5.0,32.0,22,1.0,5,3.0,5,Neutral
+CUST1090,Retail,Regular,First Time,2.0,4.0,33.0,11,1.0,4,1.0,2,Dissatisfied
+CUST1091,Telecom,Regular,First Time,1.0,1.0,26.0,8,4.0,2,5.0,4,Neutral
+CUST1092,Hospitality,Loyal,Frequent,5.0,4.0,24.0,19,1.0,3,2.0,4,Neutral
+CUST1093,Telecom,Regular,Frequent,3.0,4.0,16.0,13,1.0,1,1.0,5,Neutral
+CUST1094,Telecom,New,First Time,2.0,3.0,18.0,17,3.0,3,3.0,1,Dissatisfied
+CUST1095,Hospitality,New,First Time,5.0,4.0,15.0,20,5.0,1,5.0,5,Satisfied
+CUST1096,Retail,Loyal,First Time,5.0,5.0,23.0,11,4.0,5,4.0,2,Satisfied
+CUST1097,Telecom,New,Occasional,5.0,3.0,12.0,7,1.0,4,4.0,5,Satisfied
+CUST1098,E-Commerce,Regular,Occasional,1.0,4.0,16.0,18,1.0,2,5.0,1,Neutral
+CUST1099,E-Commerce,Loyal,Occasional,4.0,3.0,2.0,11,4.0,5,1.0,2,Satisfied
+CUST1100,Banking,Loyal,Frequent,5.0,2.0,32.0,16,4.0,1,3.0,4,Neutral
+CUST1101,Banking,Regular,First Time,5.0,5.0,16.0,6,2.0,3,2.0,3,Satisfied
+CUST1102,Telecom,Regular,Occasional,2.0,3.0,22.0,13,5.0,1,4.0,4,Neutral
+CUST1103,Healthcare,Regular,Occasional,5.0,4.0,30.0,20,5.0,1,5.0,3,Satisfied
+CUST1104,E-Commerce,Regular,First Time,3.0,4.0,20.0,19,4.0,2,1.0,1,Dissatisfied
+CUST1105,Banking,New,Frequent,3.0,4.0,30.0,9,4.0,2,1.0,4,Neutral
+CUST1106,Healthcare,New,First Time,3.0,4.0,8.0,7,4.0,4,5.0,3,Satisfied
+CUST1107,Banking,Regular,Occasional,4.0,4.0,37.0,15,1.0,5,3.0,3,Neutral
+CUST1108,Retail,New,Occasional,1.0,3.0,27.0,19,4.0,4,2.0,2,Dissatisfied
+CUST1109,E-Commerce,Regular,Frequent,3.0,4.0,20.0,18,5.0,4,1.0,5,Satisfied
+CUST1110,Telecom,Regular,Occasional,5.0,3.0,29.0,11,2.0,3,2.0,4,Neutral
+CUST1111,Banking,Loyal,First Time,3.0,2.0,9.0,17,1.0,2,1.0,1,Dissatisfied
+CUST1112,Retail,Loyal,Frequent,2.0,4.0,16.0,26,2.0,2,2.0,1,Neutral
+CUST1113,Hospitality,Regular,Frequent,1.0,5.0,30.0,16,2.0,5,,1,Dissatisfied
+CUST1114,E-Commerce,Regular,Occasional,3.0,4.0,3.0,4,5.0,3,1.0,1,Satisfied
+CUST1115,E-Commerce,New,Frequent,4.0,4.0,22.0,16,3.0,3,5.0,4,Satisfied
+CUST1116,Banking,Regular,First Time,3.0,5.0,22.0,29,4.0,1,4.0,4,Neutral
+CUST1117,Banking,New,Occasional,5.0,2.0,34.0,6,5.0,3,5.0,3,Satisfied
+CUST1118,Healthcare,Loyal,Frequent,4.0,1.0,5.0,15,4.0,4,2.0,3,Neutral
+CUST1119,Telecom,Loyal,First Time,3.0,2.0,31.0,13,4.0,3,2.0,5,Dissatisfied
+CUST1120,E-Commerce,Loyal,Occasional,1.0,4.0,14.0,16,5.0,4,2.0,5,Neutral
+CUST1121,Healthcare,Loyal,Frequent,3.0,5.0,14.0,16,4.0,5,3.0,3,Satisfied
+CUST1122,Banking,Loyal,Frequent,1.0,3.0,8.0,23,2.0,1,1.0,3,Dissatisfied
+CUST1123,E-Commerce,New,Frequent,4.0,4.0,9.0,16,4.0,5,2.0,3,Satisfied
+CUST1124,Banking,Loyal,Occasional,1.0,1.0,21.0,24,2.0,5,5.0,5,Neutral
+CUST1125,Retail,Regular,Frequent,5.0,4.0,9.0,14,2.0,3,2.0,4,Neutral
+CUST1126,Hospitality,Regular,First Time,2.0,4.0,24.0,13,,4,4.0,2,Neutral
+CUST1127,Retail,Regular,Occasional,3.0,3.0,13.0,10,2.0,1,2.0,5,Satisfied
+CUST1128,Healthcare,New,Occasional,1.0,4.0,8.0,2,1.0,2,5.0,2,Neutral
+CUST1129,Hospitality,New,Frequent,2.0,,14.0,17,5.0,1,4.0,4,Dissatisfied
+CUST1130,E-Commerce,New,Frequent,5.0,3.0,21.0,29,3.0,4,5.0,5,Neutral
+CUST1131,E-Commerce,New,Occasional,2.0,4.0,16.0,18,4.0,5,3.0,5,Dissatisfied
+CUST1132,Retail,Regular,Occasional,3.0,4.0,18.0,20,5.0,4,5.0,1,Neutral
+CUST1133,Banking,Loyal,Occasional,5.0,2.0,24.0,12,4.0,4,2.0,2,Satisfied
+CUST1134,Healthcare,Regular,Occasional,4.0,,27.0,13,4.0,1,3.0,4,Dissatisfied
+CUST1135,E-Commerce,Regular,Occasional,1.0,3.0,16.0,22,4.0,5,1.0,1,Dissatisfied
+CUST1136,Telecom,Regular,First Time,2.0,2.0,10.0,29,2.0,1,1.0,1,Dissatisfied
+CUST1137,Retail,Regular,Occasional,2.0,2.0,19.0,25,5.0,3,4.0,2,Dissatisfied
+CUST1138,Retail,New,Frequent,2.0,2.0,22.0,21,4.0,4,2.0,3,Neutral
+CUST1139,Banking,Loyal,Occasional,2.0,2.0,6.0,15,1.0,5,1.0,1,Neutral
+CUST1140,Healthcare,New,Frequent,3.0,3.0,11.0,16,1.0,5,2.0,1,Dissatisfied
+CUST1141,Retail,Regular,Occasional,2.0,3.0,12.0,10,5.0,3,2.0,2,Neutral
+CUST1142,Healthcare,Regular,Occasional,2.0,4.0,16.0,5,5.0,3,4.0,3,Satisfied
+CUST1143,E-Commerce,Regular,First Time,3.0,2.0,12.0,7,5.0,3,1.0,3,Dissatisfied
+CUST1144,E-Commerce,Loyal,Occasional,2.0,5.0,24.0,15,1.0,3,1.0,4,Dissatisfied
+CUST1145,Retail,New,Occasional,2.0,3.0,5.0,13,5.0,4,4.0,5,Satisfied
+CUST1146,Telecom,Loyal,First Time,3.0,4.0,5.0,5,5.0,4,1.0,1,Satisfied
+CUST1147,Healthcare,Regular,First Time,5.0,1.0,15.0,15,4.0,3,3.0,4,Satisfied
+CUST1148,E-Commerce,Regular,Occasional,3.0,1.0,17.0,13,3.0,3,4.0,1,Neutral
+CUST1149,Retail,Regular,Occasional,3.0,3.0,6.0,7,3.0,1,3.0,2,Dissatisfied
+CUST1150,E-Commerce,Loyal,Occasional,5.0,2.0,13.0,12,3.0,1,1.0,2,Neutral
+CUST1151,Banking,Loyal,First Time,4.0,3.0,15.0,13,1.0,3,4.0,4,Satisfied
+CUST1152,E-Commerce,Regular,Occasional,2.0,1.0,15.0,11,,2,1.0,2,Dissatisfied
+CUST1153,Banking,Loyal,Occasional,2.0,3.0,19.0,21,2.0,4,2.0,5,Neutral
+CUST1154,Banking,Regular,Occasional,3.0,4.0,13.0,2,2.0,5,1.0,2,Neutral
+CUST1155,Hospitality,Regular,Occasional,3.0,4.0,30.0,1,1.0,4,3.0,5,Dissatisfied
+CUST1156,Banking,Loyal,First Time,1.0,2.0,22.0,15,3.0,5,4.0,5,Satisfied
+CUST1157,Banking,Regular,Frequent,1.0,2.0,12.0,16,1.0,3,4.0,3,Dissatisfied
+CUST1158,Banking,Regular,First Time,2.0,3.0,19.0,18,5.0,5,1.0,1,Dissatisfied
+CUST1159,Retail,New,Occasional,5.0,3.0,19.0,11,5.0,5,,4,Satisfied
+CUST1160,Healthcare,New,First Time,4.0,4.0,28.0,9,5.0,1,1.0,3,Neutral
+CUST1161,Banking,Loyal,Occasional,5.0,2.0,13.0,15,2.0,4,2.0,2,Neutral
+CUST1162,Hospitality,Regular,First Time,1.0,4.0,24.0,12,1.0,3,2.0,3,Dissatisfied
+CUST1163,E-Commerce,Regular,Frequent,3.0,5.0,18.0,26,3.0,5,4.0,2,Satisfied
+CUST1164,Banking,New,Occasional,3.0,2.0,30.0,13,4.0,3,4.0,2,Dissatisfied
+CUST1165,Banking,Regular,Occasional,3.0,5.0,28.0,15,1.0,1,5.0,5,Dissatisfied
+CUST1166,E-Commerce,Loyal,First Time,3.0,2.0,20.0,32,5.0,2,2.0,2,Neutral
+CUST1167,E-Commerce,Loyal,First Time,2.0,2.0,16.0,14,3.0,1,1.0,3,Dissatisfied
+CUST1168,Hospitality,New,Occasional,1.0,4.0,22.0,19,5.0,2,1.0,4,Dissatisfied
+CUST1169,E-Commerce,Regular,Occasional,5.0,4.0,17.0,20,1.0,1,5.0,2,Satisfied
+CUST1170,Banking,Regular,Occasional,5.0,3.0,31.0,20,3.0,4,5.0,4,Neutral
+CUST1171,Retail,Regular,Frequent,,2.0,19.0,17,3.0,3,2.0,5,Dissatisfied
+CUST1172,Healthcare,Regular,Occasional,3.0,1.0,15.0,16,1.0,4,5.0,5,Neutral
+CUST1173,Telecom,Regular,Frequent,3.0,5.0,14.0,16,4.0,5,3.0,1,Neutral
+CUST1174,Healthcare,Regular,First Time,4.0,5.0,8.0,11,5.0,4,1.0,3,Satisfied
+CUST1175,Retail,Regular,Frequent,5.0,5.0,22.0,17,3.0,3,,1,Neutral
+CUST1176,Healthcare,Regular,Occasional,3.0,3.0,11.0,29,2.0,2,2.0,4,Neutral
+CUST1177,Retail,Regular,Occasional,4.0,5.0,27.0,23,4.0,4,4.0,2,Satisfied
+CUST1178,Retail,Loyal,Frequent,5.0,3.0,8.0,17,2.0,3,1.0,5,Satisfied
+CUST1179,Telecom,Regular,Occasional,5.0,1.0,19.0,21,2.0,4,1.0,1,Dissatisfied
+CUST1180,Telecom,New,Frequent,2.0,,27.0,9,4.0,1,4.0,5,Dissatisfied
+CUST1181,Healthcare,Loyal,Occasional,5.0,2.0,2.0,13,3.0,1,2.0,2,Neutral
+CUST1182,Banking,Loyal,First Time,3.0,2.0,34.0,22,2.0,1,2.0,5,Dissatisfied
+CUST1183,Banking,New,Occasional,1.0,5.0,15.0,25,3.0,4,5.0,1,Dissatisfied
+CUST1184,Banking,Regular,Occasional,4.0,2.0,19.0,10,5.0,3,5.0,2,Neutral
+CUST1185,Banking,New,Frequent,5.0,4.0,23.0,12,3.0,2,3.0,2,Satisfied
+CUST1186,E-Commerce,Regular,Frequent,2.0,2.0,24.0,30,1.0,2,5.0,5,Dissatisfied
+CUST1187,Retail,New,First Time,3.0,4.0,20.0,16,5.0,4,5.0,4,Satisfied
+CUST1188,E-Commerce,Regular,First Time,2.0,3.0,,28,4.0,5,3.0,5,Dissatisfied
+CUST1189,Banking,New,First Time,1.0,1.0,22.0,16,2.0,5,5.0,3,Dissatisfied
+CUST1190,Hospitality,Regular,Occasional,5.0,3.0,32.0,17,5.0,3,1.0,4,Neutral
+CUST1191,Retail,Loyal,First Time,1.0,1.0,22.0,13,5.0,4,1.0,4,Dissatisfied
+CUST1192,Retail,Regular,Occasional,3.0,,34.0,22,5.0,1,5.0,4,Satisfied
+CUST1193,E-Commerce,Loyal,Occasional,1.0,4.0,25.0,25,2.0,5,1.0,5,Dissatisfied
+CUST1194,E-Commerce,Loyal,Frequent,4.0,5.0,4.0,8,5.0,1,4.0,5,Satisfied
+CUST1195,E-Commerce,Loyal,First Time,5.0,5.0,39.0,13,5.0,2,3.0,3,Neutral
+CUST1196,Telecom,New,Occasional,4.0,2.0,13.0,21,5.0,4,4.0,3,Neutral
+CUST1197,Telecom,Loyal,First Time,4.0,4.0,30.0,14,3.0,5,4.0,4,Satisfied
+CUST1198,Hospitality,New,Frequent,5.0,1.0,18.0,12,2.0,1,1.0,4,Dissatisfied
+CUST1199,Telecom,Regular,First Time,5.0,5.0,26.0,22,2.0,4,2.0,5,Neutral
+CUST1200,Healthcare,Loyal,First Time,5.0,4.0,12.0,23,5.0,1,4.0,4,Satisfied
+CUST1201,Hospitality,Regular,First Time,2.0,4.0,23.0,12,3.0,1,5.0,5,Satisfied
+CUST1202,Hospitality,Regular,Frequent,3.0,5.0,16.0,16,5.0,3,5.0,4,Satisfied
+CUST1203,E-Commerce,Regular,First Time,5.0,5.0,31.0,7,3.0,3,5.0,5,Satisfied
+CUST1204,Healthcare,Loyal,Occasional,,5.0,22.0,9,3.0,2,5.0,4,Satisfied
+CUST1205,Banking,Regular,Occasional,4.0,1.0,25.0,16,1.0,5,5.0,5,Satisfied
+CUST1206,Banking,Regular,Frequent,1.0,1.0,2.0,15,3.0,4,3.0,1,Dissatisfied
+CUST1207,Hospitality,Loyal,First Time,5.0,5.0,17.0,8,3.0,3,2.0,5,Satisfied
+CUST1208,Retail,New,First Time,4.0,2.0,21.0,10,1.0,3,3.0,2,Dissatisfied
+CUST1209,Telecom,New,Occasional,4.0,3.0,20.0,8,1.0,3,4.0,4,Satisfied
+CUST1210,Retail,Regular,First Time,5.0,1.0,26.0,18,3.0,1,3.0,2,Neutral
+CUST1211,Healthcare,Loyal,Occasional,2.0,4.0,15.0,1,2.0,4,5.0,3,Satisfied
+CUST1212,E-Commerce,New,Occasional,3.0,5.0,18.0,8,4.0,4,4.0,4,Satisfied
+CUST1213,Hospitality,New,Occasional,5.0,5.0,27.0,2,3.0,3,2.0,3,Satisfied
+CUST1214,Retail,New,First Time,1.0,3.0,2.0,18,3.0,3,5.0,4,Satisfied
+CUST1215,Telecom,Loyal,Occasional,5.0,4.0,23.0,2,1.0,5,5.0,1,Satisfied
+CUST1216,Hospitality,New,First Time,2.0,3.0,15.0,15,3.0,4,3.0,5,Neutral
+CUST1217,Telecom,Regular,Occasional,3.0,3.0,11.0,26,3.0,2,1.0,3,Dissatisfied
+CUST1218,Hospitality,Loyal,First Time,3.0,3.0,21.0,27,3.0,1,2.0,4,Neutral
+CUST1219,Healthcare,New,Frequent,4.0,5.0,28.0,2,2.0,5,5.0,2,Satisfied
+CUST1220,Banking,Regular,Occasional,5.0,2.0,26.0,17,1.0,4,1.0,3,Neutral
+CUST1221,Banking,Regular,First Time,2.0,3.0,17.0,8,5.0,4,3.0,3,Satisfied
+CUST1222,Telecom,Loyal,First Time,1.0,4.0,25.0,7,5.0,2,4.0,1,Dissatisfied
+CUST1223,E-Commerce,Regular,First Time,3.0,3.0,25.0,14,5.0,1,2.0,3,Neutral
+CUST1224,Hospitality,Regular,First Time,4.0,1.0,17.0,24,2.0,3,5.0,4,Dissatisfied
+CUST1225,Banking,New,First Time,4.0,2.0,12.0,19,4.0,4,3.0,5,Neutral
+CUST1226,E-Commerce,Regular,Frequent,4.0,4.0,13.0,10,1.0,2,1.0,5,Satisfied
+CUST1227,Retail,Regular,Occasional,2.0,4.0,25.0,20,5.0,3,2.0,2,Dissatisfied
+CUST1228,Retail,New,First Time,5.0,4.0,18.0,1,1.0,5,2.0,4,Satisfied
+CUST1229,E-Commerce,Regular,Occasional,1.0,5.0,10.0,10,3.0,2,2.0,1,Neutral
+CUST1230,Banking,Loyal,First Time,1.0,4.0,5.0,9,5.0,2,5.0,5,Satisfied
+CUST1231,Telecom,New,Frequent,1.0,3.0,25.0,16,4.0,2,2.0,5,Dissatisfied
+CUST1232,Hospitality,New,First Time,5.0,2.0,14.0,14,5.0,5,3.0,5,Satisfied
+CUST1233,Telecom,Regular,Occasional,1.0,2.0,21.0,14,3.0,3,3.0,3,Satisfied
+CUST1234,Healthcare,New,Frequent,4.0,5.0,28.0,14,1.0,5,2.0,2,Neutral
+CUST1235,Telecom,New,First Time,5.0,3.0,8.0,15,1.0,5,3.0,4,Neutral
+CUST1236,Banking,Regular,First Time,4.0,4.0,18.0,19,1.0,3,2.0,4,Dissatisfied
+CUST1237,Telecom,New,Occasional,5.0,1.0,17.0,16,1.0,1,1.0,2,Neutral
+CUST1238,Retail,Regular,Frequent,1.0,1.0,21.0,13,3.0,2,3.0,3,Dissatisfied
+CUST1239,Banking,Regular,Occasional,3.0,2.0,28.0,18,1.0,3,3.0,4,Dissatisfied
+CUST1240,Banking,Regular,Occasional,3.0,1.0,7.0,21,1.0,2,1.0,3,Dissatisfied
+CUST1241,E-Commerce,New,Frequent,4.0,4.0,23.0,11,3.0,1,4.0,2,Neutral
+CUST1242,Telecom,Loyal,Frequent,4.0,4.0,26.0,15,4.0,5,4.0,2,Satisfied
+CUST1243,Retail,New,Occasional,3.0,3.0,17.0,23,4.0,2,2.0,3,Neutral
+CUST1244,Banking,Regular,Occasional,2.0,2.0,17.0,7,1.0,4,3.0,2,Neutral
+CUST1245,Retail,Regular,Occasional,1.0,3.0,21.0,28,5.0,5,2.0,2,Satisfied
+CUST1246,Telecom,Regular,First Time,3.0,1.0,21.0,6,3.0,3,4.0,1,Dissatisfied
+CUST1247,Hospitality,New,Frequent,2.0,3.0,23.0,13,2.0,4,1.0,2,Dissatisfied
+CUST1248,Telecom,New,First Time,3.0,1.0,22.0,8,2.0,1,4.0,4,Dissatisfied
+CUST1249,E-Commerce,Regular,First Time,4.0,1.0,10.0,30,5.0,4,1.0,2,Satisfied
+CUST1250,E-Commerce,New,Frequent,3.0,1.0,26.0,11,3.0,5,1.0,1,Neutral
+CUST1251,Banking,New,First Time,3.0,1.0,27.0,11,2.0,5,2.0,5,Neutral
+CUST1252,Banking,Regular,First Time,1.0,3.0,19.0,12,3.0,1,1.0,3,Dissatisfied
+CUST1253,Banking,Loyal,First Time,4.0,3.0,6.0,16,1.0,2,3.0,3,Neutral
+CUST1254,Hospitality,New,Occasional,3.0,4.0,17.0,13,1.0,1,1.0,3,Dissatisfied
+CUST1255,Banking,Loyal,Frequent,1.0,3.0,20.0,14,2.0,5,2.0,3,Dissatisfied
+CUST1256,E-Commerce,Regular,First Time,2.0,1.0,9.0,1,2.0,2,1.0,3,Neutral
+CUST1257,Healthcare,Loyal,First Time,4.0,1.0,15.0,15,2.0,3,5.0,4,Neutral
+CUST1258,E-Commerce,Regular,Occasional,5.0,4.0,7.0,15,1.0,3,4.0,5,Satisfied
+CUST1259,Hospitality,Regular,Frequent,3.0,5.0,23.0,22,4.0,4,2.0,5,Satisfied
+CUST1260,E-Commerce,Regular,First Time,5.0,2.0,19.0,24,1.0,5,1.0,3,Dissatisfied
+CUST1261,Banking,Regular,Frequent,1.0,2.0,5.0,14,2.0,2,5.0,2,Neutral
+CUST1262,Retail,Loyal,Frequent,2.0,2.0,21.0,21,5.0,4,4.0,1,Dissatisfied
+CUST1263,Telecom,New,First Time,5.0,2.0,18.0,7,1.0,2,5.0,3,Neutral
+CUST1264,E-Commerce,New,Frequent,1.0,2.0,22.0,20,2.0,1,,5,Dissatisfied
+CUST1265,Hospitality,New,Occasional,4.0,3.0,15.0,11,3.0,1,2.0,2,Dissatisfied
+CUST1266,E-Commerce,Loyal,Occasional,2.0,4.0,12.0,7,2.0,2,1.0,5,Neutral
+CUST1267,Banking,Regular,Occasional,2.0,4.0,12.0,14,2.0,3,3.0,4,Neutral
+CUST1268,E-Commerce,Regular,Frequent,3.0,5.0,14.0,25,1.0,4,1.0,4,Neutral
+CUST1269,Retail,Loyal,Frequent,2.0,2.0,18.0,16,3.0,5,1.0,3,Neutral
+CUST1270,Retail,Loyal,Frequent,5.0,3.0,19.0,25,4.0,3,3.0,4,Neutral
+CUST1271,E-Commerce,New,Frequent,5.0,2.0,16.0,10,3.0,3,5.0,1,Satisfied
+CUST1272,Retail,Regular,Occasional,3.0,1.0,15.0,22,5.0,1,4.0,1,Dissatisfied
+CUST1273,Retail,Loyal,Frequent,3.0,2.0,15.0,10,4.0,5,4.0,1,Neutral
+CUST1274,Hospitality,New,Frequent,1.0,2.0,38.0,17,4.0,2,5.0,4,Dissatisfied
+CUST1275,Banking,Regular,First Time,2.0,3.0,12.0,17,3.0,4,5.0,3,Neutral
+CUST1276,Telecom,Regular,First Time,1.0,1.0,14.0,20,4.0,4,1.0,2,Neutral
+CUST1277,Telecom,Regular,Occasional,5.0,4.0,44.0,17,3.0,5,2.0,1,Neutral
+CUST1278,Banking,Regular,Frequent,2.0,5.0,21.0,10,5.0,5,4.0,3,Satisfied
+CUST1279,E-Commerce,New,First Time,2.0,5.0,7.0,21,3.0,4,5.0,2,Satisfied
+CUST1280,Hospitality,New,Occasional,5.0,1.0,25.0,27,3.0,4,4.0,1,Dissatisfied
+CUST1281,Retail,New,First Time,4.0,1.0,11.0,11,1.0,1,4.0,1,Dissatisfied
+CUST1282,Retail,New,Occasional,4.0,5.0,25.0,2,5.0,1,2.0,4,Satisfied
+CUST1283,Retail,Regular,Occasional,1.0,5.0,16.0,18,3.0,3,2.0,4,Satisfied
+CUST1284,Hospitality,Regular,First Time,3.0,3.0,14.0,13,4.0,4,1.0,2,Neutral
+CUST1285,E-Commerce,New,Frequent,,2.0,31.0,14,4.0,4,2.0,3,Neutral
+CUST1286,E-Commerce,Regular,First Time,2.0,3.0,23.0,19,1.0,2,1.0,2,Dissatisfied
+CUST1287,Retail,Regular,Frequent,4.0,3.0,26.0,12,4.0,3,5.0,3,Satisfied
+CUST1288,Telecom,Regular,First Time,5.0,5.0,21.0,13,3.0,5,1.0,1,Satisfied
+CUST1289,Retail,Loyal,Frequent,2.0,3.0,14.0,14,2.0,1,2.0,5,Neutral
+CUST1290,Hospitality,Regular,Occasional,2.0,1.0,23.0,25,2.0,2,5.0,4,Neutral
+CUST1291,Retail,Loyal,First Time,2.0,4.0,28.0,15,4.0,5,5.0,5,Satisfied
+CUST1292,Hospitality,New,First Time,5.0,4.0,19.0,6,1.0,1,2.0,2,Neutral
+CUST1293,Hospitality,Regular,First Time,1.0,2.0,32.0,7,4.0,2,3.0,5,Neutral
+CUST1294,Telecom,Loyal,Occasional,5.0,1.0,25.0,16,5.0,3,3.0,3,Dissatisfied
+CUST1295,Retail,Loyal,Frequent,4.0,1.0,20.0,7,1.0,4,5.0,1,Dissatisfied
+CUST1296,Retail,Regular,Occasional,3.0,5.0,20.0,4,1.0,2,4.0,2,Neutral
+CUST1297,Banking,Regular,Occasional,3.0,3.0,19.0,19,,4,3.0,5,Satisfied
+CUST1298,Banking,Regular,Occasional,5.0,3.0,8.0,20,4.0,2,2.0,4,Neutral
+CUST1299,Healthcare,Regular,Occasional,4.0,5.0,17.0,12,5.0,2,2.0,4,Satisfied
+CUST1300,Retail,Regular,Occasional,2.0,1.0,,17,,3,4.0,2,Neutral
+CUST1301,Telecom,Loyal,Occasional,1.0,2.0,15.0,16,1.0,1,5.0,4,Satisfied
+CUST1302,Hospitality,Regular,Occasional,4.0,5.0,21.0,19,3.0,4,,5,Satisfied
+CUST1303,Healthcare,New,Frequent,1.0,3.0,18.0,19,1.0,4,4.0,1,Dissatisfied
+CUST1304,Telecom,Regular,Occasional,1.0,1.0,24.0,1,2.0,5,3.0,2,Neutral
+CUST1305,E-Commerce,New,First Time,5.0,4.0,23.0,13,2.0,2,1.0,1,Neutral
+CUST1306,E-Commerce,New,First Time,3.0,1.0,19.0,19,4.0,2,1.0,1,Dissatisfied
+CUST1307,Hospitality,New,Occasional,4.0,4.0,7.0,12,5.0,5,2.0,5,Satisfied
+CUST1308,Healthcare,Regular,First Time,2.0,,32.0,15,5.0,1,2.0,2,Dissatisfied
+CUST1309,Banking,New,Frequent,1.0,5.0,17.0,20,1.0,3,1.0,1,Dissatisfied
+CUST1310,E-Commerce,New,Occasional,1.0,3.0,17.0,16,2.0,3,2.0,1,Dissatisfied
+CUST1311,Retail,New,Occasional,2.0,2.0,15.0,26,2.0,3,5.0,5,Dissatisfied
+CUST1312,E-Commerce,Loyal,Frequent,1.0,5.0,14.0,23,2.0,3,4.0,3,Neutral
+CUST1313,Hospitality,Regular,First Time,3.0,3.0,30.0,14,2.0,4,2.0,4,Neutral
+CUST1314,Banking,New,Frequent,2.0,4.0,29.0,14,4.0,1,4.0,2,Neutral
+CUST1315,Banking,New,First Time,,1.0,22.0,1,4.0,5,3.0,4,Satisfied
+CUST1316,Healthcare,Regular,Occasional,3.0,4.0,17.0,13,5.0,5,4.0,5,Satisfied
+CUST1317,Hospitality,New,Frequent,2.0,3.0,23.0,6,4.0,1,2.0,4,Dissatisfied
+CUST1318,Banking,Regular,Frequent,3.0,2.0,19.0,17,2.0,5,1.0,3,Dissatisfied
+CUST1319,Healthcare,Regular,Frequent,1.0,4.0,16.0,16,1.0,2,2.0,2,Dissatisfied
+CUST1320,E-Commerce,Loyal,Occasional,2.0,1.0,21.0,20,2.0,1,5.0,2,Dissatisfied
+CUST1321,Retail,New,Frequent,5.0,4.0,14.0,25,4.0,2,3.0,3,Satisfied
+CUST1322,Retail,Regular,Occasional,5.0,5.0,20.0,15,5.0,4,1.0,3,Satisfied
+CUST1323,Banking,New,Occasional,3.0,3.0,20.0,31,2.0,5,5.0,1,Dissatisfied
+CUST1324,Healthcare,Loyal,First Time,5.0,1.0,23.0,17,1.0,4,5.0,1,Neutral
+CUST1325,Telecom,Loyal,First Time,3.0,3.0,13.0,6,1.0,5,3.0,3,Satisfied
+CUST1326,E-Commerce,Regular,Occasional,1.0,3.0,24.0,11,1.0,2,4.0,1,Dissatisfied
+CUST1327,Retail,Regular,First Time,5.0,3.0,11.0,12,4.0,5,1.0,3,Neutral
+CUST1328,Hospitality,New,Occasional,3.0,2.0,13.0,19,3.0,4,3.0,2,Dissatisfied
+CUST1329,Telecom,Loyal,Frequent,4.0,4.0,14.0,8,4.0,1,5.0,2,Satisfied
+CUST1330,Banking,Regular,Frequent,4.0,2.0,9.0,13,1.0,1,3.0,1,Neutral
+CUST1331,Healthcare,New,First Time,2.0,3.0,26.0,14,3.0,2,1.0,3,Dissatisfied
+CUST1332,Retail,Regular,Frequent,4.0,3.0,10.0,12,1.0,1,4.0,1,Dissatisfied
+CUST1333,Hospitality,Regular,First Time,3.0,4.0,12.0,21,2.0,2,4.0,4,Neutral
+CUST1334,E-Commerce,Loyal,Occasional,2.0,4.0,28.0,19,4.0,5,4.0,5,Satisfied
+CUST1335,E-Commerce,Regular,Frequent,2.0,5.0,13.0,23,2.0,2,4.0,5,Neutral
+CUST1336,E-Commerce,Regular,First Time,4.0,4.0,16.0,13,4.0,4,1.0,4,Satisfied
+CUST1337,Telecom,Regular,First Time,2.0,4.0,10.0,23,2.0,5,1.0,5,Neutral
+CUST1338,Hospitality,New,First Time,1.0,5.0,25.0,5,3.0,2,4.0,5,Dissatisfied
+CUST1339,E-Commerce,Regular,Occasional,5.0,2.0,25.0,5,3.0,4,5.0,4,Satisfied
+CUST1340,Retail,New,Frequent,2.0,2.0,24.0,7,2.0,3,1.0,2,Dissatisfied
+CUST1341,Banking,Regular,First Time,4.0,3.0,22.0,15,1.0,2,3.0,3,Neutral
+CUST1342,E-Commerce,Regular,First Time,4.0,3.0,19.0,23,3.0,5,3.0,5,Satisfied
+CUST1343,Retail,Regular,Occasional,5.0,4.0,14.0,11,5.0,4,2.0,4,Satisfied
+CUST1344,Hospitality,New,First Time,4.0,1.0,11.0,12,4.0,3,4.0,2,Satisfied
+CUST1345,E-Commerce,New,Occasional,4.0,1.0,28.0,13,4.0,5,5.0,1,Neutral
+CUST1346,Hospitality,Regular,Frequent,5.0,4.0,24.0,19,5.0,5,5.0,1,Satisfied
+CUST1347,Retail,New,Frequent,5.0,5.0,12.0,12,1.0,4,1.0,2,Satisfied
+CUST1348,Retail,New,Frequent,1.0,2.0,18.0,11,4.0,5,3.0,5,Neutral
+CUST1349,Retail,Regular,Occasional,4.0,2.0,16.0,6,2.0,2,5.0,3,Satisfied
+CUST1350,Banking,Regular,Frequent,1.0,3.0,9.0,11,4.0,2,2.0,1,Dissatisfied
+CUST1351,Healthcare,Regular,First Time,5.0,3.0,19.0,23,5.0,2,5.0,5,Satisfied
+CUST1352,E-Commerce,Regular,First Time,1.0,1.0,15.0,16,5.0,4,3.0,3,Neutral
+CUST1353,Telecom,Loyal,Occasional,2.0,3.0,10.0,10,3.0,5,3.0,2,Neutral
+CUST1354,Telecom,New,First Time,1.0,5.0,6.0,24,5.0,4,2.0,5,Neutral
+CUST1355,E-Commerce,Regular,Frequent,4.0,4.0,5.0,11,4.0,3,5.0,2,Satisfied
+CUST1356,Banking,Loyal,Occasional,1.0,5.0,15.0,25,1.0,4,3.0,4,Dissatisfied
+CUST1357,Hospitality,Regular,Frequent,1.0,4.0,17.0,25,2.0,1,3.0,5,Satisfied
+CUST1358,Retail,Regular,First Time,3.0,5.0,11.0,15,5.0,2,,3,Satisfied
+CUST1359,Healthcare,Regular,Occasional,5.0,2.0,23.0,5,5.0,4,,4,Satisfied
+CUST1360,Banking,Regular,Occasional,3.0,1.0,17.0,31,5.0,1,4.0,2,Dissatisfied
+CUST1361,Healthcare,Regular,First Time,3.0,1.0,23.0,18,2.0,5,2.0,5,Satisfied
+CUST1362,Retail,Regular,Occasional,4.0,5.0,17.0,13,2.0,1,2.0,1,Neutral
+CUST1363,Hospitality,New,Occasional,3.0,,12.0,22,5.0,4,4.0,2,Satisfied
+CUST1364,Banking,New,Frequent,2.0,2.0,19.0,20,1.0,4,1.0,5,Dissatisfied
+CUST1365,Retail,Regular,Occasional,3.0,5.0,8.0,24,5.0,5,4.0,3,Satisfied
+CUST1366,Hospitality,New,First Time,1.0,2.0,22.0,10,4.0,4,3.0,1,Neutral
+CUST1367,Telecom,Regular,Occasional,2.0,3.0,11.0,17,4.0,3,4.0,3,Neutral
+CUST1368,Banking,Regular,Occasional,4.0,2.0,25.0,7,3.0,4,1.0,2,Neutral
+CUST1369,Telecom,Loyal,First Time,2.0,1.0,15.0,20,5.0,2,4.0,3,Neutral
+CUST1370,Retail,New,Occasional,1.0,2.0,27.0,15,4.0,3,2.0,2,Dissatisfied
+CUST1371,Banking,Regular,First Time,1.0,2.0,9.0,17,,5,5.0,2,Neutral
+CUST1372,E-Commerce,Regular,First Time,5.0,3.0,13.0,14,3.0,1,2.0,5,Satisfied
+CUST1373,Retail,New,Occasional,2.0,1.0,21.0,13,5.0,2,1.0,1,Dissatisfied
+CUST1374,E-Commerce,New,First Time,1.0,2.0,27.0,9,1.0,1,3.0,4,Dissatisfied
+CUST1375,E-Commerce,New,Occasional,4.0,3.0,31.0,21,4.0,3,1.0,1,Dissatisfied
+CUST1376,Banking,New,First Time,3.0,2.0,18.0,25,,4,2.0,3,Dissatisfied
+CUST1377,Hospitality,New,Occasional,3.0,4.0,33.0,11,3.0,1,4.0,4,Neutral
+CUST1378,E-Commerce,Regular,First Time,5.0,4.0,16.0,19,5.0,3,3.0,5,Satisfied
+CUST1379,Hospitality,Regular,Frequent,2.0,5.0,27.0,18,3.0,3,4.0,2,Satisfied
+CUST1380,Retail,New,First Time,3.0,5.0,10.0,15,1.0,4,5.0,1,Satisfied
+CUST1381,Retail,New,Occasional,4.0,2.0,21.0,4,1.0,2,3.0,4,Neutral
+CUST1382,Banking,New,First Time,4.0,4.0,2.0,6,4.0,1,3.0,5,Satisfied
+CUST1383,Hospitality,Regular,First Time,2.0,4.0,9.0,10,5.0,1,1.0,3,Dissatisfied
+CUST1384,E-Commerce,New,Occasional,4.0,3.0,22.0,1,2.0,3,2.0,1,Satisfied
+CUST1385,E-Commerce,Regular,Frequent,4.0,4.0,8.0,25,5.0,3,4.0,3,Satisfied
+CUST1386,Banking,New,Frequent,1.0,1.0,21.0,18,3.0,5,1.0,2,Dissatisfied
+CUST1387,Healthcare,New,First Time,1.0,2.0,25.0,15,1.0,3,2.0,3,Dissatisfied
+CUST1388,Telecom,Loyal,First Time,4.0,5.0,14.0,1,3.0,1,1.0,1,Satisfied
+CUST1389,E-Commerce,New,Occasional,1.0,5.0,10.0,2,5.0,4,5.0,2,Satisfied
+CUST1390,Banking,New,Occasional,5.0,1.0,14.0,15,2.0,1,3.0,5,Dissatisfied
+CUST1391,E-Commerce,New,First Time,1.0,3.0,10.0,29,5.0,2,4.0,1,Dissatisfied
+CUST1392,E-Commerce,Loyal,Frequent,5.0,2.0,17.0,10,4.0,4,4.0,5,Satisfied
+CUST1393,Banking,Regular,Occasional,4.0,1.0,19.0,21,2.0,2,2.0,3,Neutral
+CUST1394,Banking,Regular,Occasional,3.0,1.0,16.0,12,4.0,3,1.0,3,Dissatisfied
+CUST1395,E-Commerce,Loyal,Occasional,2.0,3.0,31.0,15,3.0,3,2.0,5,Dissatisfied
+CUST1396,Banking,New,Occasional,2.0,4.0,12.0,24,1.0,5,1.0,2,Dissatisfied
+CUST1397,Hospitality,Loyal,First Time,4.0,3.0,29.0,13,5.0,2,2.0,5,Satisfied
+CUST1398,E-Commerce,New,Frequent,4.0,2.0,10.0,10,2.0,5,2.0,2,Neutral
+CUST1399,Hospitality,Regular,First Time,2.0,4.0,19.0,25,3.0,4,4.0,2,Neutral
+CUST1400,Retail,Regular,Frequent,3.0,4.0,27.0,15,4.0,4,2.0,3,Dissatisfied
+CUST1401,Retail,Regular,Frequent,5.0,5.0,27.0,23,1.0,1,1.0,4,Satisfied
+CUST1402,Banking,Loyal,Occasional,2.0,2.0,15.0,10,4.0,1,5.0,2,Neutral
+CUST1403,E-Commerce,New,First Time,4.0,2.0,22.0,25,2.0,4,1.0,4,Dissatisfied
+CUST1404,Telecom,Loyal,First Time,1.0,3.0,21.0,17,3.0,3,2.0,1,Dissatisfied
+CUST1405,Telecom,Regular,Occasional,5.0,3.0,14.0,18,3.0,2,2.0,4,Neutral
+CUST1406,Telecom,Regular,Occasional,1.0,3.0,23.0,16,4.0,5,1.0,4,Dissatisfied
+CUST1407,E-Commerce,Loyal,Frequent,2.0,5.0,33.0,11,1.0,2,5.0,3,Dissatisfied
+CUST1408,Banking,New,Occasional,3.0,1.0,22.0,15,1.0,3,2.0,4,Dissatisfied
+CUST1409,E-Commerce,Loyal,Frequent,2.0,3.0,23.0,12,3.0,4,4.0,4,Neutral
+CUST1410,Healthcare,Regular,First Time,1.0,3.0,23.0,22,1.0,5,1.0,5,Dissatisfied
+CUST1411,E-Commerce,Regular,Occasional,4.0,2.0,6.0,14,2.0,5,3.0,2,Neutral
+CUST1412,E-Commerce,New,First Time,1.0,4.0,22.0,5,4.0,4,1.0,3,Dissatisfied
+CUST1413,E-Commerce,Regular,Occasional,5.0,5.0,10.0,3,5.0,1,2.0,3,Satisfied
+CUST1414,E-Commerce,Regular,First Time,1.0,3.0,13.0,3,4.0,1,3.0,2,Neutral
+CUST1415,Banking,Regular,First Time,2.0,1.0,35.0,19,2.0,4,5.0,5,Neutral
+CUST1416,Healthcare,New,Frequent,5.0,1.0,16.0,7,5.0,3,2.0,3,Satisfied
+CUST1417,Hospitality,New,Occasional,1.0,3.0,12.0,17,3.0,1,4.0,3,Satisfied
+CUST1418,Hospitality,Loyal,First Time,1.0,4.0,27.0,16,1.0,4,1.0,1,Dissatisfied
+CUST1419,E-Commerce,New,First Time,4.0,2.0,10.0,15,4.0,5,2.0,3,Neutral
+CUST1420,E-Commerce,Regular,Occasional,1.0,2.0,14.0,18,3.0,1,4.0,4,Neutral
+CUST1421,Healthcare,Loyal,First Time,5.0,5.0,28.0,16,2.0,5,3.0,3,Satisfied
+CUST1422,Retail,New,First Time,3.0,1.0,18.0,1,4.0,2,3.0,4,Satisfied
+CUST1423,Retail,New,Occasional,5.0,1.0,6.0,13,4.0,2,4.0,1,Satisfied
+CUST1424,Retail,Regular,First Time,2.0,1.0,22.0,18,2.0,4,1.0,1,Dissatisfied
+CUST1425,Retail,New,Occasional,1.0,5.0,15.0,26,1.0,2,4.0,2,Neutral
+CUST1426,Retail,Regular,Occasional,5.0,3.0,30.0,27,3.0,1,5.0,2,Neutral
+CUST1427,Banking,Regular,First Time,4.0,1.0,13.0,5,1.0,5,4.0,5,Satisfied
+CUST1428,Banking,Regular,First Time,5.0,2.0,26.0,13,4.0,2,2.0,5,Neutral
+CUST1429,Healthcare,Regular,First Time,2.0,5.0,32.0,4,3.0,1,2.0,3,Dissatisfied
+CUST1430,Retail,Regular,First Time,3.0,4.0,11.0,26,2.0,4,5.0,3,Dissatisfied
+CUST1431,E-Commerce,Regular,First Time,,2.0,16.0,22,3.0,2,4.0,2,Neutral
+CUST1432,Hospitality,New,Frequent,3.0,2.0,21.0,17,2.0,4,5.0,3,Neutral
+CUST1433,Banking,Regular,Frequent,2.0,1.0,11.0,16,2.0,1,5.0,4,Dissatisfied
+CUST1434,Banking,Loyal,Occasional,2.0,4.0,20.0,25,2.0,3,3.0,4,Satisfied
+CUST1435,Telecom,Regular,Occasional,4.0,1.0,16.0,23,4.0,3,1.0,5,Dissatisfied
+CUST1436,E-Commerce,Regular,Occasional,1.0,2.0,16.0,23,5.0,5,2.0,3,Dissatisfied
+CUST1437,Telecom,New,Frequent,2.0,2.0,18.0,18,4.0,3,2.0,2,Neutral
+CUST1438,Retail,New,First Time,,4.0,19.0,13,2.0,5,5.0,1,Dissatisfied
+CUST1439,E-Commerce,New,First Time,1.0,4.0,19.0,20,5.0,2,2.0,4,Dissatisfied
+CUST1440,E-Commerce,New,First Time,1.0,4.0,13.0,21,1.0,3,2.0,5,Dissatisfied
+CUST1441,Telecom,Loyal,First Time,3.0,2.0,14.0,14,2.0,5,5.0,3,Satisfied
+CUST1442,Banking,New,First Time,1.0,2.0,17.0,13,1.0,1,1.0,5,Dissatisfied
+CUST1443,Banking,Loyal,Frequent,2.0,2.0,18.0,23,5.0,5,4.0,2,Satisfied
+CUST1444,Banking,New,Frequent,3.0,1.0,14.0,27,1.0,4,3.0,1,Dissatisfied
+CUST1445,Telecom,New,First Time,5.0,4.0,21.0,10,3.0,4,5.0,4,Satisfied
+CUST1446,Hospitality,Regular,Occasional,,3.0,3.0,13,1.0,2,3.0,1,Dissatisfied
+CUST1447,E-Commerce,New,Occasional,,3.0,12.0,17,2.0,5,3.0,1,Dissatisfied
+CUST1448,Hospitality,Regular,Occasional,1.0,5.0,,18,4.0,5,5.0,4,Satisfied
+CUST1449,Hospitality,Loyal,Occasional,3.0,1.0,11.0,11,5.0,2,5.0,3,Neutral
+CUST1450,Telecom,Loyal,First Time,3.0,5.0,31.0,28,1.0,3,4.0,4,Dissatisfied
+CUST1451,E-Commerce,New,Frequent,4.0,4.0,18.0,18,1.0,1,4.0,4,Dissatisfied
+CUST1452,Hospitality,Regular,Frequent,3.0,2.0,19.0,19,,2,5.0,2,Dissatisfied
+CUST1453,E-Commerce,New,Occasional,5.0,4.0,14.0,27,5.0,1,5.0,4,Satisfied
+CUST1454,E-Commerce,Loyal,Occasional,1.0,4.0,18.0,12,1.0,3,4.0,3,Dissatisfied
+CUST1455,Retail,Regular,Occasional,1.0,2.0,8.0,14,1.0,3,2.0,3,Neutral
+CUST1456,Banking,New,First Time,1.0,2.0,17.0,6,3.0,3,4.0,4,Neutral
+CUST1457,Telecom,New,First Time,2.0,5.0,11.0,14,2.0,4,2.0,2,Neutral
+CUST1458,Retail,New,Occasional,1.0,1.0,16.0,5,1.0,5,3.0,3,Dissatisfied
+CUST1459,E-Commerce,New,First Time,1.0,1.0,2.0,20,3.0,1,3.0,3,Dissatisfied
+CUST1460,Retail,Loyal,Frequent,2.0,4.0,9.0,18,4.0,2,5.0,1,Satisfied
+CUST1461,Healthcare,Regular,Occasional,5.0,5.0,30.0,13,1.0,2,3.0,2,Dissatisfied
+CUST1462,Hospitality,Loyal,Occasional,5.0,3.0,25.0,14,4.0,5,5.0,1,Satisfied
+CUST1463,Telecom,New,First Time,1.0,1.0,29.0,20,1.0,1,5.0,1,Dissatisfied
+CUST1464,Telecom,Regular,Frequent,5.0,3.0,29.0,7,4.0,1,5.0,3,Satisfied
+CUST1465,Hospitality,New,First Time,2.0,2.0,23.0,16,2.0,1,1.0,5,Dissatisfied
+CUST1466,Healthcare,Regular,First Time,3.0,5.0,14.0,20,2.0,4,4.0,5,Satisfied
+CUST1467,Retail,New,First Time,2.0,4.0,10.0,3,1.0,3,2.0,4,Dissatisfied
+CUST1468,Telecom,New,Occasional,3.0,2.0,27.0,20,5.0,5,3.0,3,Satisfied
+CUST1469,Healthcare,Regular,Frequent,4.0,4.0,19.0,3,3.0,2,3.0,2,Satisfied
+CUST1470,Banking,New,First Time,4.0,4.0,38.0,14,4.0,2,2.0,2,Dissatisfied
+CUST1471,E-Commerce,Regular,Frequent,,4.0,15.0,7,2.0,3,5.0,4,Satisfied
+CUST1472,Telecom,Regular,First Time,4.0,2.0,34.0,25,1.0,1,5.0,5,Dissatisfied
+CUST1473,Banking,New,Occasional,4.0,3.0,17.0,7,1.0,5,3.0,5,Satisfied
+CUST1474,Retail,Loyal,First Time,1.0,1.0,29.0,3,3.0,5,1.0,2,Dissatisfied
+CUST1475,Retail,Regular,Occasional,2.0,3.0,32.0,16,2.0,1,1.0,3,Dissatisfied
+CUST1476,Retail,Loyal,Occasional,1.0,2.0,10.0,12,4.0,5,2.0,3,Dissatisfied
+CUST1477,Retail,Regular,Occasional,4.0,3.0,14.0,4,4.0,3,5.0,1,Satisfied
+CUST1478,E-Commerce,Regular,First Time,3.0,5.0,10.0,19,2.0,2,3.0,1,Neutral
+CUST1479,Retail,Regular,Frequent,4.0,5.0,8.0,1,3.0,5,1.0,1,Satisfied
+CUST1480,Retail,Loyal,Frequent,3.0,3.0,23.0,8,2.0,3,3.0,4,Satisfied
+CUST1481,Retail,Regular,Occasional,,4.0,16.0,11,4.0,2,,2,Neutral
+CUST1482,Banking,New,Occasional,1.0,1.0,18.0,21,4.0,5,3.0,4,Dissatisfied
+CUST1483,Hospitality,New,Frequent,5.0,3.0,22.0,24,4.0,4,3.0,2,Satisfied
+CUST1484,Telecom,Regular,First Time,2.0,4.0,3.0,23,1.0,1,1.0,4,Neutral
+CUST1485,Hospitality,New,Frequent,1.0,4.0,28.0,14,2.0,4,5.0,1,Dissatisfied
+CUST1486,Banking,New,First Time,2.0,5.0,15.0,1,5.0,4,1.0,2,Neutral
+CUST1487,E-Commerce,New,Frequent,5.0,3.0,22.0,18,2.0,2,5.0,2,Dissatisfied
+CUST1488,Retail,Regular,First Time,2.0,,23.0,25,,3,2.0,3,Neutral
+CUST1489,E-Commerce,New,First Time,5.0,5.0,29.0,24,1.0,5,1.0,3,Neutral
+CUST1490,Retail,Regular,Occasional,3.0,3.0,17.0,18,1.0,1,2.0,1,Dissatisfied
+CUST1491,Banking,Regular,Occasional,5.0,1.0,2.0,7,4.0,4,1.0,4,Neutral
+CUST1492,E-Commerce,Loyal,Frequent,4.0,2.0,18.0,11,1.0,5,1.0,5,Neutral
+CUST1493,Hospitality,New,Frequent,1.0,4.0,20.0,29,3.0,5,1.0,1,Dissatisfied
+CUST1494,Healthcare,Regular,First Time,3.0,3.0,10.0,5,2.0,2,4.0,1,Neutral
+CUST1495,Retail,Regular,First Time,3.0,5.0,19.0,7,1.0,2,5.0,5,Satisfied
+CUST1496,Hospitality,Regular,Occasional,2.0,5.0,15.0,22,5.0,5,2.0,4,Satisfied
+CUST1497,E-Commerce,Regular,Occasional,3.0,1.0,7.0,12,4.0,3,4.0,5,Satisfied
+CUST1498,Hospitality,New,Occasional,1.0,5.0,23.0,7,5.0,3,2.0,4,Neutral
+CUST1499,Retail,Loyal,Frequent,4.0,2.0,13.0,26,5.0,3,3.0,4,Satisfied
+CUST1500,Healthcare,New,Frequent,5.0,5.0,15.0,18,5.0,3,2.0,1,Neutral

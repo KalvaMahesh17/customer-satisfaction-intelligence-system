@@ -1,0 +1,415 @@
+{
+    "best_model_name": "Logistic Regression",
+    "selection_rule": "Highest mean cross-validation Macro F1 from Stratified 5-Fold CV on training data",
+    "random_state": 42,
+    "train_samples": 1200,
+    "test_samples": 300,
+    "target_classes": [
+        "Dissatisfied",
+        "Neutral",
+        "Satisfied"
+    ],
+    "cv_scores": {
+        "Dummy Baseline": {
+            "cv_macro_f1": 0.16666666666666666,
+            "cv_accuracy": 0.3333333333333333
+        },
+        "Logistic Regression": {
+            "cv_macro_f1": 0.6388192820049443,
+            "cv_accuracy": 0.6424999999999998
+        },
+        "Decision Tree": {
+            "cv_macro_f1": 0.49150880331950403,
+            "cv_accuracy": 0.49333333333333335
+        },
+        "K-Nearest Neighbors": {
+            "cv_macro_f1": 0.5679136593802836,
+            "cv_accuracy": 0.5700000000000001
+        },
+        "Random Forest": {
+            "cv_macro_f1": 0.5956693440196789,
+            "cv_accuracy": 0.6033333333333333
+        }
+    },
+    "test_results": {
+        "Dummy Baseline": {
+            "test_accuracy": 0.3333333333333333,
+            "test_precision": 0.1111111111111111,
+            "test_recall": 0.3333333333333333,
+            "test_macro_f1": 0.16666666666666666,
+            "train_accuracy": 0.3333333333333333,
+            "generalization_gap": 0.0
+        },
+        "Logistic Regression": {
+            "test_accuracy": 0.6266666666666667,
+            "test_precision": 0.6205276477558482,
+            "test_recall": 0.6266666666666666,
+            "test_macro_f1": 0.6231111885460391,
+            "train_accuracy": 0.6575,
+            "generalization_gap": 0.0308
+        },
+        "Decision Tree": {
+            "test_accuracy": 0.47333333333333333,
+            "test_precision": 0.474468954248366,
+            "test_recall": 0.47333333333333333,
+            "test_macro_f1": 0.4737994207584024,
+            "train_accuracy": 0.7791666666666667,
+            "generalization_gap": 0.3058
+        },
+        "K-Nearest Neighbors": {
+            "test_accuracy": 0.5933333333333334,
+            "test_precision": 0.5929298266330166,
+            "test_recall": 0.5933333333333334,
+            "test_macro_f1": 0.593057923676534,
+            "train_accuracy": 1.0,
+            "generalization_gap": 0.4067
+        },
+        "Random Forest": {
+            "test_accuracy": 0.61,
+            "test_precision": 0.6017231134878194,
+            "test_recall": 0.61,
+            "test_macro_f1": 0.6047388325458686,
+            "train_accuracy": 0.995,
+            "generalization_gap": 0.385
+        }
+    },
+    "best_hyperparameters": {
+        "Dummy Baseline": {},
+        "Logistic Regression": {
+            "model__C": 0.1,
+            "model__solver": "lbfgs"
+        },
+        "Decision Tree": {
+            "model__max_depth": 8,
+            "model__min_samples_leaf": 2,
+            "model__min_samples_split": 2
+        },
+        "K-Nearest Neighbors": {
+            "model__n_neighbors": 11,
+            "model__p": 2,
+            "model__weights": "distance"
+        },
+        "Random Forest": {
+            "model__max_depth": null,
+            "model__min_samples_leaf": 2,
+            "model__min_samples_split": 2,
+            "model__n_estimators": 150
+        }
+    },
+    "confusion_matrices": {
+        "Dummy Baseline": [
+            [
+                100,
+                0,
+                0
+            ],
+            [
+                100,
+                0,
+                0
+            ],
+            [
+                100,
+                0,
+                0
+            ]
+        ],
+        "Logistic Regression": [
+            [
+                71,
+                26,
+                3
+            ],
+            [
+                28,
+                43,
+                29
+            ],
+            [
+                3,
+                23,
+                74
+            ]
+        ],
+        "Decision Tree": [
+            [
+                51,
+                36,
+                13
+            ],
+            [
+                30,
+                36,
+                34
+            ],
+            [
+                15,
+                30,
+                55
+            ]
+        ],
+        "K-Nearest Neighbors": [
+            [
+                65,
+                26,
+                9
+            ],
+            [
+                25,
+                47,
+                28
+            ],
+            [
+                8,
+                26,
+                66
+            ]
+        ],
+        "Random Forest": [
+            [
+                71,
+                25,
+                4
+            ],
+            [
+                26,
+                40,
+                34
+            ],
+            [
+                5,
+                23,
+                72
+            ]
+        ]
+    },
+    "classification_reports": {
+        "Dummy Baseline": {
+            "Dissatisfied": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "f1-score": 0.5,
+                "support": 100.0
+            },
+            "Neutral": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 100.0
+            },
+            "Satisfied": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 100.0
+            },
+            "accuracy": 0.3333333333333333,
+            "macro avg": {
+                "precision": 0.1111111111111111,
+                "recall": 0.3333333333333333,
+                "f1-score": 0.16666666666666666,
+                "support": 300.0
+            },
+            "weighted avg": {
+                "precision": 0.11111111111111109,
+                "recall": 0.3333333333333333,
+                "f1-score": 0.16666666666666666,
+                "support": 300.0
+            }
+        },
+        "Logistic Regression": {
+            "Dissatisfied": {
+                "precision": 0.696078431372549,
+                "recall": 0.71,
+                "f1-score": 0.7029702970297029,
+                "support": 100.0
+            },
+            "Neutral": {
+                "precision": 0.4673913043478261,
+                "recall": 0.43,
+                "f1-score": 0.4479166666666667,
+                "support": 100.0
+            },
+            "Satisfied": {
+                "precision": 0.6981132075471698,
+                "recall": 0.74,
+                "f1-score": 0.7184466019417476,
+                "support": 100.0
+            },
+            "accuracy": 0.6266666666666667,
+            "macro avg": {
+                "precision": 0.6205276477558482,
+                "recall": 0.6266666666666666,
+                "f1-score": 0.6231111885460391,
+                "support": 300.0
+            },
+            "weighted avg": {
+                "precision": 0.6205276477558482,
+                "recall": 0.6266666666666667,
+                "f1-score": 0.6231111885460391,
+                "support": 300.0
+            }
+        },
+        "Decision Tree": {
+            "Dissatisfied": {
+                "precision": 0.53125,
+                "recall": 0.51,
+                "f1-score": 0.5204081632653061,
+                "support": 100.0
+            },
+            "Neutral": {
+                "precision": 0.35294117647058826,
+                "recall": 0.36,
+                "f1-score": 0.3564356435643564,
+                "support": 100.0
+            },
+            "Satisfied": {
+                "precision": 0.5392156862745098,
+                "recall": 0.55,
+                "f1-score": 0.5445544554455446,
+                "support": 100.0
+            },
+            "accuracy": 0.47333333333333333,
+            "macro avg": {
+                "precision": 0.474468954248366,
+                "recall": 0.47333333333333333,
+                "f1-score": 0.4737994207584024,
+                "support": 300.0
+            },
+            "weighted avg": {
+                "precision": 0.47446895424836605,
+                "recall": 0.47333333333333333,
+                "f1-score": 0.4737994207584024,
+                "support": 300.0
+            }
+        },
+        "K-Nearest Neighbors": {
+            "Dissatisfied": {
+                "precision": 0.6632653061224489,
+                "recall": 0.65,
+                "f1-score": 0.6565656565656566,
+                "support": 100.0
+            },
+            "Neutral": {
+                "precision": 0.47474747474747475,
+                "recall": 0.47,
+                "f1-score": 0.4723618090452261,
+                "support": 100.0
+            },
+            "Satisfied": {
+                "precision": 0.6407766990291263,
+                "recall": 0.66,
+                "f1-score": 0.6502463054187192,
+                "support": 100.0
+            },
+            "accuracy": 0.5933333333333334,
+            "macro avg": {
+                "precision": 0.5929298266330166,
+                "recall": 0.5933333333333334,
+                "f1-score": 0.593057923676534,
+                "support": 300.0
+            },
+            "weighted avg": {
+                "precision": 0.5929298266330166,
+                "recall": 0.5933333333333334,
+                "f1-score": 0.593057923676534,
+                "support": 300.0
+            }
+        },
+        "Random Forest": {
+            "Dissatisfied": {
+                "precision": 0.696078431372549,
+                "recall": 0.71,
+                "f1-score": 0.7029702970297029,
+                "support": 100.0
+            },
+            "Neutral": {
+                "precision": 0.45454545454545453,
+                "recall": 0.4,
+                "f1-score": 0.425531914893617,
+                "support": 100.0
+            },
+            "Satisfied": {
+                "precision": 0.6545454545454545,
+                "recall": 0.72,
+                "f1-score": 0.6857142857142857,
+                "support": 100.0
+            },
+            "accuracy": 0.61,
+            "macro avg": {
+                "precision": 0.6017231134878194,
+                "recall": 0.61,
+                "f1-score": 0.6047388325458686,
+                "support": 300.0
+            },
+            "weighted avg": {
+                "precision": 0.6017231134878194,
+                "recall": 0.61,
+                "f1-score": 0.6047388325458686,
+                "support": 300.0
+            }
+        }
+    },
+    "comparison_table": [
+        {
+            "Model": "Dummy Baseline",
+            "CV Macro F1": 0.1667,
+            "CV Accuracy": 0.3333,
+            "Train Accuracy": 0.3333,
+            "Test Accuracy": 0.3333,
+            "Test Precision": 0.1111,
+            "Test Recall": 0.3333,
+            "Test Macro F1": 0.1667,
+            "Generalization Gap": 0.0,
+            "Is Best Model": false
+        },
+        {
+            "Model": "Logistic Regression",
+            "CV Macro F1": 0.6388,
+            "CV Accuracy": 0.6425,
+            "Train Accuracy": 0.6575,
+            "Test Accuracy": 0.6267,
+            "Test Precision": 0.6205,
+            "Test Recall": 0.6267,
+            "Test Macro F1": 0.6231,
+            "Generalization Gap": 0.0308,
+            "Is Best Model": true
+        },
+        {
+            "Model": "Decision Tree",
+            "CV Macro F1": 0.4915,
+            "CV Accuracy": 0.4933,
+            "Train Accuracy": 0.7792,
+            "Test Accuracy": 0.4733,
+            "Test Precision": 0.4745,
+            "Test Recall": 0.4733,
+            "Test Macro F1": 0.4738,
+            "Generalization Gap": 0.3058,
+            "Is Best Model": false
+        },
+        {
+            "Model": "K-Nearest Neighbors",
+            "CV Macro F1": 0.5679,
+            "CV Accuracy": 0.57,
+            "Train Accuracy": 1.0,
+            "Test Accuracy": 0.5933,
+            "Test Precision": 0.5929,
+            "Test Recall": 0.5933,
+            "Test Macro F1": 0.5931,
+            "Generalization Gap": 0.4067,
+            "Is Best Model": false
+        },
+        {
+            "Model": "Random Forest",
+            "CV Macro F1": 0.5957,
+            "CV Accuracy": 0.6033,
+            "Train Accuracy": 0.995,
+            "Test Accuracy": 0.61,
+            "Test Precision": 0.6017,
+            "Test Recall": 0.61,
+            "Test Macro F1": 0.6047,
+            "Generalization Gap": 0.385,
+            "Is Best Model": false
+        }
+    ]
+}
